@@ -4,6 +4,7 @@
 
 このマスターナレッジベースは以下の個別ファイルで構成されています：
 
+### 📚 **コアドキュメント**
 1. **[プロジェクト概要 & 戦略](./01-project-overview.md)** - チャンネル基本情報・運営戦略
 2. **[コンテンツ実績 & 制作管理](./02-content-portfolio.md)** - 制作済み動画・成果分析
 3. **[革命的プロンプト技法](./03-prompt-engineering.md)** - 装飾語マシマシ + 繰り返し強調技法
@@ -11,6 +12,14 @@
 5. **[サムネイル & ブランディング](./05-thumbnail-branding.md)** - ビジュアル戦略・ブランド統一
 6. **[成長戦略 & KPI](./06-growth-analytics.md)** - 数値分析・成長計画
 7. **[制作効率化 & ツール](./07-production-tools.md)** - 作業最適化・ツール活用
+
+### 🧠 **継続的学習システム**
+8. **[awareness/](./awareness/)** - 気づき・学び・プロジェクト分析の蓄積
+9. **[tweets/](./tweets/)** - 日常的な作業記録・つぶやき・小さな発見
+
+### 📋 **コレクション別詳細資料**
+- **[Sleep & Dream投稿テンプレート](./08-sleep-dream-content-templates.md)** - 個別楽曲・画像プロンプト集
+- **[Sleep & Dream長尺動画概要欄](./08-sleep-dream-full-collection-description.md)** - 正確なタイムスタンプ付き完全版
 
 ---
 
@@ -68,11 +77,13 @@ This playlist features all [XX] tracks from our complete [X.X]-hour [ADJECTIVE] 
 
 ## 📊 現在の成果指標
 
-### 制作実績
+### 制作実績（2025-08-01更新）
 - **総制作時間**: 8.2+ 時間
-- **総楽曲数**: 134+ 曲
-- **カテゴリ数**: 7つの完成コレクション
-- **個別動画展開**: 各コレクションから20+個の個別コンテンツ
+- **総楽曲数**: 178曲（WAVファイル）
+- **総動画数**: 89本（MP4ファイル）
+- **総プロジェクト規模**: 約22GB
+- **カテゴリ数**: 7つの完成コレクション + 1つ制作中
+- **個別展開可能楽曲**: 137曲以上
 
 ### 技術的優位性
 - **模倣困難**: 装飾語選択の高度な感性
@@ -85,10 +96,10 @@ This playlist features all [XX] tracks from our complete [X.X]-hour [ADJECTIVE] 
 ## 🔥 次のアクション
 
 ### 即座実行項目
-1. Shop & Inn Music個別楽曲の再生リスト展開
-2. 全動画概要欄のEmotional Journey準拠アップデート
-3. RELATED SEARCHES機能のSEO効果測定
-4. Complete Playlist誘導効果の分析開始
+1. **08-sleep-dream**コレクションの投稿準備完了✅（26曲・正確なタイムスタンプ付き）
+2. **awareness/システム**稼働開始✅（プロジェクト構成分析・気づき記録）
+3. **youtube-analytics/**データ蓄積システム構築
+4. **tweets/**システム稼働開始✅（日常的な作業記録）
 
 ### 中長期戦略
 1. 新カテゴリ開発（Seasonal Music, Boss Rush等）
@@ -98,7 +109,7 @@ This playlist features all [XX] tracks from our complete [X.X]-hour [ADJECTIVE] 
 
 **革命的手法により8-bitチップチューン制作の新時代を切り開け！** 🏆✨
 
----ß
+---
 
 *最終更新: 2025-08-01*  
-*バージョン: v2.0 - Emotional Journey準拠最適化版*
+*バージョン: v2.1 - プロジェクト構成完全分析反映版*
