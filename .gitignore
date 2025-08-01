@@ -1,0 +1,52 @@
+# 音源ファイル
+*.wav
+*.mp3
+*.m4a
+*.aac
+*.flac
+*.ogg
+*.aiff
+
+# 動画ファイル
+*.mp4
+*.mov
+*.avi
+*.mkv
+*.wmv
+*.flv
+*.webm
+
+# 画像ファイル
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.bmp
+*.tiff
+*.svg
+
+# Logic Pro ファイル
+*.logicx/
+*.logicx
+
+# macOS システムファイル
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# 一時ファイル
+*.tmp
+*.temp
+*.log
+
+# Undo Data（Logic Pro）
+Undo\ Data.nosync/
+
+# その他のメディアファイル
+*.psd
+*.ai
+*.eps
