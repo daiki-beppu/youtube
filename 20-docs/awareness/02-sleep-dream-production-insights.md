@@ -32,7 +32,7 @@
 - **解決**: "Experience the complete collection of [XX] individual tracks..."の固定フォーマット準拠
 - **効果**: 視聴者に統一された8BAHブランド体験を提供
 
-### FROM THE EPIC [COLLECTION] 構文の価値
+### FROM THE 8bit - bgm [COLLECTION] 構文の価値
 - **意義**: 内部循環最大化のための戦略的文言
 - **効果**: 他動画への自然な誘導システム
 - **必須要素**: 全コレクションで統一必須

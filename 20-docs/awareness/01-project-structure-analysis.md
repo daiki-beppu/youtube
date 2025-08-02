@@ -65,7 +65,7 @@
 
 ## 🎵 各カテゴリ詳細分析
 
-### 1. 01-adventure/ - Epic Adventure Collection
+### 1. 01-adventure/ - 8-Bit BGM Adventure Collection
 - **YouTube URL**: https://youtu.be/j3VYctGmZTE
 - **楽曲数**: 24曲
 - **テーマ**: プロジェクトの記念すべき第1作

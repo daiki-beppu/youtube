@@ -8,9 +8,9 @@
 
 🎵 Welcome to 8-Bit Adventure Hub! 🎵
 
-Experience the complete collection of [XX] individual tracks from our epic [X.X]-hour [THEME] that will take you through every [EXPERIENCE_TYPE]! Each track is now available separately, perfect for finding your exact favorite [MOMENT_TYPE] or creating custom [THEME] playlists for any mood! [EMOJI]➡️[EMOJI]
+Experience the complete collection of [XX] individual tracks from our 8-Bit BGM [X.X]-hour [THEME] that will take you through every [EXPERIENCE_TYPE]! Each track is now available separately, perfect for finding your exact favorite [MOMENT_TYPE] or creating custom [THEME] playlists for any mood! [EMOJI]➡️[EMOJI]
 
-[THEME_ICON] FROM THE EPIC [COLLECTION_NAME]:
+[THEME_ICON] FROM THE 8-Bit BGM [COLLECTION_NAME]:
 This playlist features all [XX] tracks from our complete [X.X]-hour [ADJECTIVE] masterpiece:
 ➤ **Full**: https://youtu.be/[MAIN_VIDEO_URL]
 
@@ -25,22 +25,22 @@ This playlist features all [XX] tracks from our complete [X.X]-hour [ADJECTIVE] 
 ✅ Custom playlist creation for different [THEME] moods
 
 🎯 ABOUT 8-BIT ADVENTURE HUB:
-Your ultimate destination for epic chiptune adventures! This [THEME] playlist showcases the power of music to [ACTION] through our signature [QUALITY1] melodies, [QUALITY2] harmonies, and [QUALITY3] crescendos.
+Your ultimate destination for 8-Bit BGM chiptune adventures! This [THEME] playlist showcases the power of music to [ACTION] through our signature [QUALITY1] melodies, [QUALITY2] harmonies, and [QUALITY3] crescendos.
 
 📱 CONNECT WITH US:
-🔔 Subscribe for daily epic adventures!
+🔔 Subscribe for daily 8-Bit BGM adventures!
 👍 Like your favorite [THEME] tracks!
 💬 Comment which song [ACTION_PAST] your heart most!
 🔄 Share with someone who [NEEDS_WHAT] today!
 
 🎮 COMPLETE ADVENTURE SERIES:
-🗡️ Epic Adventure Music: [URL]
-⚔️ Epic Battle Music: [URL]
-🏰 Epic Dungeon Music: [URL]
-🏘️ Epic Village & Town Music: [URL]
-🏯 Epic Japanese RPG Music: [URL]
-💔 Epic Emotional Journey Music: [URL]
-[THEME_ICON] Epic [CURRENT_THEME] Music: [THIS COLLECTION]
+🗡️ 8-Bit BGM Adventure Music: [URL]
+⚔️ 8-Bit BGM Battle Music: [URL]
+🏰 8-Bit BGM Dungeon Music: [URL]
+🏘️ 8-Bit BGM Village & Town Music: [URL]
+🏯 8-Bit BGM Japanese RPG Music: [URL]
+💔 8-Bit BGM Emotional Journey Music: [URL]
+[THEME_ICON] 8-Bit BGM [CURRENT_THEME] Music: [THIS COLLECTION]
 
 📝 LICENSE & USAGE:
 This music is original AI composition. Free to use for:
@@ -74,7 +74,7 @@ From [EXAMPLE_FIRST] to [EXAMPLE_LAST], each track represents a crucial moment i
 [OPENING_PHRASE]! Experience "[楽曲名]" - the [ADJECTIVE] 8-bit chiptune that [CAPTURES_WHAT] of [EXPERIENCE_DESCRIPTION]! [EMOJI]✨
 
 [THEME_ICON] FROM THE COMPLETE [COLLECTION_NAME]:
-This track is part of our epic [XX]-song [THEME] playlist:
+This track is part of our 8-Bit BGM [XX]-song [THEME] playlist:
 ➤ **Full Collection**: https://youtu.be/[MAIN_VIDEO_URL]
 ➤ **Complete Playlist**: [PLAYLIST_URL]
 
@@ -102,9 +102,9 @@ This track [CAPTURES_HOW] with [TECHNICAL_DETAIL], [TECHNICAL_DETAIL], and that 
 
 🎵 Welcome to 8-Bit Adventure Hub! 🎵
 
-Experience the complete collection of 20 individual tracks from our epic 1+ hour Shopping Adventure that will take you through every RPG shop and inn experience! Each track is now available separately, perfect for finding your exact favorite merchant moment or creating custom shopping playlists for any mood! 🗡️➡️🏆
+Experience the complete collection of 20 individual tracks from our 8-Bit BGM 1+ hour Shopping Adventure that will take you through every RPG shop and inn experience! Each track is now available separately, perfect for finding your exact favorite merchant moment or creating custom shopping playlists for any mood! 🗡️➡️🏆
 
-🏪 FROM THE EPIC SHOP & INN COLLECTION:
+🏪 FROM THE 8-Bit BGM SHOP & INN COLLECTION:
 This playlist features all 20 tracks from our complete 1+ hour shopping masterpiece:
 ➤ **Full**: https://youtu.be/[MAIN_VIDEO_URL]
 
@@ -119,22 +119,22 @@ This playlist features all 20 tracks from our complete 1+ hour shopping masterpi
 ✅ Custom playlist creation for different shopping moods
 
 🎯 ABOUT 8-BIT ADVENTURE HUB:
-Your ultimate destination for epic chiptune adventures! This Shopping Adventure playlist showcases the power of music to recreate those precious RPG moments through our signature welcoming melodies, cozy inn harmonies, and merchant-filled crescendos.
+Your ultimate destination for 8-Bit BGM chiptune adventures! This Shopping Adventure playlist showcases the power of music to recreate those precious RPG moments through our signature welcoming melodies, cozy inn harmonies, and merchant-filled crescendos.
 
 📱 CONNECT WITH US:
-🔔 Subscribe for daily epic adventures!
+🔔 Subscribe for daily 8-Bit BGM adventures!
 👍 Like your favorite shop tracks!
 💬 Comment which merchant music touched your heart most!
 🔄 Share with someone who loves RPG nostalgia!
 
 🎮 COMPLETE ADVENTURE SERIES:
-🗡️ Epic Adventure Music: [URL]
-⚔️ Epic Battle Music: [URL]
-🏰 Epic Dungeon Music: [URL]
-🏘️ Epic Village & Town Music: [URL]
-🏯 Epic Japanese RPG Music: [URL]
-💔 Epic Emotional Journey Music: [URL]
-🏪 Epic Shop & Inn Music: [THIS COLLECTION]
+🗡️ 8-Bit BGM Adventure Music: [URL]
+⚔️ 8-Bit BGM Battle Music: [URL]
+🏰 8-Bit BGM Dungeon Music: [URL]
+🏘️ 8-Bit BGM Village & Town Music: [URL]
+🏯 8-Bit BGM Japanese RPG Music: [URL]
+💔 8-Bit BGM Emotional Journey Music: [URL]
+🏪 8-Bit BGM Shop & Inn Music: [THIS COLLECTION]
 
 📝 LICENSE & USAGE:
 This music is original AI composition. Free to use for:
@@ -223,7 +223,7 @@ From welcoming "Adventurer's First Shop" to mysterious "Underground Black Market
 ## エンゲージメント最適化
 
 ### CTA（Call to Action）戦略
-1. **Subscribe**: 「daily epic adventures」でワクワク感演出
+1. **Subscribe**: 「daily 8-Bit BGM adventures」でワクワク感演出
 2. **Like**: 「favorite [theme] tracks」で個人化
 3. **Comment**: 「which song [action] your heart most」で感情訴求
 4. **Share**: 「someone who [needs] today」で社会性演出
