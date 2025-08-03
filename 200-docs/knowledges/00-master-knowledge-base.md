@@ -114,5 +114,28 @@ This playlist features all [XX] tracks from our complete [X.X]-hour [ADJECTIVE] 
 
 ---
 
+## 🎵 プレイリストURL一覧
+
+### 📋 個別コレクションプレイリスト
+- **🗡️ Adventure**: https://www.youtube.com/playlist?list=PLJ5vG59SMwtWJht-NRs3n88P-lBRWW9sS
+- **⚔️ Battle**: https://www.youtube.com/playlist?list=PLJ5vG59SMwtWLGF4Cwg7-Q1Fjs20oXSKO
+- **🏰 Dungeon**: https://www.youtube.com/playlist?list=PLJ5vG59SMwtU9OMl5P7Hrw1890yIu1YOR
+- **🎭 J-RPG**: https://www.youtube.com/playlist?list=PLJ5vG59SMwtUyBEKEhkO7qOJwmkoo6XDy
+- **💧 Emotional**: https://www.youtube.com/playlist?list=PLJ5vG59SMwtW3i2qvg2EFRXxeC2vZrd9N
+- **🏪 Shop & Inn**: https://www.youtube.com/playlist?list=PLJ5vG59SMwtWzTv26rPJ_hwGIItrXDLFF
+- **🌙 Sleep & Dream**: https://www.youtube.com/playlist?list=PLJ5vG59SMwtVa7oVawWnd9L4lr8I5bNIv
+- **🏘️ Village & Town**: https://www.youtube.com/playlist?list=PLJ5vG59SMwtUWBCtaTFt4teZ9RYt5DkTZ
+
+### 📋 統合プレイリスト
+- **🎵 Complete Collection**: https://www.youtube.com/playlist?list=PLJ5vG59SMwtVCE8JNeElm27bYh02BFwcr
+
+- **⚔️ RPG Class**: https://www.youtube.com/playlist?list=PLJ5vG59SMwtVIGA8NSKqkaGBFVZTTI1iV
+
+### 📋 長尺版動画URL
+- **🌙 Sleep & Dream**: https://youtu.be/wPdfqSoXqjE
+- **⚔️ RPG Class**: https://youtu.be/YPMwKYVET1s
+
+---
+
 *最終更新: 2025-08-03*  
-*バージョン: v2.3 - Sleep & Dream長尺版動画投稿完了・URL情報追加版*
+*バージョン: v2.5 - RPG Class Collection完全統合・全プレイリスト情報確定版*
