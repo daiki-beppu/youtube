@@ -97,7 +97,7 @@ This playlist features all [XX] tracks from our complete [X.X]-hour [ADJECTIVE] 
 ## 🔥 次のアクション
 
 ### 即座実行項目
-1. **08-sleep-dream**コレクションの投稿準備完了✅（26曲・正確なタイムスタンプ付き）
+1. **08-sleep-dream**コレクション動画投稿完了✅（26曲・長尺版URL確認済み: https://youtu.be/wPdfqSoXqjE）
 2. **awareness/システム**稼働開始✅（プロジェクト構成分析・気づき記録・包括的ナレッジ更新）
 3. **009-class**コレクション企画完了✅（RPGクラス音楽・概要欄・サムネイルプロンプト）
 4. **youtube-analytics/**データ蓄積システム構築
@@ -115,4 +115,4 @@ This playlist features all [XX] tracks from our complete [X.X]-hour [ADJECTIVE] 
 ---
 
 *最終更新: 2025-08-03*  
-*バージョン: v2.2 - 包括的ナレッジ更新・009-classコレクション企画追加版*
+*バージョン: v2.3 - Sleep & Dream長尺版動画投稿完了・URL情報追加版*
