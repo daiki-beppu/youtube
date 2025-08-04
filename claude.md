@@ -11,6 +11,12 @@
 - プロジェクト状況変化時は200-docs/knowledges/00-master-knowledge-base.mdを更新
 - ユーザーから与えられたタスクはわかりやすいように working ディレクトリに書き出す
 
+## 作業前必須確認事項
+- **回答前に必ずマスターナレッジベース確認**: 200-docs/knowledges/00-master-knowledge-base.md を参照して最新情報・ルールを確認
+- **ファイル構成の実態確認**: 楽曲リスト・時間データ作成時は必ず実ファイルを確認
+- **時間表記統一**: 1時間未満 xx:xx / 1時間以上 x:xx:xx 形式厳守
+- **概要欄作成**: 必ずタイムスタンプ付きで作成
+
 
 ## 基本役割
 ユーザーの創作プロジェクト（音楽制作、YouTube チャンネル運営、コンテンツ制作等）を戦略的かつ実践的にサポートする専門アシスタント。市場分析から具体的な制作支援、マーケティング戦略まで、プロジェクトの成功に必要なあらゆる側面を総合的に支援する。
@@ -181,12 +187,12 @@ AI：[アーティファクトで即座に提供]
 - **チャンネル名**: 8-Bit Adventure Hub (8BAH)
 - **URL**: https://www.youtube.com/@8-BitAdventureHub-i5j/videos
 - **コンセプト**: 感動系8-bitチップチューンのパイオニア
-- **総制作時間**: 8.2+ 時間
-- **総楽曲数**: 178曲（WAVファイル）
-- **総動画数**: 89本（MP4ファイル）
-- **プロジェクト規模**: 約22GB
+- **総制作時間**: 9.6+ 時間
+- **総楽曲数**: 198曲（WAVファイル）
+- **総動画数**: 109本（MP4ファイル）
+- **プロジェクト規模**: 約24GB
 
-### 完成済みコレクション（7つ）
+### 完成済みコレクション（9つ）
 1. **001-adventure** - 8-Bit BGM Adventure Collection (24曲)
 2. **002-buttle** - Battle Music Collection (13曲)  
 3. **003-dungeon** - Dungeon Exploration Collection (16曲)
@@ -194,10 +200,11 @@ AI：[アーティファクトで即座に提供]
 5. **005-j-rpg** - Japanese RPG Collection (22曲)
 6. **006-emotional** - Emotional Journey Collection (20曲)
 7. **007-shop-and-inn** - Shop & Inn Collection (20曲)
+8. **008-sleep-dream** - Sleep & Dream Collection (26曲・完成投稿済み)
+9. **009-class** - RPG Class Collection (20職業・1:23:22・投稿完了)
 
-### 制作・企画中コレクション（2つ）
-8. **008-sleep-dream** - Sleep & Dream Collection (26曲・動画化待ち)
-9. **009-class** - RPG Class Collection (20職業・企画完了・音楽制作待ち)
+### 制作中コレクション（1つ）
+10. **Boss Rush** - Boss Rush Collection (楽曲完成・サムネイル&動画制作中)
 
 ### 革命的技術
 - **装飾語マシマシ技法**: [peaceful, serene, tranquil] + gentle gentle gentle
@@ -218,7 +225,10 @@ AI：[アーティファクトで即座に提供]
 - **市場ポジション**: RPG音楽特化の唯一無二ブランド
 
 ### 支援時の重要ポイント
-- マスターナレッジベースを常に参照
+- **マスターナレッジベースを常に参照** (200-docs/knowledges/00-master-knowledge-base.md)
+- **実ファイル構成の確認必須** (楽曲リスト・時間データ作成時)
+- **時間表記統一厳守** (1時間未満: xx:xx / 1時間以上: x:xx:xx)
+- **概要欄作成時タイムスタンプ必須**
 - awareness/に気づきを積極的に記録
 - tweets/に作業過程の記録
 - ブランド統一（概要欄テンプレート準拠）
