@@ -32,31 +32,6 @@
 - **Battle Music**: `[epic, heroic, triumphant] + 8-bit chiptune + [bold bold bold] + [fast fast fast] + [intense intense intense]`
 - **Village Music**: `[cheerful, warm, nostalgic] + 8-bit chiptune + [gentle gentle gentle] + [medium medium medium] + [welcoming welcoming welcoming]`
 
-#### 概要欄テンプレート
-```
-🎵 Welcome to 8-Bit Adventure Hub! 🎵
-
-Experience the complete collection of [XX] individual tracks from our epic [X.X]-hour [THEME] that will take you through every [EXPERIENCE]! Each track is now available separately, perfect for finding your exact favorite [MOMENT] or creating custom [THEME] playlists for any mood! [EMOJI]➡️[EMOJI]
-
-[THEME_ICON] FROM THE EPIC [COLLECTION_NAME]:
-This playlist features all [XX] tracks from our complete [X.X]-hour [ADJECTIVE] masterpiece:
-➤ **Full**: https://youtu.be/[MAIN_VIDEO_URL]
-
-🛡️ PERFECT FOR:
-✅ Deep study sessions & extended focus time ([X.X] hours)
-✅ Tabletop RPG [SPECIFIC] scenes & D&D [ENCOUNTERS]
-✅ Game development & retro RPG project atmosphere
-✅ Creative writing & storytelling projects ([SCENES])
-✅ Background music for gaming streams & content creation
-✅ Nostalgic relaxation & RPG memory immersion
-✅ Productivity sessions with [ADJECTIVE] vibes
-✅ Custom playlist creation for different [THEME] moods
-```
-
-#### ハッシュタグ戦略
-**基本セット**: `#8BitMusic #ChiptuneStudy #StudyBGM #8BitAdventureHub #RPGMusic #GamingMusic`
-**テーマ特化**: `#[THEME]Music #[ADJECTIVE]Music #[SPECIFIC]Music`
-
 ---
 
 ## 🎯 戦略的優先事項
@@ -77,15 +52,15 @@ This playlist features all [XX] tracks from our complete [X.X]-hour [ADJECTIVE] 
 
 ## 📊 現在の成果指標
 
-### 制作実績（2025-08-03更新）
-- **総制作時間**: 9.6+ 時間
-- **総楽曲数**: 198曲（WAVファイル）
-- **総動画数**: 109本（MP4ファイル）
-- **総プロジェクト規模**: 約24GB
+### 制作実績（2025-08-04更新）
+- **総制作時間**: 10.8+ 時間
+- **総楽曲数**: 216曲（WAVファイル）
+- **総動画数**: 127本（MP4ファイル）
+- **総プロジェクト規模**: 約26GB
 - **カテゴリ数**: 9つの完成コレクション + 1つ制作中
-- **個別展開可能楽曲**: 177曲以上
+- **個別展開可能楽曲**: 195楽曲以上
 - **最新完成**: 009-class（RPGクラス音楽・20職業・1:23:22・投稿完了）
-- **制作中**: Boss Rush Collection（楽曲完成・動画制作準備中）
+- **制作中**: Boss Rush Collection（18楽曲・1:14:22・概要欄完成）
 
 ### 技術的優位性
 - **模倣困難**: 装飾語選択の高度な感性

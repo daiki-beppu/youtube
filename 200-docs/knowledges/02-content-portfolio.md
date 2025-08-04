@@ -24,14 +24,14 @@
 - **戦略価値**: 雰囲気音楽の決定版
 
 ### 4. 8-Bit bgm Village & Town Music (1.2 Hours) ✅
-- **URL**: https://youtu.be/aZKtTPszKPo
+- **URL**: https://youtu.be/V02uDsf7bZE
 - **楽曲数**: 18曲
 - **構成**: 時間の流れ構成（朝→昼→夜→祭り→特別な場所）
 - **戦略**: 勉強用BGM需要狙い撃ち、1日の感情起伏演出
 - **戦略価値**: 日常BGM需要の完全制覇
 
 ### 5. 8-Bit bgm Japanese RPG Music (1.5 Hours) ✅
-- **URL**: https://youtu.be/aZKtTPszKPo  *[要確認]*
+- **URL**: https://youtu.be/aZKtTPszKPo
 - **楽曲数**: 22曲
 - **テーマ**: 忍者と侍の壮大な物語
 - **戦略**: 日本文化への敬意＋海外ファン狙い、感動ストーリー展開
@@ -51,13 +51,27 @@
 - **戦略**: 日常使い＋作業BGM需要直撃
 - **戦略価値**: 生活密着型BGMの決定版
 
+### 8. 8-Bit bgm Sleep & Dream Music (1.5 Hours) ✅
+- **URL**: https://youtu.be/wPdfqSoXqjE
+- **楽曲数**: 26曲
+- **テーマ**: 睡眠誘導・リラクゼーション
+- **戦略**: 睡眠BGM需要＋ストレス解消市場
+- **戦略価値**: ウェルビーイング市場の新領域
+
+### 9. 8-Bit bgm RPG Class Music (1.4 Hours) ✅
+- **URL**: https://youtu.be/YPMwKYVET1s
+- **楽曲数**: 20曲
+- **テーマ**: RPGの20職業を音楽で表現
+- **戦略**: TRPG・D&Dプレイヤー特化、キャラクター作成支援
+- **戦略価値**: ゲーミングコミュニティへの新規参入
+
 ## 総制作実績
 
 ### 数値サマリー
-- **総制作時間**: 8.2+ 時間
-- **総楽曲数**: 137曲
-- **完成コレクション**: 7つ
-- **個別展開可能動画**: 137個
+- **総制作時間**: 10.8+ 時間
+- **総楽曲数**: 216曲
+- **完成コレクション**: 9つ
+- **個別展開可能動画**: 195個
 - **制作期間**: [開始日]〜現在
 
 ### カテゴリ別分析
@@ -70,6 +84,8 @@
 | Japanese RPG | 22 | 1.5h | 文化的価値 | ★★★★☆ |
 | Emotional | 20 | 1.5h | 感動系 | ★★★★★ |
 | Shop & Inn | 20 | 1.0h+ | 日常BGM | ★★★★★ |
+| Sleep & Dream | 26 | 1.5h | 睡眠・リラックス | ★★★★★ |
+| RPG Class | 20 | 1.4h | TRPG・D&D | ★★★★☆ |
 
 ## 個別楽曲展開戦略
 
@@ -159,9 +175,9 @@ Day 22: 次のメインコレクション投稿
 ## 次期制作予定
 
 ### 優先度A（即座制作）
-1. **Seasonal Music Collection**: クリスマス、バレンタイン等
-2. **Boss Rush Collection**: 全ボス戦音楽の特化版
-3. **Sleep Music Extended**: 睡眠誘導特化の超ロング版
+1. **Boss Rush Collection**: 18楽曲・1:14:22（概要欄完成・動画制作中）
+2. **Adventure Season 2**: 42プロンプト完成済み
+3. **Seasonal Music Collection**: クリスマス、バレンタイン等
 
 ### 優先度B（中期制作）
 1. **Overworld Music**: フィールド探索特化
