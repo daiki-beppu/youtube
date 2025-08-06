@@ -47,12 +47,12 @@ Adventure Collection 第2弾制作用の革命的音楽素材プロンプト集�
 
 ### Field 06: 砂漠・荒野系
 ```
-[arid, endless, shimmering] + [harsh, resilient, determined] + 8-bit chiptune desert field music + [scorching scorching scorching] + [relentless relentless relentless] + [enduring enduring enduring] + classic 8-bit era wasteland survival journey + specific square wave heat-shimmer effects with triangle wave desert wind bass + [steady steady steady] tempo with [unforgiving unforgiving unforgiving] arid atmosphere + desert crossing adventure theme
+[arid, endless, shimmering] + [rhythmic, exotic, mystical] + 8-bit chiptune desert field music + [scorching scorching scorching] + [hypnotic hypnotic hypnotic] + [enduring enduring enduring] + classic 8-bit era wasteland survival journey + specific square wave maracas-like rhythmic patterns with triangle wave kalimba-style desert melody bass + [steady steady steady] tempo with [exotic exotic exotic] arid atmosphere + desert crossing adventure theme with tribal percussion elements
 ```
 
 ### Field 07: 火山・溶岩系
 ```
-[fiery, intense, dangerous] + [molten, blazing, explosive] + 8-bit chiptune volcanic field music + [searing searing searing] + [urgent urgent urgent] + [powerful powerful powerful] + classic Game Boy molten adventure challenge + specific 8-bit pulse wave fire crackling with triangle wave lava rumble bass + [fast fast fast] tempo with [threatening threatening threatening] volcanic atmosphere + lava field danger zone theme
+[fiery, intense, dangerous] + [molten, heavy, ominous] + 8-bit chiptune volcanic field music + [searing searing searing] + [brooding brooding brooding] + [powerful powerful powerful] + classic Game Boy molten adventure challenge + specific 8-bit pulse wave fire crackling with triangle wave deep lava rumble bass + [slow slow slow] tempo with [threatening threatening threatening] volcanic atmosphere + lava field danger zone theme with heavy molten rhythm
 ```
 
 ---
