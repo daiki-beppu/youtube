@@ -44,22 +44,22 @@
 
 ### 01 - Ancient Map Discovery
 ```
-[mysterious, intriguing, hopeful] + 8-bit chiptune + [gentle gentle gentle] + [medium medium medium] + [curious curious curious] + ancient scroll unrolling melody + treasure map discovery theme + archaeological excitement feeling + adventure beginning emotion
+[mysterious, intriguing, hopeful] + 8-bit chiptune + [gentle gentle gentle] + [medium medium medium] + [curious curious curious] + ancient scroll unrolling melody + treasure map discovery theme + archaeological excitement feeling + adventure beginning emotion + SEAMLESS LOOP perfect for extended exploration preparation, maintains discovery anticipation over long planning sessions, cyclical progression with natural curiosity sustain, concentration-friendly composition for map study focus, immersive background music for treasure hunting preparation, designed for repetitive listening without fatigue
 ```
 
 ### 02 - Journey to the Lost Temple  
 ```
-[adventurous, determined, anticipating] + 8-bit chiptune + [steady steady steady] + [medium-fast medium-fast medium-fast] + [building building building] + expedition march melody + destination approach theme + treasure seeker courage feeling + ancient mystery emotion
+[adventurous, determined, anticipating] + 8-bit chiptune + [steady steady steady] + [medium-fast medium-fast medium-fast] + [building building building] + expedition march melody + destination approach theme + treasure seeker courage feeling + ancient mystery emotion + SEAMLESS LOOP ideal for long journey sequences, maintains adventure momentum throughout extended travel, cyclical march rhythm perfect for endless exploration, player motivation sustaining composition, travel BGM designed for 30+ minute continuous play, immersive expedition atmosphere loop
 ```
 
 ### 03 - First Glimpse of Ruins
 ```
-[awe-inspiring, ancient, magnificent] + 8-bit chiptune + [majestic majestic majestic] + [slow slow slow] + [reverent reverent reverent] + temple appearance melody + ancient grandeur theme + historical wonder feeling + civilizational awe emotion
+[awe-inspiring, ancient, magnificent] + 8-bit chiptune + [majestic majestic majestic] + [slow slow slow] + [reverent reverent reverent] + temple appearance melody + ancient grandeur theme + historical wonder feeling + civilizational awe emotion + SEAMLESS LOOP perfect for monument contemplation, maintains sense of awe during extended observation, cyclical reverent progression for archaeological documentation, concentration-friendly composition for historical study, immersive ancient atmosphere sustaining wonder over time
 ```
 
 ### 04 - Crossing the Sacred Threshold
 ```
-[solemn, mystical, transitional] + 8-bit chiptune + [ceremonial ceremonial ceremonial] + [medium medium medium] + [sacred sacred sacred] + entrance ritual melody + boundary crossing theme + spiritual preparation feeling + ancient sanctity emotion
+[solemn, mystical, transitional] + 8-bit chiptune + [ceremonial ceremonial ceremonial] + [medium medium medium] + [sacred sacred sacred] + entrance ritual melody + boundary crossing theme + spiritual preparation feeling + ancient sanctity emotion + SEAMLESS LOOP designed for ritual preparation phases, maintains sacred atmosphere during extended ceremonies, cyclical spiritual progression for meditation focus, temple entrance BGM perfect for reverent exploration, immersive sanctity preservation loop
 ```
 
 ---
@@ -68,32 +68,32 @@
 
 ### 05 - Stone Corridor Echoes
 ```
-[echoing, atmospheric, mysterious] + 8-bit chiptune + [hollow hollow hollow] + [slow slow slow] + [resonant resonant resonant] + footstep echo melody + corridor exploration theme + stone chamber feeling + ancient atmosphere emotion
+[echoing, atmospheric, mysterious] + 8-bit chiptune + [hollow hollow hollow] + [slow slow slow] + [resonant resonant resonant] + footstep echo melody + corridor exploration theme + stone chamber feeling + ancient atmosphere emotion + SEAMLESS LOOP perfect for dungeon exploration gameplay, maintains mysterious atmosphere throughout long corridor sequences, cyclical echo progression for immersive cave exploration, concentration-sustaining composition for puzzle-solving focus, atmospheric BGM designed for extended underground adventure
 ```
 
 ### 06 - Hall of Forgotten Kings
 ```
-[regal, haunting, majestic] + 8-bit chiptune + [stately stately stately] + [medium medium medium] + [ghostly ghostly ghostly] + royal chamber melody + fallen dynasty theme + spectral majesty feeling + historical melancholy emotion
+[regal, haunting, majestic] + 8-bit chiptune + [stately stately stately] + [medium medium medium] + [ghostly ghostly ghostly] + royal chamber melody + fallen dynasty theme + spectral majesty feeling + historical melancholy emotion + SEAMLESS LOOP designed for throne room contemplation, maintains royal atmosphere during extended historical exploration, cyclical regal progression perfect for ancient palace BGM, immersive dynasty ambience for long storytelling sequences, ghostly majesty sustaining loop
 ```
 
 ### 07 - Hidden Chamber Revelation  
 ```
-[surprising, secretive, exciting] + 8-bit chiptune + [revealing revealing revealing] + [medium-fast medium-fast medium-fast] + [hidden hidden hidden] + secret door melody + concealed space theme + discovery excitement feeling + architectural mystery emotion
+[surprising, secretive, exciting] + 8-bit chiptune + [revealing revealing revealing] + [medium-fast medium-fast medium-fast] + [hidden hidden hidden] + secret door melody + concealed space theme + discovery excitement feeling + architectural mystery emotion + SEAMLESS LOOP ideal for secret area exploration, maintains discovery excitement during extended hidden chamber investigation, cyclical revelation progression for treasure hunting gameplay, mystery-sustaining composition perfect for puzzle adventure BGM
 ```
 
 ### 08 - Guardian Statues Awakening
 ```
-[menacing, mechanical, ancient] + 8-bit chiptune + [awakening awakening awakening] + [fast fast fast] + [threatening threatening threatening] + stone guardian melody + ancient defense theme + mechanical danger feeling + protective magic emotion
+[menacing, mechanical, ancient] + 8-bit chiptune + [awakening awakening awakening] + [fast fast fast] + [threatening threatening threatening] + stone guardian melody + ancient defense theme + mechanical danger feeling + protective magic emotion + SEAMLESS LOOP perfect for guardian boss encounters, maintains combat tension throughout extended battle sequences, cyclical threat progression for dungeon boss fight BGM, adrenaline-sustaining composition designed for challenging gameplay loops
 ```
 
 ### 09 - Underground River Crossing
 ```
-[flowing, challenging, adventurous] + 8-bit chiptune + [streaming streaming streaming] + [medium medium medium] + [navigating navigating navigating] + underground water melody + subterranean journey theme + cave exploration feeling + elemental obstacle emotion
+[flowing, challenging, adventurous] + 8-bit chiptune + [streaming streaming streaming] + [medium medium medium] + [navigating navigating navigating] + underground water melody + subterranean journey theme + cave exploration feeling + elemental obstacle emotion + SEAMLESS LOOP ideal for water navigation gameplay, maintains flowing adventure atmosphere during extended river sequences, cyclical streaming progression perfect for aquatic exploration BGM, immersive underground water ambience loop
 ```
 
 ### 10 - Crystal Cave Illumination
 ```
-[sparkling, magical, beautiful] + 8-bit chiptune + [glittering glittering glittering] + [gentle gentle gentle] + [luminous luminous luminous] + crystal resonance melody + natural wonder theme + underground beauty feeling + mineral magic emotion
+[sparkling, magical, beautiful] + 8-bit chiptune + [glittering glittering glittering] + [gentle gentle gentle] + [luminous luminous luminous] + crystal resonance melody + natural wonder theme + underground beauty feeling + mineral magic emotion + SEAMLESS LOOP designed for crystal cavern exploration, maintains magical beauty atmosphere during extended cave photography sessions, cyclical sparkling progression perfect for mineral discovery BGM, luminous wonder-sustaining composition loop
 ```
 
 ---
@@ -102,27 +102,27 @@
 
 ### 11 - Ancient Symbol Decoding
 ```
-[intellectual, focused, mysterious] + 8-bit chiptune + [contemplative contemplative contemplative] + [slow slow slow] + [analytical analytical analytical] + puzzle solving melody + hieroglyph decoding theme + mental challenge feeling + ancient wisdom emotion
+[intellectual, focused, mysterious] + 8-bit chiptune + [contemplative contemplative contemplative] + [slow slow slow] + [analytical analytical analytical] + puzzle solving melody + hieroglyph decoding theme + mental challenge feeling + ancient wisdom emotion + SEAMLESS LOOP perfect for puzzle-solving gameplay, maintains intellectual focus during extended decoding sessions, cyclical contemplative progression for concentration enhancement, analytical thinking support BGM designed for complex problem-solving loops
 ```
 
 ### 12 - Mechanical Puzzle Chamber
 ```
-[mechanical, precise, challenging] + 8-bit chiptune + [clicking clicking clicking] + [medium medium medium] + [systematic systematic systematic] + gear mechanism melody + ancient engineering theme + logical thinking feeling + technological marvel emotion
+[mechanical, precise, challenging] + 8-bit chiptune + [clicking clicking clicking] + [medium medium medium] + [systematic systematic systematic] + gear mechanism melody + ancient engineering theme + logical thinking feeling + technological marvel emotion + SEAMLESS LOOP ideal for mechanical puzzle gameplay, maintains systematic thinking atmosphere during extended gear manipulation, cyclical clicking progression perfect for engineering challenge BGM, precision-focused composition loop
 ```
 
 ### 13 - Trial of the Four Elements
 ```
-[elemental, powerful, testing] + 8-bit chiptune + [swirling swirling swirling] + [fast fast fast] + [primal primal primal] + elemental force melody + nature trial theme + elemental mastery feeling + ancient power emotion
+[elemental, powerful, testing] + 8-bit chiptune + [swirling swirling swirling] + [fast fast fast] + [primal primal primal] + elemental force melody + nature trial theme + elemental mastery feeling + ancient power emotion + SEAMLESS LOOP designed for elemental trial sequences, maintains primal power atmosphere throughout extended magical combat, cyclical elemental progression perfect for nature mastery gameplay BGM, ancient power-sustaining loop
 ```
 
 ### 14 - Shadow Guardian Encounter
 ```
-[dark, challenging, epic] + 8-bit chiptune + [shadowy shadowy shadowy] + [fast fast fast] + [confrontational confrontational confrontational] + shadow battle melody + guardian boss theme + combat tension feeling + protective spirit emotion
+[dark, challenging, epic] + 8-bit chiptune + [shadowy shadowy shadowy] + [fast fast fast] + [confrontational confrontational confrontational] + shadow battle melody + guardian boss theme + combat tension feeling + protective spirit emotion + SEAMLESS LOOP perfect for shadow boss encounters, maintains epic combat tension throughout challenging battles, cyclical confrontation progression designed for extended boss fight sequences, adrenaline-sustaining guardian battle BGM loop
 ```
 
 ### 15 - Ancient Wisdom Test
 ```
-[wise, contemplative, spiritual] + 8-bit chiptune + [thoughtful thoughtful thoughtful] + [slow slow slow] + [enlightening enlightening enlightening] + wisdom trial melody + knowledge test theme + intellectual growth feeling + ancient teaching emotion
+[wise, contemplative, spiritual] + 8-bit chiptune + [thoughtful thoughtful thoughtful] + [slow slow slow] + [enlightening enlightening enlightening] + wisdom trial melody + knowledge test theme + intellectual growth feeling + ancient teaching emotion + SEAMLESS LOOP ideal for wisdom trial gameplay, maintains contemplative atmosphere during extended knowledge testing, cyclical enlightening progression perfect for spiritual learning sequences, ancient teaching wisdom-sustaining loop
 ```
 
 ---
@@ -131,22 +131,22 @@
 
 ### 16 - Golden Door Unsealing
 ```
-[ceremonial, momentous, unlocking] + 8-bit chiptune + [opening opening opening] + [medium-slow medium-slow medium-slow] + [climactic climactic climactic] + seal breaking melody + barrier removal theme + access granted feeling + treasure anticipation emotion
+[ceremonial, momentous, unlocking] + 8-bit chiptune + [opening opening opening] + [medium-slow medium-slow medium-slow] + [climactic climactic climactic] + seal breaking melody + barrier removal theme + access granted feeling + treasure anticipation emotion + SEAMLESS LOOP designed for door unsealing sequences, maintains ceremonial anticipation during extended unlocking rituals, cyclical climactic progression perfect for treasure access gameplay, momentous barrier removal atmosphere loop
 ```
 
 ### 17 - Treasure Chamber Entrance
 ```
-[breathtaking, glorious, overwhelming] + 8-bit chiptune + [dazzling dazzling dazzling] + [medium medium medium] + [magnificent magnificent magnificent] + treasure reveal melody + wealth display theme + golden splendor feeling + ultimate discovery emotion
+[breathtaking, glorious, overwhelming] + 8-bit chiptune + [dazzling dazzling dazzling] + [medium medium medium] + [magnificent magnificent magnificent] + treasure reveal melody + wealth display theme + golden splendor feeling + ultimate discovery emotion + SEAMLESS LOOP perfect for treasure chamber exploration, maintains magnificent discovery atmosphere during extended treasure examination, cyclical golden splendor progression ideal for wealth appreciation sequences, overwhelming treasure awe-sustaining loop
 ```
 
 ### 18 - Legendary Artifact Discovery
 ```
-[legendary, powerful, mystical] + 8-bit chiptune + [radiating radiating radiating] + [slow slow slow] + [mythical mythical mythical] + artifact awakening melody + legendary power theme + mythical connection feeling + ancient magic emotion
+[legendary, powerful, mystical] + 8-bit chiptune + [radiating radiating radiating] + [slow slow slow] + [mythical mythical mythical] + artifact awakening melody + legendary power theme + mythical connection feeling + ancient magic emotion + SEAMLESS LOOP designed for legendary artifact examination, maintains mystical power atmosphere during extended magical item study, cyclical mythical progression perfect for ancient magic appreciation, legendary awe-sustaining composition loop
 ```
 
 ### 19 - Ancient Knowledge Revelation
 ```
-[enlightening, profound, transformative] + 8-bit chiptune + [illuminating illuminating illuminating] + [medium medium medium] + [transcendent transcendent transcendent] + wisdom discovery melody + knowledge revelation theme + understanding achievement feeling + intellectual treasure emotion
+[enlightening, profound, transformative] + 8-bit chiptune + [illuminating illuminating illuminating] + [medium medium medium] + [transcendent transcendent transcendent] + wisdom discovery melody + knowledge revelation theme + understanding achievement feeling + intellectual treasure emotion + SEAMLESS LOOP ideal for knowledge absorption sequences, maintains profound enlightenment atmosphere during extended wisdom study, cyclical transcendent progression perfect for intellectual treasure appreciation, ancient understanding-sustaining loop
 ```
 
 ---
@@ -155,17 +155,17 @@
 
 ### 20 - Temple Collapse Warning
 ```
-[urgent, dramatic, escaping] + 8-bit chiptune + [rumbling rumbling rumbling] + [fast fast fast] + [urgent urgent urgent] + structural collapse melody + emergency escape theme + survival instinct feeling + catastrophic danger emotion
+[urgent, dramatic, escaping] + 8-bit chiptune + [rumbling rumbling rumbling] + [fast fast fast] + [urgent urgent urgent] + structural collapse melody + emergency escape theme + survival instinct feeling + catastrophic danger emotion + SEAMLESS LOOP perfect for escape sequence gameplay, maintains urgent danger atmosphere during extended chase scenes, cyclical catastrophic progression ideal for survival horror BGM, adrenaline-pumping emergency escape loop
 ```
 
 ### 21 - Race Against Time Escape
 ```
-[frantic, heroic, determined] + 8-bit chiptune + [racing racing racing] + [very-fast very-fast very-fast] + [desperate desperate desperate] + escape chase melody + time pressure theme + survival determination feeling + heroic escape emotion
+[frantic, heroic, determined] + 8-bit chiptune + [racing racing racing] + [very-fast very-fast very-fast] + [desperate desperate desperate] + escape chase melody + time pressure theme + survival determination feeling + heroic escape emotion + SEAMLESS LOOP designed for high-speed chase sequences, maintains frantic heroic energy throughout extended escape gameplay, cyclical racing progression perfect for time pressure survival BGM, desperate determination-sustaining loop
 ```
 
 ### 22 - Victorious Return Journey
 ```
-[triumphant, satisfied, reflective] + 8-bit chiptune + [celebrating celebrating celebrating] + [medium medium medium] + [accomplished accomplished accomplished] + victory march melody + quest completion theme + achievement pride feeling + adventure fulfillment emotion
+[triumphant, satisfied, reflective] + 8-bit chiptune + [celebrating celebrating celebrating] + [medium medium medium] + [accomplished accomplished accomplished] + victory march melody + quest completion theme + achievement pride feeling + adventure fulfillment emotion + SEAMLESS LOOP ideal for victory celebration gameplay, maintains triumphant satisfaction during extended celebration sequences, cyclical accomplishment progression perfect for quest completion BGM, adventure fulfillment pride-sustaining loop
 ```
 
 ---

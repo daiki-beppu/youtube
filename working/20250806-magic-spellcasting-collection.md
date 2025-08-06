@@ -45,22 +45,22 @@
 
 ### 01 - Magic Academy Enrollment
 ```
-[mystical, welcoming, educational] + 8-bit chiptune + [magical magical magical] + [medium medium medium] + [enchanting enchanting enchanting] + academy entrance melody + magical education theme + spellcaster awakening feeling + mystical beginning emotion
+[mystical, welcoming, educational] + 8-bit chiptune + [magical magical magical] + [medium medium medium] + [enchanting enchanting enchanting] + academy entrance melody + magical education theme + spellcaster awakening feeling + mystical beginning emotion + SEAMLESS LOOP perfect for magic academy exploration gameplay, maintains mystical welcome atmosphere during extended character creation and magical education sequences, cyclical enchanting progression ideal for RPG magic school BGM, spellcaster awakening wonder-sustaining loop
 ```
 
 ### 02 - First Spell Practice
 ```
-[concentrating, careful, exciting] + 8-bit chiptune + [focusing focusing focusing] + [slow slow slow] + [practicing practicing practicing] + spell casting melody + magic learning theme + concentration effort feeling + first success emotion
+[concentrating, careful, exciting] + 8-bit chiptune + [focusing focusing focusing] + [slow slow slow] + [practicing practicing practicing] + spell casting melody + magic learning theme + concentration effort feeling + first success emotion + SEAMLESS LOOP designed for spell practice gameplay mechanics, maintains careful concentration during extended magic training sequences, cyclical focusing progression perfect for RPG skill development BGM, first success excitement-sustaining learning loop
 ```
 
 ### 03 - Magic Circle Drawing
 ```
-[precise, ritualistic, powerful] + 8-bit chiptune + [drawing drawing drawing] + [medium medium medium] + [geometric geometric geometric] + circle inscription melody + magical geometry theme + precision craft feeling + ritual preparation emotion
+[precise, ritualistic, powerful] + 8-bit chiptune + [drawing drawing drawing] + [medium medium medium] + [geometric geometric geometric] + circle inscription melody + magical geometry theme + precision craft feeling + ritual preparation emotion + SEAMLESS LOOP ideal for magical crafting gameplay, maintains ritualistic precision during extended magic circle creation sequences, cyclical geometric progression perfect for RPG spellcrafting BGM, ritual preparation focus-sustaining loop
 ```
 
 ### 04 - Familiar Summoning Ceremony
 ```
-[bonding, mystical, heartwarming] + 8-bit chiptune + [calling calling calling] + [gentle gentle gentle] + [connecting connecting connecting] + summoning ritual melody + spiritual bonding theme + companion creation feeling + magical friendship emotion
+[bonding, mystical, heartwarming] + 8-bit chiptune + [calling calling calling] + [gentle gentle gentle] + [connecting connecting connecting] + summoning ritual melody + spiritual bonding theme + companion creation feeling + magical friendship emotion + SEAMLESS LOOP perfect for familiar summoning gameplay, maintains heartwarming mystical bonding during extended spiritual connection rituals, cyclical connecting progression ideal for RPG companion creation BGM, magical friendship bond-sustaining ceremonial loop
 ```
 
 ---
@@ -69,32 +69,32 @@
 
 ### 05 - Fire Magic Mastery
 ```
-[blazing, passionate, intense] + 8-bit chiptune + [burning burning burning] + [fast fast fast] + [fierce fierce fierce] + flame manipulation melody + fire element theme + burning passion feeling + destructive power emotion
+[blazing, passionate, intense] + 8-bit chiptune + [burning burning burning] + [fast fast fast] + [fierce fierce fierce] + flame manipulation melody + fire element theme + burning passion feeling + destructive power emotion + SEAMLESS LOOP designed for fire magic combat gameplay, maintains blazing intensity during extended flame spell casting sequences, cyclical burning progression perfect for RPG fire elemental mastery BGM, destructive power passion-sustaining loop
 ```
 
 ### 06 - Water Magic Flows
 ```
-[flowing, soothing, adaptive] + 8-bit chiptune + [streaming streaming streaming] + [medium medium medium] + [fluid fluid fluid] + water control melody + aquatic element theme + flowing grace feeling + healing serenity emotion
+[flowing, soothing, adaptive] + 8-bit chiptune + [streaming streaming streaming] + [medium medium medium] + [fluid fluid fluid] + water control melody + aquatic element theme + flowing grace feeling + healing serenity emotion + SEAMLESS LOOP ideal for water magic healing gameplay, maintains soothing flow during extended aquatic spell sequences, cyclical fluid progression perfect for RPG water elemental mastery BGM, healing serenity grace-sustaining loop
 ```
 
 ### 07 - Wind Magic Soaring
 ```
-[soaring, free, dynamic] + 8-bit chiptune + [swirling swirling swirling] + [fast fast fast] + [liberating liberating liberating] + wind command melody + aerial element theme + freedom flight feeling + atmospheric power emotion
+[soaring, free, dynamic] + 8-bit chiptune + [swirling swirling swirling] + [fast fast fast] + [liberating liberating liberating] + wind command melody + aerial element theme + freedom flight feeling + atmospheric power emotion + SEAMLESS LOOP perfect for wind magic flight gameplay, maintains soaring freedom during extended aerial spell sequences, cyclical swirling progression ideal for RPG wind elemental mastery BGM, atmospheric liberation power-sustaining loop
 ```
 
 ### 08 - Earth Magic Strength
 ```
-[solid, protective, enduring] + 8-bit chiptune + [grounding grounding grounding] + [slow slow slow] + [sturdy sturdy sturdy] + earth shaping melody + geological element theme + protective stability feeling + foundational strength emotion
+[solid, protective, enduring] + 8-bit chiptune + [grounding grounding grounding] + [slow slow slow] + [sturdy sturdy sturdy] + earth shaping melody + geological element theme + protective stability feeling + foundational strength emotion + SEAMLESS LOOP designed for earth magic defense gameplay, maintains solid protection during extended geological spell casting, cyclical grounding progression perfect for RPG earth elemental mastery BGM, foundational strength stability-sustaining loop
 ```
 
 ### 09 - Lightning Magic Storm
 ```
-[electric, explosive, shocking] + 8-bit chiptune + [crackling crackling crackling] + [very-fast very-fast very-fast] + [electrifying electrifying electrifying] + thunder control melody + storm element theme + electric excitement feeling + instantaneous power emotion
+[electric, explosive, shocking] + 8-bit chiptune + [crackling crackling crackling] + [very-fast very-fast very-fast] + [electrifying electrifying electrifying] + thunder control melody + storm element theme + electric excitement feeling + instantaneous power emotion + SEAMLESS LOOP perfect for lightning magic combat gameplay, maintains electric explosive energy during extended storm spell sequences, cyclical crackling progression ideal for RPG lightning elemental mastery BGM, instantaneous power excitement-sustaining loop
 ```
 
 ### 10 - Ice Magic Crystallization
 ```
-[crystalline, pure, freezing] + 8-bit chiptune + [freezing freezing freezing] + [medium medium medium] + [crystallizing crystallizing crystallizing] + ice formation melody + frozen element theme + crystal beauty feeling + preserving stillness emotion
+[crystalline, pure, freezing] + 8-bit chiptune + [freezing freezing freezing] + [medium medium medium] + [crystallizing crystallizing crystallizing] + ice formation melody + frozen element theme + crystal beauty feeling + preserving stillness emotion + SEAMLESS LOOP ideal for ice magic crafting gameplay, maintains crystalline purity during extended ice spell formation sequences, cyclical freezing progression perfect for RPG ice elemental mastery BGM, preserving stillness beauty-sustaining loop
 ```
 
 ---
@@ -103,27 +103,27 @@
 
 ### 11 - Time Manipulation Studies
 ```
-[temporal, complex, mind-bending] + 8-bit chiptune + [shifting shifting shifting] + [slow slow slow] + [temporal temporal temporal] + time magic melody + chronology control theme + temporal perception feeling + reality bending emotion
+[temporal, complex, mind-bending] + 8-bit chiptune + [shifting shifting shifting] + [slow slow slow] + [temporal temporal temporal] + time magic melody + chronology control theme + temporal perception feeling + reality bending emotion + SEAMLESS LOOP perfect for time magic research gameplay, maintains mind-bending complexity during extended temporal spell study sequences, cyclical shifting progression ideal for RPG advanced magic research BGM, reality bending perception-sustaining loop
 ```
 
 ### 12 - Dimensional Portal Creation
 ```
-[otherworldly, mysterious, connecting] + 8-bit chiptune + [opening opening opening] + [medium medium medium] + [interdimensional interdimensional interdimensional] + portal magic melody + space manipulation theme + reality gateway feeling + dimensional travel emotion
+[otherworldly, mysterious, connecting] + 8-bit chiptune + [opening opening opening] + [medium medium medium] + [interdimensional interdimensional interdimensional] + portal magic melody + space manipulation theme + reality gateway feeling + dimensional travel emotion + SEAMLESS LOOP designed for portal magic gameplay, maintains otherworldly mystery during extended dimensional manipulation sequences, cyclical interdimensional progression perfect for RPG space magic BGM, dimensional travel gateway-sustaining loop
 ```
 
 ### 13 - Greater Demon Summoning
 ```
-[dark, powerful, dangerous] + 8-bit chiptune + [summoning summoning summoning] + [medium-fast medium-fast medium-fast] + [ominous ominous ominous] + demon calling melody + infernal pact theme + dangerous power feeling + forbidden knowledge emotion
+[dark, powerful, dangerous] + 8-bit chiptune + [summoning summoning summoning] + [medium-fast medium-fast medium-fast] + [ominous ominous ominous] + demon calling melody + infernal pact theme + dangerous power feeling + forbidden knowledge emotion + SEAMLESS LOOP ideal for demon summoning ritual gameplay, maintains dark power danger during extended infernal conjuration sequences, cyclical ominous progression perfect for RPG forbidden magic BGM, dangerous knowledge power-sustaining ritual loop
 ```
 
 ### 14 - Mass Teleportation Spell
 ```
-[coordinated, complex, group-focused] + 8-bit chiptune + [transporting transporting transporting] + [fast fast fast] + [synchronized synchronized synchronized] + group transport melody + spatial magic theme + collective movement feeling + tactical coordination emotion
+[coordinated, complex, group-focused] + 8-bit chiptune + [transporting transporting transporting] + [fast fast fast] + [synchronized synchronized synchronized] + group transport melody + spatial magic theme + collective movement feeling + tactical coordination emotion + SEAMLESS LOOP perfect for group teleportation gameplay, maintains coordinated complexity during extended mass transport spell sequences, cyclical synchronized progression ideal for RPG tactical magic BGM, collective coordination movement-sustaining loop
 ```
 
 ### 15 - Magical Item Enchantment
 ```
-[crafting, imbuing, creative] + 8-bit chiptune + [enchanting enchanting enchanting] + [medium medium medium] + [empowering empowering empowering] + item blessing melody + magical crafting theme + creative enhancement feeling + permanent magic emotion
+[crafting, imbuing, creative] + 8-bit chiptune + [enchanting enchanting enchanting] + [medium medium medium] + [empowering empowering empowering] + item blessing melody + magical crafting theme + creative enhancement feeling + permanent magic emotion + SEAMLESS LOOP designed for item enchantment gameplay mechanics, maintains creative crafting atmosphere during extended magical item creation sequences, cyclical empowering progression perfect for RPG equipment enhancement BGM, permanent magic creation-sustaining loop
 ```
 
 ---
@@ -132,22 +132,22 @@
 
 ### 16 - Forbidden Necromancy Research
 ```
-[dark, forbidden, scholarly] + 8-bit chiptune + [researching researching researching] + [slow slow slow] + [forbidden forbidden forbidden] + death magic melody + necromantic study theme + forbidden knowledge feeling + academic darkness emotion
+[dark, forbidden, scholarly] + 8-bit chiptune + [researching researching researching] + [slow slow slow] + [forbidden forbidden forbidden] + death magic melody + necromantic study theme + forbidden knowledge feeling + academic darkness emotion + SEAMLESS LOOP ideal for necromancy research gameplay, maintains scholarly darkness during extended forbidden magic study sequences, cyclical forbidden progression perfect for RPG dark arts research BGM, academic darkness knowledge-sustaining loop
 ```
 
 ### 17 - Ancient Dragon Language
 ```
-[ancient, powerful, draconic] + 8-bit chiptune + [speaking speaking speaking] + [deep deep deep] + [primordial primordial primordial] + dragon tongue melody + ancient linguistics theme + primal power feeling + draconic wisdom emotion
+[ancient, powerful, draconic] + 8-bit chiptune + [speaking speaking speaking] + [deep deep deep] + [primordial primordial primordial] + dragon tongue melody + ancient linguistics theme + primal power feeling + draconic wisdom emotion + SEAMLESS LOOP perfect for dragon language study gameplay, maintains ancient power during extended draconic linguistics research sequences, cyclical primordial progression ideal for RPG ancient magic BGM, draconic wisdom power-sustaining learning loop
 ```
 
 ### 18 - World-Altering Reality Magic
 ```
-[cosmic, overwhelming, reality-changing] + 8-bit chiptune + [transforming transforming transforming] + [slow slow slow] + [universe-shaking universe-shaking universe-shaking] + reality magic melody + cosmic alteration theme + world-changing power feeling + universal transformation emotion
+[cosmic, overwhelming, reality-changing] + 8-bit chiptune + [transforming transforming transforming] + [slow slow slow] + [universe-shaking universe-shaking universe-shaking] + reality magic melody + cosmic alteration theme + world-changing power feeling + universal transformation emotion + SEAMLESS LOOP designed for reality magic gameplay, maintains cosmic overwhelming power during extended world-altering spell sequences, cyclical universe-shaking progression perfect for RPG ultimate magic BGM, universal transformation power-sustaining loop
 ```
 
 ### 19 - Sealed Evil Binding Ritual
 ```
-[binding, protective, sacrificial] + 8-bit chiptune + [sealing sealing sealing] + [medium medium medium] + [protective protective protective] + evil binding melody + sacrificial magic theme + protective duty feeling + heroic sacrifice emotion
+[binding, protective, sacrificial] + 8-bit chiptune + [sealing sealing sealing] + [medium medium medium] + [protective protective protective] + evil binding melody + sacrificial magic theme + protective duty feeling + heroic sacrifice emotion + SEAMLESS LOOP ideal for binding ritual gameplay, maintains protective sacrifice atmosphere during extended evil sealing ceremonies, cyclical protective progression perfect for RPG heroic magic BGM, sacrificial duty heroism-sustaining ritual loop
 ```
 
 ---
@@ -156,17 +156,17 @@
 
 ### 20 - Cosmic Understanding Enlightenment
 ```
-[enlightened, transcendent, universal] + 8-bit chiptune + [understanding understanding understanding] + [slow slow slow] + [cosmic cosmic cosmic] + enlightenment melody + universal knowledge theme + transcendent wisdom feeling + cosmic consciousness emotion
+[enlightened, transcendent, universal] + 8-bit chiptune + [understanding understanding understanding] + [slow slow slow] + [cosmic cosmic cosmic] + enlightenment melody + universal knowledge theme + transcendent wisdom feeling + cosmic consciousness emotion + SEAMLESS LOOP perfect for cosmic meditation gameplay, maintains transcendent enlightenment during extended universal knowledge contemplation sequences, cyclical cosmic progression ideal for RPG ultimate wisdom BGM, cosmic consciousness transcendence-sustaining loop
 ```
 
 ### 21 - Magic and Nature Unity
 ```
-[harmonious, balanced, natural] + 8-bit chiptune + [harmonizing harmonizing harmonizing] + [gentle gentle gentle] + [unified unified unified] + nature magic melody + balance achievement theme + ecological harmony feeling + natural wisdom emotion
+[harmonious, balanced, natural] + 8-bit chiptune + [harmonizing harmonizing harmonizing] + [gentle gentle gentle] + [unified unified unified] + nature magic melody + balance achievement theme + ecological harmony feeling + natural wisdom emotion + SEAMLESS LOOP designed for nature harmony gameplay, maintains balanced unity during extended ecological magic sequences, cyclical harmonizing progression perfect for RPG nature mastery BGM, natural wisdom balance-sustaining loop
 ```
 
 ### 22 - Legacy of the Great Mage
 ```
-[wise, eternal, inspiring] + 8-bit chiptune + [teaching teaching teaching] + [medium medium medium] + [inspiring inspiring inspiring] + legacy creation melody + wisdom transmission theme + eternal teaching feeling + inspirational legacy emotion
+[wise, eternal, inspiring] + 8-bit chiptune + [teaching teaching teaching] + [medium medium medium] + [inspiring inspiring inspiring] + legacy creation melody + wisdom transmission theme + eternal teaching feeling + inspirational legacy emotion + SEAMLESS LOOP ideal for legacy gameplay sequences, maintains wise inspiration during extended teaching and wisdom transmission sequences, cyclical inspiring progression perfect for RPG master achievement BGM, eternal legacy inspiration-sustaining loop
 ```
 
 ---
