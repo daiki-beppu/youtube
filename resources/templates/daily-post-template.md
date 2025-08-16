@@ -1,4 +1,12 @@
-# 日次投稿テンプレート
+# 2日間集中投稿テンプレート
+
+## 投稿システム概要
+
+### 📅 2日間投稿サイクル
+```
+Day 1: Complete Collection（フル動画・長尺版）投稿
+Day 2: 全楽曲を個別動画として一斉投稿 + 再生リスト作成
+```
 
 ## 個別楽曲投稿の命名規則
 
@@ -7,67 +15,50 @@
 YYYYMMDD-LIVE-individual-TRACK-NAME/
 ```
 
-**例**: `20250817-LIVE-individual-dawn-of-legends`
+**例**: `20250819-LIVE-individual-dawn-of-legends`
 
-## 毎日投稿スケジュール
+## 投稿スケジュール例
 
-### Adventure Season 2 (37楽曲) - 8/17〜9/23
+### Guild Collection (20250818-19)
 ```
-Day 1 (8/17): 01-Dawn_of_Legends
-Day 2 (8/18): 02-Village_of_Destiny
-Day 3 (8/19): 03-Emerald_Plains_of_Hope
-Day 4 (8/20): 04-Summit_of_the_Gods
-Day 5 (8/21): 05-Fortress_of_the_Sky
-Day 6 (8/22): 06-Citadel_of_Clouds
-Day 7 (8/23): 07-Baptism_of_Steel
-Day 8 (8/24): 08-Winds_of_Adventure
-Day 9 (8/25): 09-Tides_of_Destiny
-Day 10 (8/26): 10-Harbor_of_Dreams
-Day 11 (8/27): 11-Voyage_to_the_Unknown
-Day 12 (8/28): 12-Enchanted_Realm
-Day 13 (8/29): 13-Whispers_of_the_Wild
-Day 14 (8/30): 14-Sanctuary_of_Ancients
-Day 15 (8/31): 15-Guardians_Awakening
-Day 16 (9/1): 16-Realm_of_Eternal_Ice
-Day 17 (9/2): 17-Crystal_Throne
-Day 18 (9/3): 18-Palace_of_Frozen_Dreams
-Day 19 (9/4): 19-Crown_of_the_Empire
-Day 20 (9/5): 20-Halls_of_Arcane_Power
-Day 21 (9/6): 21-Sands_of_Eternity
-Day 22 (9/7): 22-Mirage_of_Heroes
-Day 23 (9/8): 23-Fields_of_Fire
-Day 24 (9/9): 24-Heart_of_the_Inferno
-Day 25 (9/10): 25-Forge_of_the_Titans
-Day 26 (9/11): 26-Dance_of_Dragons
-Day 27 (9/12): 27-Tomb_of_Kings
-Day 28 (9/13): 28-Tower_of_Destinies
-Day 29 (9/14): 29-Wings_of_Thunder
-Day 30 (9/15): 30-Depths_of_Atlantis
-Day 31 (9/16): 31-Abyssal_Cathedral
-Day 32 (9/17): 32-Carnival_of_Heroes
-Day 33 (9/18): 33-Victory_Celebration
-Day 34 (9/19): 34-Temple_of_Shadows
-Day 35 (9/20): 35-City_of_the_Fallen
-Day 36 (9/21): 36-Clash_of_Eternities
-Day 37 (9/22): 37-Dawn_of_New_Legends
+Day 1 (20250818): Guild Collection フル動画投稿（1-2時間）
+Day 2 (20250819): Guild 全楽曲（約20曲）個別投稿 + プレイリスト作成
+```
+
+### Adventure Season 2 (投稿済み例)
+```
+Day 1: Adventure Season 2 フル動画投稿（3:50:32）✅
+Day 2: 全37楽曲を個別投稿 + プレイリスト作成（予定）
 ```
 
 ## 投稿作業フロー
 
-### 1. 準備（前日）
-1. 翌日投稿楽曲の確認
-2. 個別動画ファイルの準備
-3. 概要欄ドラフト作成
+### Day 1: Complete Collection 投稿
+1. **準備**
+   - フル動画・音声ファイル確認
+   - メイン概要欄作成
+   - サムネイル最終確認
 
-### 2. 投稿当日
-1. YouTube 投稿（午前中推奨）
-2. プレイリストに追加
-3. SNS 告知（必要に応じて）
+2. **投稿実行**
+   - YouTube フル動画投稿
+   - URL 記録
+   - 初期プロモーション
 
-### 3. 投稿後
-1. URL 記録
-2. 次回作業の準備
-3. アナリティクス確認
+### Day 2: 個別楽曲一斉投稿
+1. **準備**
+   - 全個別動画ファイル確認
+   - 個別概要欄一括作成
+   - プレイリスト設定準備
+
+2. **一斉投稿実行**
+   - 全楽曲を個別動画として投稿
+   - 再生リスト作成・整理
+   - 内部循環リンク設定
+
+3. **投稿後処理**
+   - 全URL記録
+   - プレイリストURL更新
+   - アナリティクス監視開始
 
 ## 概要欄テンプレート（個別楽曲用）
 
@@ -91,7 +82,7 @@ This is track [XX] from our 3:50:32 epic adventure masterpiece:
 [TRACK_DESCRIPTION - 2-3 sentences about the mood and story]
 
 📱 CONNECT WITH US:
-🔔 Subscribe for daily 8-Bit BGM adventures!
+🔔 Subscribe for epic 8-Bit BGM collections!
 👍 Like if this track enhanced your adventure!
 💬 Comment which adventure this reminds you of!
 🔄 Share with fellow adventurers!
@@ -102,22 +93,24 @@ This is track [XX] from our 3:50:32 epic adventure masterpiece:
 #8BitMusic #AdventureMusic #EpicMusic #StudyBGM #RPGMusic #8BitAdventureHub #GamingMusic #ChiptuneStudy #FantasyMusic
 ```
 
-## 管理ディレクトリ
+## ファイル管理
 
-### individuals/daily-posts/
+### 個別楽曲ファイル配置
 ```
-individuals/daily-posts/
-├── 20250817-dawn-of-legends/
-├── 20250818-village-of-destiny/
-├── 20250819-emerald-plains/
-└── ...
+collections/live/[COLLECTION-NAME]/
+├── 02-Individual-music/     # 個別音声ファイル
+├── 03-Individual-movie/     # 個別動画ファイル
+└── 10-thumbnail/           # 個別サムネイル
 ```
 
-### individuals/ready-queue/
-投稿予定の楽曲を準備
-
-### individuals/archives/
-投稿完了楽曲をアーカイブ
+### プレイリスト管理
+```
+YouTube プレイリスト作成後:
+□ プレイリストURL記録
+□ 概要欄・メタデータ更新
+□ 内部循環リンク設定
+□ SEO最適化確認
+```
 
 ## 自動化要素
 
@@ -132,4 +125,4 @@ individuals/daily-posts/
 ---
 
 *作成日: 2025-08-16*  
-*8-Bit Adventure Hub - 毎日投稿システム*
+*8-Bit Adventure Hub - 2日間集中投稿システム*

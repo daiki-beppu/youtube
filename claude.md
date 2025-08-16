@@ -61,7 +61,7 @@ def format_timestamp(seconds):
   - `awareness/`: プロジェクト進行中の気づき・学びの記録
   - `working/`: 作業中ファイル・一時的な成果物
 - `collections/`: コレクション管理（live/, ready/, production/, planning/, archives/）
-- `individuals/`: 個別楽曲管理（daily-posts/, ready-queue/, archives/）
+- **削除済み**: `individuals/` ディレクトリ（2日間投稿システムに移行）
 - `operations/`: 運営業務（analytics/, seo-content/, thumbnails/, scheduling/）
 - `resources/`: 共通リソース（templates/, assets/）
 
@@ -138,10 +138,10 @@ Epic, heroic, triumphant 8-bit chiptune final battle, powerful NES sound chip, b
 
 ## YouTube コンテンツ戦略
 
-### 毎日投稿システム
-1. 長尺動画投稿（フルコレクション）
-2. 個別楽曲を再生リストとして順次公開（20日間）
-3. 次の長尺動画投稿
+### 2日間集中投稿システム
+1. **Day 1**: Complete Collection（フル動画・長尺版）投稿
+2. **Day 2**: 全楽曲を個別動画として一斉投稿 + 再生リスト作成
+3. 次のコレクションサイクル開始
 
 ### 概要欄作成ルール
 - ナレッジのテンプレートに厳密準拠
@@ -376,7 +376,7 @@ Intense 8-bit pixel art battle scene, heroic warrior facing massive dragon, dyna
 - **完璧な内部循環**: Full Collection + Complete Playlist の2段階誘導
 
 ### 現在のフォーカス
-1. **個別楽曲の再生リスト展開** - 毎日投稿システムの完全実装
+1. **個別楽曲の再生リスト展開** - 2日間投稿システムの完全実装
 2. **内部循環最大化** - FROM THE COMPLETE COLLECTIONによる相互流入強化
 3. **感情訴求強化** - Emotional Journey準拠の没入感ある説明文
 4. **SEO最適化** - RELATED SEARCHES + ハッシュタグ戦略の完全実装
