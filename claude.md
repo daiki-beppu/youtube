@@ -13,11 +13,12 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 - **ポジショニング**: 感動系8-bitチップチューンのパイオニア
 - **コアメッセージ**: "Your ultimate destination for epic chiptune adventures!"
 
-### 現在の成果（2025-08-15更新）
+### 現在の成果（2025-08-16更新）
 - **総制作時間**: 15.7+ 時間
 - **総楽曲数**: 271曲（WAVファイル）
 - **完成コレクション**: 11つ
-- **最新完成**: 011-adventure-2（Adventure Season 2・37楽曲・3:50:32）
+- **最新完成**: Adventure Season 2（37楽曲・3:50:32）
+- **ディレクトリ改革**: 日付プレフィックス + ステータス管理システム導入済み
 
 ### ブランド価値
 1. **技術革新**: プロンプトエンジニアリングのパイオニア
@@ -53,10 +54,16 @@ def format_timestamp(seconds):
 ## アーキテクチャ
 
 ### ディレクトリ構造
-- `000-xxx/`: 各音楽コレクション（001-adventure, 002-battle など）
-- `200-docs/knowledges/`: プロジェクト戦略・ノウハウの体系化された知識ベース
-- `200-docs/awareness/`: プロジェクト進行中の気づき・学びの記録
-- `working/`: 作業中ファイル・一時的な成果物
+- `000-xxx/`: 過去の音楽コレクション（001-adventure, 002-battle など）
+- `YYYYMMDD-STATUS-TYPE-NAME/`: 新規コンテンツ（日付プレフィックス付き）
+- `documentation/`: プロジェクト戦略・ノウハウ・記録の統合管理
+  - `knowledges/`: 体系化された知識ベース
+  - `awareness/`: プロジェクト進行中の気づき・学びの記録
+  - `working/`: 作業中ファイル・一時的な成果物
+- `collections/`: コレクション管理（live/, ready/, production/, planning/, archives/）
+- `individuals/`: 個別楽曲管理（daily-posts/, ready-queue/, archives/）
+- `operations/`: 運営業務（analytics/, seo-content/, thumbnails/, scheduling/）
+- `resources/`: 共通リソース（templates/, assets/）
 
 ### 各コレクションの標準構造
 ```
@@ -72,15 +79,15 @@ XXX-collection-name/
 ## マスターナレッジベースシステム
 
 ### 必須確認事項
-1. **回答前に必ずマスターナレッジベース確認**: `200-docs/knowledges/00-master-knowledge-base.md` を参照
+1. **回答前に必ずマスターナレッジベース確認**: `documentation/00-unified-knowledge-base.md` を参照
 2. **ファイル構成の実態確認**: 楽曲リスト・時間データ作成時は必ず実ファイルを確認
 3. **時間表記統一**: 1時間未満 `xx:xx` / 1時間以上 `x:xx:xx` 形式厳守
 
 ### ナレッジファイル構成
-- `00-master-knowledge-base.md`: 統合知識ベース（必ず最初に参照）
-- `04-description-seo.md`: YouTube 概要欄テンプレート・SEO戦略
-- `03-prompt-engineering.md`: 音楽生成プロンプト技法
-- `05-thumbnail-branding.md`: サムネイル・ブランディング戦略
+- `documentation/00-unified-knowledge-base.md`: 統合知識ベース（必ず最初に参照）
+- 全ての旧ナレッジファイルが統合済み
+- 新しい学びは `documentation/awareness/` で記録
+- 作業中資料は `documentation/working/` で管理
 
 ## 🔥 音楽制作プロンプト技法
 
@@ -150,13 +157,19 @@ COMPLETE ADVENTURE SERIES: 全11コレクションへの循環
 
 ## 記録システム
 
-### awareness/ ディレクトリ
+### documentation/awareness/ ディレクトリ
 - プロジェクト進行中の重要な気づき・学びを記録
 - ファイル名: `YYYYMMDD-タイトル.md`
 
-### working/ ディレクトリ  
+### documentation/working/ ディレクトリ  
 - 作業中の一時ファイル・成果物
 - 概要欄ドラフト、プロンプト集、分析資料など
+
+### 新規コンテンツの命名規則
+- `YYYYMMDD-STATUS-TYPE-NAME/`
+- STATUS: LIVE（投稿済み）, READY（投稿準備完了）, PROD（制作中）, PLAN（企画中）
+- TYPE: collection（コレクション）, individual（個別楽曲）, special（特別企画）
+- 例: `20250817-READY-collection-ocean-adventure`
 
 ## Git ワークフロー
 
@@ -241,8 +254,10 @@ Co-Authored-By: Claude <noreply@anthropic.com>
 - **戦略価値**: 戦闘音楽の極致
 
 ### 11. Adventure Season 2 (37曲・3:50:32) ✅
+- **URL**: 投稿後に追加予定
 - **特徴**: 史上最大ボリューム・完璧な物語性
 - **戦略価値**: プロジェクトの集大成
+- **ディレクトリ**: `20250816-LIVE-collection-adventure-season-2/`
 
 ### プレイリストURL
 - **🗡️ Adventure**: https://www.youtube.com/playlist?list=PLJ5vG59SMwtWJht-NRs3n88P-lBRWW9sS
