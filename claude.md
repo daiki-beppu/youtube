@@ -204,6 +204,8 @@ Co-Authored-By: Claude <noreply@anthropic.com>
 
 ## 📊 完成済みコレクション一覧（11コレクション）
 
+**全コレクションの統合管理**: `collections/live/` ディレクトリにて統一管理
+
 ### 1. Adventure Music (24曲・1:00:00) ✅
 - **URL**: https://youtu.be/j3VYctGmZTE
 - **特徴**: 冒険→戦闘の流れで完璧な物語性
