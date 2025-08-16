@@ -8,8 +8,6 @@
 documentation/
 ├── 00-unified-knowledge-base.md    # 統合マスターナレッジベース
 ├── awareness/                      # プロジェクト学習・気づきの記録
-├── working/                        # 作業中ドキュメント・一時資料
-└── knowledges/                     # 旧ナレッジファイル（統合済み・保管用）
 ```
 
 ## 📋 各ディレクトリの役割
@@ -65,19 +63,6 @@ YYYYMMDD-タイトル.md
 - **実験記録**: 試行錯誤の過程を保持
 - **共有資料**: チーム作業での情報共有
 
-### 📦 knowledges/ - レガシーナレッジ保管
-**統合前の旧ナレッジファイル**を保管（参考・バックアップ用）
-
-#### 統合済みファイル（バックアップ保管）
-- `01-project-overview.md` → ✅ 統合済み
-- `02-target-analysis.md` → ✅ 統合済み
-- `03-prompt-engineering.md` → ✅ 統合済み
-- `04-description-seo.md` → ✅ 統合済み
-- `05-thumbnail-branding.md` → ✅ 統合済み
-- `06-workflow-quality.md` → ✅ 統合済み
-- `07-collection-data.md` → ✅ 統合済み
-- `08-analytics-insights.md` → ✅ 統合済み
-- `09-future-strategy.md` → ✅ 統合済み
 
 **注意**: これらのファイルの内容はすべて `00-unified-knowledge-base.md` に統合済み。参考・バックアップ用として保管。
 

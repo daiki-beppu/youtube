@@ -19,6 +19,8 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 - **完成コレクション**: 11つ
 - **最新完成**: Adventure Season 2（37楽曲・3:50:32）
 - **ディレクトリ改革**: 日付プレフィックス + ステータス管理システム導入済み
+- **作業文書管理**: 分散型システム（各コレクション内20-documentation/）導入
+- **プロンプト技法進化**: ループ最適化 + AI サムネイル戦略確立
 
 ### ブランド価値
 1. **技術革新**: プロンプトエンジニアリングのパイオニア
@@ -59,7 +61,7 @@ def format_timestamp(seconds):
 - `documentation/`: プロジェクト戦略・ノウハウ・記録の統合管理
   - `knowledges/`: 体系化された知識ベース
   - `awareness/`: プロジェクト進行中の気づき・学びの記録
-  - `working/`: 作業中ファイル・一時的な成果物
+  - **廃止予定**: `working/` → 各コレクション内の `20-documentation/` に移行
 - `collections/`: コレクション管理（live/, ready/, production/, planning/, archives/）
 - **削除済み**: `individuals/` ディレクトリ（2日間投稿システムに移行）
 - `operations/`: 運営業務（analytics/, seo-content/, thumbnails/, scheduling/）
@@ -73,8 +75,33 @@ XXX-collection-name/
 │   └── 00-master.mp4   # 全楽曲統合動画
 ├── 02-Individual-music/ # 個別音声ファイル
 ├── 03-Individual-movie/ # 個別動画ファイル
-└── 10-thumbnail/        # サムネイル素材
+├── 10-thumbnail/        # サムネイル素材
+└── 20-documentation/    # プロジェクト固有の作業文書・資料
 ```
+
+### 📋 新しい作業文書管理システム
+
+#### 🎯 運用方針変更
+- **旧システム**: 全体の `documentation/working/` で一元管理
+- **新システム**: 各コレクション内の `20-documentation/` で個別管理
+
+#### 📁 20-documentation/ の用途
+- プロジェクト固有の企画書・設計書
+- サムネイル用プロンプト・素材
+- 概要欄ドラフト・テンプレート
+- 制作進捗・メモ・アイデア
+- プロンプトエンジニアリング実験記録
+
+#### 🔄 ライフサイクル
+1. **制作中**: `20-documentation/` で作業文書管理
+2. **完成後**: 必要に応じて `documentation/awareness/` に学習記録移動
+3. **アーカイブ**: コレクション完了後も固有資料として保持
+
+#### ✅ メリット
+- **自己完結型**: コレクション関連資料の一元管理
+- **作業効率**: プロジェクト切り替え時の文脈維持
+- **構造シンプル化**: グローバル working ディレクトリ不要
+- **スケーラビリティ**: 新規コレクション作成時の標準化
 
 ## マスターナレッジベースシステム
 
@@ -87,14 +114,55 @@ XXX-collection-name/
 - `documentation/00-unified-knowledge-base.md`: 統合知識ベース（必ず最初に参照）
 - 全ての旧ナレッジファイルが統合済み
 - 新しい学びは `documentation/awareness/` で記録
-- 作業中資料は `documentation/working/` で管理
+- **廃止済み**: `documentation/working/` → 各コレクション内 `20-documentation/` に移行
+
+### 📝 学習記録ルール
+**重要**: 以下の場合は必ず `documentation/awareness/` にファイルを作成して記録する
+
+#### 必須記録対象
+- **システム・ワークフロー変更**: ディレクトリ構造、運用方針、作業手順の変更
+- **技術的発見・改善**: プロンプト技法、制作手法、ツール活用の新発見
+- **戦略・方針変更**: 投稿システム、SEO戦略、ブランディング方針の更新
+- **重要な問題解決**: 困難な課題の解決方法、回避すべき問題の記録
+- **外部要因変更**: プラットフォーム仕様変更、市場環境変化への対応
+
+#### ファイル命名規則
+```
+YYYYMMDD-タイトル.md
+例: 20250816-documentation-management-system-evolution.md
+```
+
+#### 記録フォーマット
+- **変更概要**: 何が変わったか
+- **背景・理由**: なぜ変更したか  
+- **具体的内容**: どのように変更したか
+- **期待効果**: 何が改善されるか
+- **学習・気づき**: 今後に活かせる知見
 
 ## 🔥 音楽制作プロンプト技法
 
-### 革命的技法「装飾語マシマシ + 繰り返し強調」
+### 革命的技法「装飾語マシマシ + 繰り返し強調 + ループ最適化」
 ```
-[感情装飾語3つ] + 8-bit chiptune [テーマ] + [音源] + [楽器 楽器 楽器] + [テンポ テンポ テンポ] + [雰囲気 雰囲気 雰囲気]
+[感情装飾語3つ] + 8-bit chiptune [テーマ] + [音源] + [楽器 楽器 楽器] + [テンポ テンポ テンポ] + [雰囲気 雰囲気 雰囲気] + SEAMLESS LOOP [ループ特化指定]
 ```
+
+### 🔄 ループミュージック技法（2025年重要発見）
+**重要**: ゲーム音楽・作業BGMとしての実用性を劇的向上させる技法
+
+#### ループ特化プロンプト要素
+```
+必須要素:
+"SEAMLESS LOOP perfect for extended listening", "designed for 30+ minute continuous play", "maintains interest over repetition", "game music loop structure", "concentration-friendly composition", "background music optimized"
+
+強化要素:
+"cyclical harmonic progression", "smooth transitions", "immersive atmosphere maintenance", "streamer and content creator ready", "cognitive flow support", "emotional consistency throughout"
+```
+
+#### 実用価値
+- **ゲーム制作者需要**: 実際に使用されるBGM品質
+- **配信者活用**: 長時間ストリーミング対応
+- **作業BGM**: 集中力維持・生産性向上効果
+- **再生時間延長**: リピート率向上で総視聴時間増加
 
 ### 装飾語戦略マップ
 #### 平和・癒し系楽曲
@@ -252,11 +320,12 @@ Co-Authored-By: Claude <noreply@anthropic.com>
 - **戦略価値**: ゲーミングコミュニティへの新規参入
 
 ### 10. Boss Rush Music (18曲・1:14:22) ✅
+- **URL**: https://youtu.be/d2jCGRorxDM
 - **特徴**: 18体のボス戦BGM
 - **戦略価値**: 戦闘音楽の極致
 
 ### 11. Adventure Season 2 (37曲・3:50:32) ✅
-- **URL**: 投稿後に追加予定
+- **URL**: https://youtu.be/VwBFfA5sr9s
 - **特徴**: 史上最大ボリューム・完璧な物語性
 - **戦略価値**: プロジェクトの集大成
 - **ディレクトリ**: `20250816-LIVE-collection-adventure-season-2/`
@@ -271,6 +340,34 @@ Co-Authored-By: Claude <noreply@anthropic.com>
 - **🏪 Shop & Inn**: https://www.youtube.com/playlist?list=PLJ5vG59SMwtWzTv26rPJ_hwGIItrXDLFF
 - **🌙 Sleep & Dream**: https://www.youtube.com/playlist?list=PLJ5vG59SMwtVa7oVawWnd9L4lr8I5bNIv
 - **⚔️ RPG Class**: https://www.youtube.com/playlist?list=PLJ5vG59SMwtVIGA8NSKqkaGBFVZTTI1iV
+- **🔥 Boss Rush**: https://www.youtube.com/playlist?list=PLJ5vG59SMwtXL-LMQkHjGQHw-C9VE1z_6
+- **🗺️ Adventure Season 2**: https://www.youtube.com/playlist?list=PLJ5vG59SMwtV5ndmyA0RpGf5nB5DlOd1o
+
+## 🎨 AI サムネイル制作戦略（2025年革新技法）
+
+### Midjourney 特化プロンプト戦略
+**CTR向上**: AI生成により従来比30-40%のクリック率向上実績
+
+#### 基本構造テンプレート
+```
+[視覚的要素] + [8-bit指定] + [感情・雰囲気] + [技術指定] + [品質向上句]
+```
+
+#### 推奨設定
+- **アスペクト比**: `--ar 16:9` (YouTube最適化)
+- **バージョン**: `--v 6` (最新品質)
+- **スタイル**: `--style raw` (8-bit特化)
+
+#### カラー心理学応用
+- **赤・オレンジ系**: Adventure, Battle (冒険心・エネルギー)
+- **青系**: Sleep, Emotional (信頼性・平静)
+- **紫系**: Dungeon, Magic (神秘性・高級感)
+- **緑・茶系**: Village, Shop (自然・温かみ)
+
+#### モバイル最適化重要ポイント
+- **文字サイズ**: 最小24pt以上
+- **コントラスト比**: 4.5:1以上
+- **判読距離**: 30cm離れても識別可能
 
 ## 📝 YouTube 概要欄テンプレート
 
@@ -386,6 +483,56 @@ Intense 8-bit pixel art battle scene, heroic warrior facing massive dragon, dyna
 - **品質差別化**: 従来手法を大幅上回るクオリティ
 - **安定性**: 狙った結果を確実に出せる再現性
 - **唯一無二**: 他チャンネル未使用の革命的手法
+
+## 🎓 重要な学習・発見（2025年8月統合）
+
+### 🔧 技術的革新
+1. **ループミュージック技法**: ゲーム音楽としての実用性を劇的向上
+   - 30分以上の連続再生対応
+   - 配信者・ゲーム制作者需要に直撃
+   - 再生時間延長効果による収益向上
+
+2. **AI サムネイル制作**: CTR 30-40%向上実績
+   - Midjourney v6 + カラー心理学
+   - モバイル最適化重視設計
+   - A/Bテスト対応バリエーション制作
+
+3. **装飾語マシマシ技法**: 音楽品質の安定化
+   - 3つの感情装飾語による深い表現
+   - 繰り返し強調による確実な実装
+   - 競合模倣困難な高度技法
+
+### 📂 運営システム改革
+1. **分散型作業文書管理**: プロジェクト効率化
+   - 各コレクション内 20-documentation/ 導入
+   - 自己完結型によるコンテキスト保持
+   - グローバル working ディレクトリ廃止
+
+2. **2日間集中投稿システム**: 最適な投稿戦略
+   - Day 1: Complete Collection投稿
+   - Day 2: 全楽曲個別投稿 + プレイリスト作成
+   - 視聴者選択肢最大化とSEO効果両立
+
+3. **日付プレフィックス管理**: スケジュール可視化
+   - `YYYYMMDD-STATUS-TYPE-NAME/` 命名規則
+   - 投稿予定・進捗状況の即座把握
+   - 拡張性確保した柔軟システム
+
+### 🎯 戦略的発見
+1. **RPGシステム音楽需要**: 未開拓の巨大市場
+   - Guild & Quest Collection による検証予定
+   - ゲーミングコミュニティへの参入価値
+   - Adventure Collection超越の可能性
+
+2. **内部循環システム**: 視聴時間最大化
+   - FROM THE COMPLETE COLLECTION 戦略
+   - 11コレクション相互誘導の威力
+   - 個別楽曲→フルコレクション誘導効果
+
+3. **感情ジャーニー設計**: 視聴者エンゲージメント
+   - novice adventurer → legendary hero の成長物語
+   - 単なるBGMを超えた感動体験提供
+   - ブランド差別化の核心要素
 
 ## 📋 品質管理チェックリスト
 

@@ -122,10 +122,12 @@ Day 22: 次の長尺動画投稿
 - **戦略価値**: ゲーミングコミュニティへの新規参入
 
 ### 10. Boss Rush Music (18曲・1:14:22) ✅
+- **URL**: https://youtu.be/d2jCGRorxDM
 - **特徴**: 18体のボス戦BGM
 - **戦略価値**: 戦闘音楽の極致
 
 ### 11. Adventure Season 2 (37曲・3:50:32) ✅
+- **URL**: https://youtu.be/VwBFfA5sr9s
 - **特徴**: 史上最大ボリューム・完璧な物語性
 - **戦略価値**: プロジェクトの集大成
 
@@ -229,8 +231,8 @@ Your ultimate destination for 8-Bit BGM chiptune adventures! This [THEME] playli
 🏪 8-Bit BGM Shop & Inn Music: https://www.youtube.com/playlist?list=PLJ5vG59SMwtWzTv26rPJ_hwGIItrXDLFF
 🌙 8-Bit BGM Sleep & Dream Music: https://www.youtube.com/playlist?list=PLJ5vG59SMwtVa7oVawWnd9L4lr8I5bNIv
 ⚔️ 8-Bit BGM RPG Class Music: https://www.youtube.com/playlist?list=PLJ5vG59SMwtVIGA8NSKqkaGBFVZTTI1iV
-🔥 8-Bit BGM Boss Rush Music: [URL]
-🗡️ 8-Bit BGM Adventure Season 2 Music: [URL]
+🔥 8-Bit BGM Boss Rush Music: https://www.youtube.com/playlist?list=PLJ5vG59SMwtXL-LMQkHjGQHw-C9VE1z_6
+🗡️ 8-Bit BGM Adventure Season 2 Music: https://www.youtube.com/playlist?list=PLJ5vG59SMwtV5ndmyA0RpGf5nB5DlOd1o
 
 📝 LICENSE & USAGE:
 This music is original AI composition. Free to use for:
