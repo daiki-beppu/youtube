@@ -13,11 +13,11 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 - **ポジショニング**: 感動系8-bitチップチューンのパイオニア
 - **コアメッセージ**: "Your ultimate destination for epic chiptune adventures!"
 
-### 現在の成果（2025-08-16更新）
-- **総制作時間**: 15.7+ 時間
-- **総楽曲数**: 271曲（WAVファイル）
-- **完成コレクション**: 11つ
-- **最新完成**: Adventure Season 2（37楽曲・3:50:32）
+### 現在の成果（2025-08-17更新）
+- **総制作時間**: 17.4+ 時間
+- **総楽曲数**: 291曲（WAVファイル）
+- **完成コレクション**: 12つ
+- **最新完成**: Guild & Quest Collection（20楽曲・1:40:44）
 - **ディレクトリ改革**: 日付プレフィックス + ステータス管理システム導入済み
 - **作業文書管理**: 分散型システム（各コレクション内20-documentation/）導入
 - **プロンプト技法進化**: ループ最適化 + AI サムネイル戦略確立
@@ -117,14 +117,24 @@ XXX-collection-name/
 - **廃止済み**: `documentation/working/` → 各コレクション内 `20-documentation/` に移行
 
 ### 📝 学習記録ルール
-**重要**: 以下の場合は必ず `documentation/awareness/` にファイルを作成して記録する
+**🚨 最重要**: ユーザーとのやりとりのたびに、重要な学習・発見・変更は必ず `documentation/awareness/` にファイルを作成して記録する
 
-#### 必須記録対象
+#### 📋 毎回チェック項目
+**各セッション終了時に以下を確認し、該当する場合は必ずawareness/ファイル作成**：
+
+##### 必須記録対象
 - **システム・ワークフロー変更**: ディレクトリ構造、運用方針、作業手順の変更
 - **技術的発見・改善**: プロンプト技法、制作手法、ツール活用の新発見
 - **戦略・方針変更**: 投稿システム、SEO戦略、ブランディング方針の更新
 - **重要な問題解決**: 困難な課題の解決方法、回避すべき問題の記録
 - **外部要因変更**: プラットフォーム仕様変更、市場環境変化への対応
+
+##### 追加記録推奨対象
+- **新規コレクション企画**: テーマ選定・戦略決定・プロンプト開発
+- **アナリティクス分析**: パフォーマンス変化・視聴者行動の新発見
+- **競合調査**: 他チャンネル分析・市場変化・差別化戦略
+- **ユーザーフィードバック**: コメント・評価・視聴者要望の重要パターン
+- **制作効率化**: 作業時間短縮・品質向上・ミス回避の新手法
 
 #### ファイル命名規則
 ```
@@ -138,6 +148,20 @@ YYYYMMDD-タイトル.md
 - **具体的内容**: どのように変更したか
 - **期待効果**: 何が改善されるか
 - **学習・気づき**: 今後に活かせる知見
+
+#### 🔄 実行手順（Claude用）
+**ユーザーからの呼び出しのたびに以下を復唱・実行**：
+
+1. **セッション開始時**：「今回のやりとりで重要な学習・発見があれば、awareness/ディレクトリに記録します」と宣言
+2. **作業中**：重要な発見・変更・問題解決があった際は即座にメモ
+3. **セッション終了前**：記録すべき内容がある場合は awareness/ ファイル作成を提案・実行
+4. **記録完了後**：「本日の重要な学習を awareness/[ファイル名] に記録しました」と報告
+
+#### 🎯 記録品質向上ポイント
+- **具体性重視**: 抽象的ではなく具体的なデータ・手順・結果を記録
+- **再現性確保**: 他の人が読んでも同じ結果を得られる詳細度
+- **戦略的価値**: プロジェクト全体にとっての意味・価値を明確化
+- **継続的改善**: 記録内容を次回活用できる形で整理
 
 ## 🔥 音楽制作プロンプト技法
 
@@ -229,9 +253,10 @@ COMPLETE ADVENTURE SERIES: 全11コレクションへの循環
 - プロジェクト進行中の重要な気づき・学びを記録
 - ファイル名: `YYYYMMDD-タイトル.md`
 
-### documentation/working/ ディレクトリ  
-- 作業中の一時ファイル・成果物
-- 概要欄ドラフト、プロンプト集、分析資料など
+### documentation/working/ ディレクトリ（廃止予定）
+- **移行済み**: 各コレクション内 20-documentation/ に分散管理
+- **残存用途**: 汎用テンプレート・学習記録の一時保管
+- **完全廃止予定**: Phase 3で documentation/working/ 完全廃止
 
 ### 新規コンテンツの命名規則
 - `YYYYMMDD-STATUS-TYPE-NAME/`
@@ -330,6 +355,12 @@ Co-Authored-By: Claude <noreply@anthropic.com>
 - **戦略価値**: プロジェクトの集大成
 - **ディレクトリ**: `20250816-LIVE-collection-adventure-season-2/`
 
+### 12. Guild & Quest Collection (20曲・1:40:44) ✅
+- **URL**: https://youtu.be/nYCLeMcJL2k
+- **特徴**: RPGシステム音楽の先駆者・ギルド成長ストーリー
+- **戦略価値**: D&D・TTRPG界隈への新規参入
+- **ディレクトリ**: `20250818-LIVE-collection-guild/`
+
 ### プレイリストURL
 - **🗡️ Adventure**: https://www.youtube.com/playlist?list=PLJ5vG59SMwtWJht-NRs3n88P-lBRWW9sS
 - **⚔️ Battle**: https://www.youtube.com/playlist?list=PLJ5vG59SMwtWLGF4Cwg7-Q1Fjs20oXSKO
@@ -342,6 +373,7 @@ Co-Authored-By: Claude <noreply@anthropic.com>
 - **⚔️ RPG Class**: https://www.youtube.com/playlist?list=PLJ5vG59SMwtVIGA8NSKqkaGBFVZTTI1iV
 - **🔥 Boss Rush**: https://www.youtube.com/playlist?list=PLJ5vG59SMwtXL-LMQkHjGQHw-C9VE1z_6
 - **🗺️ Adventure Season 2**: https://www.youtube.com/playlist?list=PLJ5vG59SMwtV5ndmyA0RpGf5nB5DlOd1o
+- **🏛️ Guild & Quest**: https://www.youtube.com/playlist?list=PLJ5vG59SMwtVamT-y9idRLkx3VhGuUNoE
 
 ## 🎨 AI サムネイル制作戦略（2025年革新技法）
 
@@ -478,6 +510,23 @@ Intense 8-bit pixel art battle scene, heroic warrior facing massive dragon, dyna
 3. **感情訴求強化** - Emotional Journey準拠の没入感ある説明文
 4. **SEO最適化** - RELATED SEARCHES + ハッシュタグ戦略の完全実装
 
+### 次期企画戦略（2025年8月企画）
+#### 🏛️ 最優先: Guild & Quest Collection
+- **戦略的価値**: D&D・TTRPG界隈で巨大需要、競合絶対優位
+- **期待CTR**: 1.8%+（RPG特化による高エンゲージメント）
+- **楽曲構成**: ギルド登録→クエスト→達成の20楽曲成長ストーリー
+
+#### 🎓 第2推奨: Academy & Magic School Collection  
+- **戦略的根拠**: Adventure系成功要因継承（CTR 2.35%実績）
+- **感情訴求**: 青春ノスタルジア・成長物語の普遍的魅力
+- **技術革新**: Academy特化装飾語マップ・5部構成物語設計
+- **楽曲構成**: 入学→学習→冒険→成長→特別編の25楽曲
+
+#### 🌊 第3候補: Ocean & Sea Adventure Collection
+- **Adventure系拡張**: 海洋冒険の壮大スケール
+- **未開拓環境**: 海・水中テーマは8-bit音楽で希少
+- **物語性**: 船出→嵐→海戦→海底神殿→伝説の島発見
+
 ### 技術的優位性の維持
 - **模倣困難**: 装飾語選択の高度な感性要求
 - **品質差別化**: 従来手法を大幅上回るクオリティ
@@ -485,6 +534,23 @@ Intense 8-bit pixel art battle scene, heroic warrior facing massive dragon, dyna
 - **唯一無二**: 他チャンネル未使用の革命的手法
 
 ## 🎓 重要な学習・発見（2025年8月統合）
+
+### 📊 YouTube パフォーマンス分析（2025-08-16）
+#### 現在の成果
+- **総視聴回数**: 3,062回
+- **総再生時間**: 101.88時間
+- **新規登録者**: 40人
+- **平均CTR**: 0.58%
+
+#### トップパフォーマー
+1. **Adventure Music**: 146回・CTR 2.35%
+2. **Dungeon Music**: 115回・CTR 1.45%
+3. **RPG Class Music**: 114回・CTR 0.71%
+
+#### 戦略的発見
+- **長時間コレクション圧勝**: 1時間以上の動画が安定した高パフォーマンス
+- **Boss Battle系異常高CTR**: 5-7%台の驚異的数値
+- **Adventure系成功要因**: 物語性・感情訴求・完璧な構成
 
 ### 🔧 技術的革新
 1. **ループミュージック技法**: ゲーム音楽としての実用性を劇的向上
@@ -501,12 +567,14 @@ Intense 8-bit pixel art battle scene, heroic warrior facing massive dragon, dyna
    - 3つの感情装飾語による深い表現
    - 繰り返し強調による確実な実装
    - 競合模倣困難な高度技法
+   - Academy特化装飾語マップ等テーマ別体系化
 
 ### 📂 運営システム改革
 1. **分散型作業文書管理**: プロジェクト効率化
    - 各コレクション内 20-documentation/ 導入
    - 自己完結型によるコンテキスト保持
    - グローバル working ディレクトリ廃止
+   - プロジェクト切り替え時の文脈維持・作業効率向上
 
 2. **2日間集中投稿システム**: 最適な投稿戦略
    - Day 1: Complete Collection投稿
@@ -518,21 +586,33 @@ Intense 8-bit pixel art battle scene, heroic warrior facing massive dragon, dyna
    - 投稿予定・進捗状況の即座把握
    - 拡張性確保した柔軟システム
 
+4. **プレイリスト概要欄最適化**: 標準フォーマット確立
+   - 簡潔性重視・具体例による使用イメージ向上
+   - FROM THE構造による明確なフル動画誘導
+   - 新フォーマットで内部循環率向上
+
 ### 🎯 戦略的発見
 1. **RPGシステム音楽需要**: 未開拓の巨大市場
    - Guild & Quest Collection による検証予定
    - ゲーミングコミュニティへの参入価値
    - Adventure Collection超越の可能性
+   - D&D・TTRPG界隈での確実需要
 
 2. **内部循環システム**: 視聴時間最大化
    - FROM THE COMPLETE COLLECTION 戦略
    - 11コレクション相互誘導の威力
    - 個別楽曲→フルコレクション誘導効果
+   - Boss Rush & Adventure Season 2 URL更新で完全体制
 
 3. **感情ジャーニー設計**: 視聴者エンゲージメント
    - novice adventurer → legendary hero の成長物語
    - 単なるBGMを超えた感動体験提供
    - ブランド差別化の核心要素
+
+4. **アナリティクス駆動企画**: データに基づく戦略決定
+   - Adventure系CTR 2.35%・Boss Battle系5-7%の実績活用
+   - 長時間コンテンツ（2-4時間）の圧倒的優位性確認
+   - Academy & Magic School等新企画の科学的根拠確立
 
 ## 📋 品質管理チェックリスト
 
@@ -578,3 +658,30 @@ Intense 8-bit pixel art battle scene, heroic warrior facing massive dragon, dyna
 □ ブランド統一性維持
 □ 競合との差別化
 ```
+
+## 🚀 新規企画準備状況
+
+### collections/planning/ 企画管理
+```
+20250824-planning-collection-academy-magic-school/
+├── 20-documentation/
+│   └── 20250817-academy-magic-school-suno-prompts.md  # 25楽曲完全プロンプト集
+20250826-planning-collection-nostalgia-campfire/
+20250828-planning-collection-ocean-sea-adventure/
+```
+
+### Guild Collection 投稿準備完了
+```
+20250818-production-collection-guild/
+├── 20-documentation/
+│   ├── 20250816-guild-collection-full-description.md      # フル動画用概要欄
+│   ├── 20250816-guild-collection-playlist-description.md  # プレイリスト用概要欄
+│   └── 20250816-guild-thumbnail-midjourney-prompts.md     # サムネイル素材
+```
+
+### 企画選定プロセス最適化
+1. **アナリティクス分析** → 成功パターン特定
+2. **戦略仮説構築** → CTR・視聴時間予測
+3. **企画詳細設計** → 楽曲構成・物語性設計
+4. **プロンプト体系作成** → テーマ特化装飾語マップ
+5. **制作・投稿実行** → 効果測定・学習記録
