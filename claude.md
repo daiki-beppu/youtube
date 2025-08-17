@@ -53,6 +53,33 @@ def format_timestamp(seconds):
         return f"{minutes}:{seconds:02d}"
 ```
 
+### FFmpeg 動画ファイル作成（2025-08-17 確立）
+音声ファイル + 静止画サムネイルから YouTube 用動画を自動生成:
+
+#### 基本コマンド
+```bash
+ffmpeg -loop 1 -i "[サムネイル.png]" -i "[音声.wav]" -c:v libx264 -c:a aac -shortest "[出力.mp4]"
+```
+
+#### バッチ処理例
+```bash
+#!/bin/bash
+# 複数ファイル一括変換
+for i in {1..22}; do
+    ffmpeg -y -loop 1 \
+      -i "thumbnail.png" \
+      -i "${i}-track.wav" \
+      -c:v libx264 -c:a aac -shortest \
+      "${i}-track.mp4"
+done
+```
+
+#### 品質基準
+- 解像度: 1280x720 (HD)
+- コーデック: H.264/AAC
+- 処理速度: 約10-11x リアルタイム
+- YouTube最適化済み
+
 ## アーキテクチャ
 
 ### ディレクトリ構造

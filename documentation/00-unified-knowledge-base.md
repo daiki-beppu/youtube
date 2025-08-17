@@ -405,6 +405,49 @@ Intense 8-bit pixel art battle scene, heroic warrior facing massive dragon, dyna
 例: 07_description_main.txt, 07_description_individual.txt
 ```
 
+## 🎬 FFmpeg 動画制作ワークフロー（2025-08-17 確立）
+
+### 基本コマンド構造
+```bash
+ffmpeg -loop 1 \
+  -i "[サムネイル画像パス]" \
+  -i "[音声ファイルパス]" \
+  -c:v libx264 -c:a aac -shortest \
+  "[出力動画パス]"
+```
+
+### パラメータ解説
+- **-loop 1**: 静止画を音声時間分ループ再生
+- **-c:v libx264**: H.264動画コーデック（YouTube標準）
+- **-c:a aac**: AAC音声コーデック（高品質・汎用性）
+- **-shortest**: 音声時間に合わせて動画終了
+
+### バッチ処理スクリプト活用
+```bash
+#!/bin/bash
+# 複数動画一括作成スクリプト例
+for i in {1..22}; do
+    ffmpeg -y -loop 1 \
+      -i "thumbnail.png" \
+      -i "${i}-track.wav" \
+      -c:v libx264 -c:a aac -shortest \
+      "${i}-track.mp4"
+done
+```
+
+### 出力品質基準
+- **解像度**: 1280x720 (HD)
+- **フレームレート**: 25fps
+- **動画コーデック**: H.264 (High 4:4:4 Predictive)
+- **音声コーデック**: AAC LC, 48kHz, ステレオ, 128kbps
+- **処理速度**: 約10-11x リアルタイム
+
+### 実用価値
+- **YouTube最適化**: プラットフォーム標準フォーマット対応
+- **2日間投稿システム対応**: Day2個別動画投稿の完全準備
+- **制作効率化**: 手動編集不要による大幅時間節約
+- **品質統一**: 全楽曲で一貫したプロフェッショナル品質
+
 ## 🎵 品質管理システム
 
 ### 音楽品質チェックリスト
