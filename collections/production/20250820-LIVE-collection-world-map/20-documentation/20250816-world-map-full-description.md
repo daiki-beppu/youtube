@@ -29,40 +29,40 @@ Embark on the ultimate RPG adventure across 22 legendary realms in our most ambi
 ⏰ COMPLETE WORLD MAP JOURNEY:
 
 **🌿 Plains & Meadow Realms (0:00-19:31)**
-0:00 01. Dawn of Adventure (4:36)
-4:36 02. First Steps Forward (3:14)  
-7:51 03. Endless Green Fields (3:38)
-11:30 04. Meadow Crossroads (4:01)
-15:32 05. Wildflower Valley (3:58)
+0:00 01. Dawn of Adventure
+4:36 02. First Steps Forward
+7:51 03. Endless Green Fields
+11:30 04. Meadow Crossroads
+15:32 05. Wildflower Valley
 
 **🌲 Ancient Forest Territories (19:31-28:41)**  
-19:31 06. Ancient Forest Path (5:55)
-25:26 07. Whispering Woods (3:14)
-28:41 08. Sunbeam Cathedral (4:22)
+19:31 06. Ancient Forest Path
+25:26 07. Whispering Woods
+28:41 08. Sunbeam Cathedral
 
 **🏜️ Desert & Oasis Regions (33:03-43:20)**
-33:03 09. Desert Caravan Trail (2:57)
-36:01 10. Mirage Oasis (4:44)
-40:46 11. Sandstorm Passage (2:34)
+33:03 09. Desert Caravan Trail
+36:01 10. Mirage Oasis
+40:46 11. Sandstorm Passage
 
 **⛰️ Mountain & Highland Peaks (43:20-57:54)**
-43:20 12. Mountain Pass Ascent (4:50)
-48:11 13. Highland Vista (2:55)
-51:06 14. Crystal Peak Temple (6:47)
+43:20 12. Mountain Pass Ascent
+48:11 13. Highland Vista
+51:06 14. Crystal Peak Temple
 
 **🌊 Coastal & Ocean Realms (57:54-1:08:48)**
-57:54 15. Coastal Highway (3:57)
-1:01:52 16. Harbor of Distant Lands (3:26)
-1:05:18 17. Ocean Horizon Sailing (3:29)
+57:54 15. Coastal Highway
+1:01:52 16. Harbor of Distant Lands
+1:05:18 17. Ocean Horizon Sailing
 
 **☁️ Sky & Floating Territories (1:08:48-1:21:21)**
-1:08:48 18. Sky Bridge Journey (4:34)
-1:13:23 19. Floating Island City (3:49)  
-1:17:12 20. Wind Current Rapids (4:09)
+1:08:48 18. Sky Bridge Journey
+1:13:23 19. Floating Island City
+1:17:12 20. Wind Current Rapids
 
 **🏰 Final Destination & Reflection (1:21:21-1:30:16)**
-1:21:21 21. Final Destination Approach (5:08)
-1:26:29 22. Journey's End Reflection (3:47)
+1:21:21 21. Final Destination Approach
+1:26:29 22. Journey's End Reflection
 
 🎯 ABOUT 8-BIT ADVENTURE HUB:
 Your ultimate destination for 8-Bit BGM chiptune adventures! This World Map collection showcases the power of music to transport you across infinite fantasy realms through our signature exploratory melodies, wanderlust-inducing harmonies, and horizon-expanding crescendos. Experience the complete RPG world in one epic musical journey!
@@ -74,17 +74,11 @@ Your ultimate destination for 8-Bit BGM chiptune adventures! This World Map coll
 🔄 Share with someone ready to explore infinite worlds today!
 
 🎮 COMPLETE ADVENTURE SERIES:
-🗡️ 8-Bit BGM Adventure Music: https://www.youtube.com/playlist?list=PLJ5vG59SMwtWJht-NRs3n88P-lBRWW9sS
-⚔️ 8-Bit BGM Battle Music: https://www.youtube.com/playlist?list=PLJ5vG59SMwtWLGF4Cwg7-Q1Fjs20oXSKO
-🏰 8-Bit BGM Dungeon Music: https://www.youtube.com/playlist?list=PLJ5vG59SMwtU9OMl5P7Hrw1890yIu1YOR
-🏘️ 8-Bit BGM Village & Town Music: https://www.youtube.com/playlist?list=PLJ5vG59SMwtUWBCtaTFt4teZ9RYt5DkTZ
-🏯 8-Bit BGM Japanese RPG Music: https://www.youtube.com/playlist?list=PLJ5vG59SMwtUyBEKEhkO7qOJwmkoo6XDy
-💔 8-Bit BGM Emotional Journey Music: https://www.youtube.com/playlist?list=PLJ5vG59SMwtW3i2qvg2EFRXxeC2vZrd9N
-🏪 8-Bit BGM Shop & Inn Music: https://www.youtube.com/playlist?list=PLJ5vG59SMwtWzTv26rPJ_hwGIItrXDLFF
-🌙 8-Bit BGM Sleep & Dream Music: https://www.youtube.com/playlist?list=PLJ5vG59SMwtVa7oVawWnd9L4lr8I5bNIv
-⚔️ 8-Bit BGM RPG Class Music: https://www.youtube.com/playlist?list=PLJ5vG59SMwtVIGA8NSKqkaGBFVZTTI1iV
-🔥 8-Bit BGM Boss Rush Music: https://www.youtube.com/playlist?list=PLJ5vG59SMwtXL-LMQkHjGQHw-C9VE1z_6
-🗡️ 8-Bit BGM Adventure Season 2 Music: https://www.youtube.com/playlist?list=PLJ5vG59SMwtV5ndmyA0RpGf5nB5DlOd1o
+🗡️ 8-Bit Adventure Music (CTR 2.35%): https://youtu.be/j3VYctGmZTE
+🏰 8-Bit Dungeon Music (CTR 1.45%): https://youtu.be/Imwkjvx-7bc
+⚔️ 8-Bit RPG Class Music: https://youtu.be/YPMwKYVET1s
+🗡️ 8-Bit Adventure Season 2: https://youtu.be/VwBFfA5sr9s
+🏛️ 8-Bit Guild & Quest Music: https://youtu.be/nYCLeMcJL2k
 
 📝 LICENSE & USAGE:
 This music is original AI composition. Free to use for:

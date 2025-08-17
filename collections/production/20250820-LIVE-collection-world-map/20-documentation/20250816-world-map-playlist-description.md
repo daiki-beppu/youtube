@@ -8,7 +8,7 @@ Experience the complete collection of 22 individual tracks from our ambitious 8-
 
 🗺️ FROM THE 8-Bit BGM WORLD MAP COLLECTION:
 This playlist features all 22 tracks from our complete 1:30:16 epic world journey masterpiece:
-➤ **Full 1:30:16 Version**: [MAIN_VIDEO_URL]
+➤ **Full 1:30:16 Version**: https://youtu.be/6D_ph8hNwNY
 
 🛡️ PERFECT FOR:
 ✅ Extended study sessions & world-exploration ambiance (1:30:16 hours)
@@ -30,17 +30,11 @@ Your ultimate destination for 8-Bit BGM chiptune adventures! This World Map play
 🔄 Share with someone ready to explore infinite worlds today!
 
 🎮 COMPLETE ADVENTURE SERIES:
-🗡️ 8-Bit BGM Adventure Music: https://www.youtube.com/playlist?list=PLJ5vG59SMwtWJht-NRs3n88P-lBRWW9sS
-⚔️ 8-Bit BGM Battle Music: https://www.youtube.com/playlist?list=PLJ5vG59SMwtWLGF4Cwg7-Q1Fjs20oXSKO
-🏰 8-Bit BGM Dungeon Music: https://www.youtube.com/playlist?list=PLJ5vG59SMwtU9OMl5P7Hrw1890yIu1YOR
-🏘️ 8-Bit BGM Village & Town Music: https://www.youtube.com/playlist?list=PLJ5vG59SMwtUWBCtaTFt4teZ9RYt5DkTZ
-🏯 8-Bit BGM Japanese RPG Music: https://www.youtube.com/playlist?list=PLJ5vG59SMwtUyBEKEhkO7qOJwmkoo6XDy
-💔 8-Bit BGM Emotional Journey Music: https://www.youtube.com/playlist?list=PLJ5vG59SMwtW3i2qvg2EFRXxeC2vZrd9N
-🏪 8-Bit BGM Shop & Inn Music: https://www.youtube.com/playlist?list=PLJ5vG59SMwtWzTv26rPJ_hwGIItrXDLFF
-🌙 8-Bit BGM Sleep & Dream Music: https://www.youtube.com/playlist?list=PLJ5vG59SMwtVa7oVawWnd9L4lr8I5bNIv
-⚔️ 8-Bit BGM RPG Class Music: https://www.youtube.com/playlist?list=PLJ5vG59SMwtVIGA8NSKqkaGBFVZTTI1iV
-🔥 8-Bit BGM Boss Rush Music: https://www.youtube.com/playlist?list=PLJ5vG59SMwtXL-LMQkHjGQHw-C9VE1z_6
-🗡️ 8-Bit BGM Adventure Season 2 Music: https://www.youtube.com/playlist?list=PLJ5vG59SMwtV5ndmyA0RpGf5nB5DlOd1o
+🗡️ 8-Bit Adventure Music (CTR 2.35%): https://youtu.be/j3VYctGmZTE
+🏰 8-Bit Dungeon Music (CTR 1.45%): https://youtu.be/Imwkjvx-7bc
+⚔️ 8-Bit RPG Class Music: https://youtu.be/YPMwKYVET1s
+🗡️ 8-Bit Adventure Season 2: https://youtu.be/VwBFfA5sr9s
+🏛️ 8-Bit Guild & Quest Music: https://youtu.be/nYCLeMcJL2k
 
 📝 LICENSE & USAGE:
 This music is original AI composition. Free to use for:
