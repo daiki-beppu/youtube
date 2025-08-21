@@ -192,9 +192,29 @@ YYYYMMDD-タイトル.md
 
 ## 🔥 音楽制作プロンプト技法
 
+### 8-bit vs 16-bit 戦略展開
+#### 8-bit (Game Boy/NES)
+- **ターゲット**: ノスタルジア・シンプル・純粋性重視
+- **音源**: Game Boy DMG, NES, authentic chiptune
+- **特徴**: square wave, triangle wave, noise の3音源
+- **用途**: 勉強BGM, 作業用, リラックス
+
+#### 16-bit (SNES/Genesis)
+- **ターゲット**: より豊かな音色・複雑性・ゲーミング体験
+- **音源**: SNES, Sega Genesis, Super Famicom
+- **特徴**: サンプリング音源, FM音源, 多チャンネル
+- **用途**: ゲーミング, アクション系, エモーショナル
+
 ### 革命的技法「装飾語マシマシ + 繰り返し強調 + ループ最適化」
+
+#### 8-bit特化プロンプト構造
 ```
-[感情装飾語3つ] + 8-bit chiptune [テーマ] + [音源] + [楽器 楽器 楽器] + [テンポ テンポ テンポ] + [雰囲気 雰囲気 雰囲気] + SEAMLESS LOOP [ループ特化指定]
+[感情装飾語3つ] + 8-bit chiptune [テーマ] + authentic Game Boy DMG sound + [楽器 楽器 楽器] + [テンポ テンポ テンポ] + [雰囲気 雰囲気 雰囲気] + SEAMLESS LOOP [ループ特化指定]
+```
+
+#### 16-bit特化プロンプト構造
+```
+[感情装飾語3つ] + 16-bit [テーマ] + SNES/Super Famicom sound + [豊かな楽器指定] + [ダイナミックテンポ] + [複層的雰囲気] + enhanced musical complexity + SEAMLESS LOOP
 ```
 
 ### 🔄 ループミュージック技法（2025年重要発見）
@@ -468,18 +488,18 @@ Perfect for finding your favorite moments or creating custom playlists.
 #8BitMusic #[THEME]Music #StudyBGM
 ```
 
-### SEO最適化戦略
-#### プライマリーキーワード
-- **8-bit music**: 月間検索数最大のコアキーワード
-- **chiptune study**: 勉強用需要の直撃キーワード
-- **RPG music**: ゲーム音楽の中核キーワード
-- **study BGM**: 日本語圏での主要需要
-
-#### ハッシュタグ戦略
+### SEO最適化戦略（改革版）
+#### シンプルハッシュタグ戦略
 基本セット（全動画共通）:
 ```
-#8BitMusic #ChiptuneStudy #StudyBGM #8BitAdventureHub #RPGMusic #GamingMusic
+#8BitMusic #ChiptuneStudy #RPGMusic #StudyBGM
 ```
+
+#### 追加ハッシュタグ（コレクション特化）
+- Adventure系: #AdventureMusic
+- Battle系: #BattleMusic  
+- Treasure系: #TreasureHuntingMusic
+- World Map系: #WorldMapMusic
 
 ## 🎨 サムネイル & ブランディング戦略
 
@@ -636,21 +656,19 @@ Intense 8-bit pixel art battle scene, heroic warrior facing massive dragon, dyna
 □ 楽曲タイトルとの一致性
 ```
 
-### 概要欄品質チェック
+### 概要欄品質チェック（改革版）
 ```
 構造・内容:
-□ Emotional Journey準拠フォーマット
-□ FROM THE COMPLETE COLLECTION配置
-□ PERFECT FOR 8項目 (✅形式)
-□ MUSICAL FEATURES詳細説明
-□ RELATED SEARCHES配置
+□ 楽曲リスト（タイムスタンプ付き）配置
+□ 簡潔な説明文（2-3行）
+□ AI生成明記
+□ 不要な宣伝文句削除済み
 
 リンク・参照:
-□ メイン動画URL正確性
-□ プレイリストURL正確性
-□ 他コレクションURLs更新
-□ ハッシュタグ最適化
-□ 日本語説明の適切性
+□ 必要最小限のリンクのみ
+□ プレイリスト⇔フル動画の相互誘導
+□ シンプルハッシュタグ（4個以内）
+□ 関連コレクション1-2個のみ
 ```
 
 ### サムネイル品質基準
