@@ -39,7 +39,7 @@ Perfect for gaming, studying, or relaxing to nostalgic adventure melodies.
 1:40:55 21. Race Against Time Escape
 1:45:10 22. Victorious Return Journey
 
-🎮 Individual tracks: [プレイリストURL]
+🎮 Individual tracks: https://www.youtube.com/playlist?list=PLJ5vG59SMwtUZK4DRPj-R6rahr5k5dY5B
 🎮 More collections: Adventure Music: https://youtu.be/j3VYctGmZTE
 
 This music is original AI composition, free to use with attribution.

@@ -342,7 +342,7 @@ Co-Authored-By: Claude <noreply@anthropic.com>
 - Python による時間計算の自動化
 - ナレッジベース参照による品質保証
 
-## 📊 完成済みコレクション一覧（11コレクション）
+## 📊 完成済みコレクション一覧（14コレクション）
 
 **全コレクションの統合管理**: `collections/live/` ディレクトリにて統一管理
 
@@ -415,6 +415,14 @@ Co-Authored-By: Claude <noreply@anthropic.com>
 - **ディレクトリ**: `20250820-LIVE-collection-world-map/`
 - **投稿日**: 2025-08-17 投稿予約完了
 
+### 14. Treasure Collection (22曲・1:46:21) ✅
+- **URL**: https://youtu.be/9fdLLfrtNp0
+- **プレイリスト**: https://www.youtube.com/playlist?list=PLJ5vG59SMwtUZK4DRPj-R6rahr5k5dY5B
+- **特徴**: 古代遺跡探索・宝探し冒険・考古学的ストーリーテリング
+- **戦略価値**: ダンジョン探索・宝探しゲーム制作者への完全対応
+- **ディレクトリ**: `20250822-LIVE-collection-treasure/`
+- **投稿日**: 2025-08-21 投稿完了
+
 ### プレイリストURL
 - **🗡️ Adventure**: https://www.youtube.com/playlist?list=PLJ5vG59SMwtWJht-NRs3n88P-lBRWW9sS
 - **⚔️ Battle**: https://www.youtube.com/playlist?list=PLJ5vG59SMwtWLGF4Cwg7-Q1Fjs20oXSKO
@@ -429,6 +437,7 @@ Co-Authored-By: Claude <noreply@anthropic.com>
 - **🗺️ Adventure Season 2**: https://www.youtube.com/playlist?list=PLJ5vG59SMwtV5ndmyA0RpGf5nB5DlOd1o
 - **🏛️ Guild & Quest**: https://www.youtube.com/playlist?list=PLJ5vG59SMwtVamT-y9idRLkx3VhGuUNoE
 - **🗺️ World Map**: https://www.youtube.com/playlist?list=PLJ5vG59SMwtWG_614akgF-04ULrRO3cMS
+- **🏺 Treasure**: https://www.youtube.com/playlist?list=PLJ5vG59SMwtUZK4DRPj-R6rahr5k5dY5B
 
 ## 🎨 AI サムネイル制作戦略（2025年革新技法）
 
