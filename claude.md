@@ -436,61 +436,36 @@ Co-Authored-By: Claude <noreply@anthropic.com>
 - **コントラスト比**: 4.5:1以上
 - **判読距離**: 30cm離れても識別可能
 
-## 📝 YouTube 概要欄テンプレート
+## 📝 YouTube 概要欄テンプレート（改革版）
 
-### メインプレイリスト用基本構造
+### Complete Collection用（フル動画）
 ```
-8-Bit [THEME] Music - Complete [ADJECTIVE] Playlist [EMOJI][EMOJI]
+🎵 [COLLECTION_NAME] - [楽曲数] tracks, [時間]
 
-🎵 Welcome to 8-Bit Adventure Hub! 🎵
+[楽曲リスト with タイムスタンプ]
 
-Experience the complete collection of [XX] individual tracks from our 8-Bit BGM [X.X]-hour [THEME] that will take you through every [EXPERIENCE_TYPE]! Each track is now available separately, perfect for finding your exact favorite [MOMENT_TYPE] or creating custom [THEME] playlists for any mood! [EMOJI]➡️[EMOJI]
+8-bit chiptune music inspired by classic RPG [テーマ]. 
+Perfect for gaming, studying, or relaxing to nostalgic melodies.
 
-[THEME_ICON] FROM THE 8-Bit BGM [COLLECTION_NAME]:
-This playlist features all [XX] tracks from our complete [X.X]-hour [ADJECTIVE] masterpiece:
-➤ **Full**: https://youtu.be/[MAIN_VIDEO_URL]
+🎮 Individual tracks: [プレイリストURL]
+🎮 More collections: [関連1-2コレクションのみ]
 
-🛡️ PERFECT FOR:
-✅ Deep study sessions & extended focus time ([X.X] hours)
-✅ Tabletop RPG [SPECIFIC] scenes & D&D [ENCOUNTER_TYPE] encounters
-✅ Game development & retro RPG project atmosphere
-✅ Creative writing & storytelling projects ([SCENE_TYPE] scenes)
-✅ Background music for gaming streams & content creation
-✅ Nostalgic relaxation & RPG memory immersion
-✅ Productivity sessions with [ADJECTIVE] [THEME] vibes
-✅ Custom playlist creation for different [THEME] moods
+This music is original AI composition, free to use with attribution.
 
-🎯 ABOUT 8-BIT ADVENTURE HUB:
-Your ultimate destination for 8-Bit BGM chiptune adventures! This [THEME] playlist showcases the power of music to [ACTION] through our signature [QUALITY1] melodies, [QUALITY2] harmonies, and [QUALITY3] crescendos.
+#8BitMusic #ChiptuneStudy #RPGMusic #StudyBGM
+```
 
-📱 CONNECT WITH US:
-🔔 Subscribe for daily 8-Bit BGM adventures!
-👍 Like your favorite [THEME] tracks!
-💬 Comment which song [ACTION_PAST] your heart most!
-🔄 Share with someone who [NEEDS_WHAT] today!
+### Individual Tracks Playlist用（個別楽曲プレイリスト）
+```
+🎵 [COLLECTION_NAME] - Individual Tracks
 
-🎮 COMPLETE ADVENTURE SERIES:
-[全11コレクションへのリンク配置]
+All [楽曲数] tracks from the complete [時間] collection, now available separately.
 
-📝 LICENSE & USAGE:
-This music is original AI composition. Free to use for:
-- Gaming streams & videos (with attribution)
-- [SPECIFIC] content & [ADJECTIVE] videos
-- Personal [USE_CASE] & [USE_CASE]
-- [ACTIVITY] sessions & focus work
+🎮 Complete version: [フル動画URL]
 
-For commercial licensing, contact us!
+Perfect for finding your favorite moments or creating custom playlists.
 
-🎵 [THEME] MASTERY:
-From [EXAMPLE_FIRST] to [EXAMPLE_LAST], each track represents a crucial moment in the [EXPERIENCE_TYPE]. Create your perfect [ADJECTIVE] journey by selecting exactly the [ELEMENTS] and moments that match your current [STATE]'s needs!
-
-🔍 RELATED SEARCHES:
-[theme] music playlist, [adjective] [genre] collection, [specific] music tracks, [activity] music playlist, [atmosphere] music collection
-
-日本の皆様へ:
-本格的な8ビット[THEME]音楽の全[XX]曲を個別にお楽しみいただけるプレイリストです！
-
-#8BitMusic #[THEME]Music #[ADJECTIVE]Music #StudyBGM #[SPECIFIC]Music #8BitAdventureHub #[ATMOSPHERE]Music #RPGMusic #[QUALITY]Music #Playlist
+#8BitMusic #[THEME]Music #StudyBGM
 ```
 
 ### SEO最適化戦略
