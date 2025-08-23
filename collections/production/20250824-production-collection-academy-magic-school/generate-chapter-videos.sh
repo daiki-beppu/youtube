@@ -6,9 +6,9 @@
 set -e  # エラー時に停止
 
 # 基本設定
-BASE_DIR="/Users/macmini/Dropbox/08-youtube/01-8BAH/collections/production/20250823-production-collection-academy-magic-school"
+BASE_DIR="/Users/macmini/Dropbox/08-youtube/01-8BAH/collections/production/20250824-production-collection-academy-magic-school"
 MUSIC_DIR="$BASE_DIR/02-Individual-music"
-THUMBNAIL="$BASE_DIR/10-thumbnail/thamnail-base.png"
+ASSETS_DIR="$BASE_DIR/10-assets"
 OUTPUT_DIR="$BASE_DIR/03-Individual-movie"
 
 # 出力ディレクトリ作成
@@ -16,19 +16,30 @@ mkdir -p "$OUTPUT_DIR"
 
 echo "🎓 Academy & Magic School Collection - 章別動画生成開始"
 echo "📁 音楽ディレクトリ: $MUSIC_DIR"
-echo "🎨 サムネイル: $THUMBNAIL"
+echo "🎨 アセットディレクトリ: $ASSETS_DIR"
 echo "📹 出力先: $OUTPUT_DIR"
 echo ""
 
-# サムネイル存在確認
-if [ ! -f "$THUMBNAIL" ]; then
-    echo "❌ エラー: サムネイルが見つかりません: $THUMBNAIL"
-    echo "代替サムネイルを探します..."
-    
-    echo "既存のサムネイルを確認..."
-    ls -la "$BASE_DIR/10-thumbnail/"
+# 章ごとのサムネイル定義
+CHAPTER1_THUMBNAIL="$ASSETS_DIR/Academy-Life-Begins.png"
+CHAPTER2_THUMBNAIL="$ASSETS_DIR/Learning-Growth.png"
+CHAPTER3_THUMBNAIL="$ASSETS_DIR/Adventures-Challenges.png"
+CHAPTER4_THUMBNAIL="$ASSETS_DIR/Mastery-Leadership.png"
+CHAPTER5_THUMBNAIL="$ASSETS_DIR/Beyond-Academy.png"
+
+# アセットディレクトリ存在確認
+if [ ! -d "$ASSETS_DIR" ]; then
+    echo "❌ エラー: アセットディレクトリが見つかりません: $ASSETS_DIR"
     exit 1
 fi
+
+echo "🎨 章別サムネイル確認..."
+echo "  第1章: $(basename "$CHAPTER1_THUMBNAIL")"
+echo "  第2章: $(basename "$CHAPTER2_THUMBNAIL")"
+echo "  第3章: $(basename "$CHAPTER3_THUMBNAIL")"
+echo "  第4章: $(basename "$CHAPTER4_THUMBNAIL")"
+echo "  第5章: $(basename "$CHAPTER5_THUMBNAIL")"
+echo ""
 
 # 🚪 第1章: Academy Life Begins (楽曲 1-5)
 echo "🚪 第1章: Academy Life Begins 動画生成中..."
@@ -48,7 +59,7 @@ for i in "${!CHAPTER1_FILES[@]}"; do
     
     if [ -f "$input_file" ]; then
         echo "  🎵 処理中: $file"
-        ffmpeg -y -loop 1 -i "$THUMBNAIL" -i "$input_file" \
+        ffmpeg -y -loop 1 -i "$CHAPTER1_THUMBNAIL" -i "$input_file" \
                -c:v libx264 -c:a aac -shortest \
                -pix_fmt yuv420p -r 30 \
                "$output_file"
@@ -77,7 +88,7 @@ for i in "${!CHAPTER2_FILES[@]}"; do
     
     if [ -f "$input_file" ]; then
         echo "  🎵 処理中: $file"
-        ffmpeg -y -loop 1 -i "$THUMBNAIL" -i "$input_file" \
+        ffmpeg -y -loop 1 -i "$CHAPTER2_THUMBNAIL" -i "$input_file" \
                -c:v libx264 -c:a aac -shortest \
                -pix_fmt yuv420p -r 30 \
                "$output_file"
@@ -106,7 +117,7 @@ for i in "${!CHAPTER3_FILES[@]}"; do
     
     if [ -f "$input_file" ]; then
         echo "  🎵 処理中: $file"
-        ffmpeg -y -loop 1 -i "$THUMBNAIL" -i "$input_file" \
+        ffmpeg -y -loop 1 -i "$CHAPTER3_THUMBNAIL" -i "$input_file" \
                -c:v libx264 -c:a aac -shortest \
                -pix_fmt yuv420p -r 30 \
                "$output_file"
@@ -135,7 +146,7 @@ for i in "${!CHAPTER4_FILES[@]}"; do
     
     if [ -f "$input_file" ]; then
         echo "  🎵 処理中: $file"
-        ffmpeg -y -loop 1 -i "$THUMBNAIL" -i "$input_file" \
+        ffmpeg -y -loop 1 -i "$CHAPTER4_THUMBNAIL" -i "$input_file" \
                -c:v libx264 -c:a aac -shortest \
                -pix_fmt yuv420p -r 30 \
                "$output_file"
@@ -164,7 +175,7 @@ for i in "${!CHAPTER5_FILES[@]}"; do
     
     if [ -f "$input_file" ]; then
         echo "  🎵 処理中: $file"
-        ffmpeg -y -loop 1 -i "$THUMBNAIL" -i "$input_file" \
+        ffmpeg -y -loop 1 -i "$CHAPTER5_THUMBNAIL" -i "$input_file" \
                -c:v libx264 -c:a aac -shortest \
                -pix_fmt yuv420p -r 30 \
                "$output_file"

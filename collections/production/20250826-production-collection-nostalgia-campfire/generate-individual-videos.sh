@@ -5,9 +5,10 @@
 
 set -e
 
-# 基本設定
-BASE_DIR="/Users/macmini/Dropbox/08-youtube/01-8BAH/collections/production/20250825-production-collection-nostalgia-campfire"
-INPUT_IMAGE="/Users/macmini/Downloads/u5217824488_a_weary_knight_lost_in_thought_beside_a_small_cam_8eb5eb4e-e11e-4208-ba56-a26bb9f0d396_0.png"
+# 基本設定（スクリプトの場所から自動取得）
+SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+BASE_DIR="$SCRIPT_DIR"
+INPUT_VIDEO="$BASE_DIR/10-assets/main-movie.mp4"
 MUSIC_DIR="$BASE_DIR/02-Individual-music"
 OUTPUT_DIR="$BASE_DIR/03-Individual-movie"
 
@@ -15,7 +16,7 @@ OUTPUT_DIR="$BASE_DIR/03-Individual-movie"
 mkdir -p "$OUTPUT_DIR"
 
 echo "🔥 Nostalgia & Campfire Collection - 個別楽曲動画一括生成開始"
-echo "📷 使用画像: $(basename "$INPUT_IMAGE")"
+echo "🎬 使用動画: $(basename "$INPUT_VIDEO")"
 echo "📁 楽曲ディレクトリ: $MUSIC_DIR"
 echo "📁 出力ディレクトリ: $OUTPUT_DIR"
 echo ""
@@ -66,10 +67,10 @@ for music_file in "$MUSIC_DIR"/*.wav; do
     fi
     
     # 動画生成
-    echo "   🎥 0.5倍速動画生成中..."
-    if ffmpeg -y -loop 1 -i "$INPUT_IMAGE" \
+    echo "   🎥 0.25倍速動画生成中..."
+    if ffmpeg -y -stream_loop -1 -i "$INPUT_VIDEO" \
               -i "$music_file" \
-              -vf "scale=1920:1080,setpts=2.0*PTS" \
+              -vf "scale=1920:1080,setpts=4.0*PTS" \
               -c:v libx264 -c:a aac \
               -pix_fmt yuv420p -r 30 -shortest \
               "$output_video" > /dev/null 2>&1; then

@@ -5,9 +5,10 @@
 
 set -e
 
-# 基本設定
-BASE_DIR="/Users/macmini/Dropbox/08-youtube/01-8BAH/collections/production/20250825-production-collection-nostalgia-campfire"
-INPUT_IMAGE="/Users/macmini/Downloads/u5217824488_a_weary_knight_lost_in_thought_beside_a_small_cam_8eb5eb4e-e11e-4208-ba56-a26bb9f0d396_0.png"
+# 基本設定（スクリプトの場所から自動取得）
+SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+BASE_DIR="$SCRIPT_DIR"
+INPUT_VIDEO="$BASE_DIR/10-assets/main-movie.mp4"
 MASTER_AUDIO="$BASE_DIR/01-master/00-nostalgia-master.wav"
 OUTPUT_DIR="$BASE_DIR/03-Individual-movie"
 TEMP_VIDEO="$OUTPUT_DIR/nostalgia_campfire_slow_loop.mp4"
@@ -28,14 +29,14 @@ echo "🎵 音声の長さ: ${DURATION}秒 (約$((DURATION/60))分)"
 echo ""
 
 # Step 1: 静止画から0.5倍速動画作成（楽曲の長さでループ）
-echo "🎬 Step 1: 静止画から0.5倍速ループ動画作成中..."
+echo "🎬 Step 1: 静止画から0.25倍速ループ動画作成中..."
 echo "   - 解像度: 1920x1080"
 echo "   - フレームレート: 30fps"
-echo "   - 速度: 0.5倍速 (setpts=2.0*PTS)"
+echo "   - 速度: 0.25倍速 (setpts=4.0*PTS)"
 echo "   - 長さ: ${DURATION}秒"
 
 ffmpeg -y -loop 1 -i "$INPUT_IMAGE" \
-       -vf "scale=1920:1080,setpts=2.0*PTS" \
+       -vf "scale=1920:1080,setpts=4.0*PTS" \
        -c:v libx264 -pix_fmt yuv420p -r 30 \
        -t $DURATION \
        "$TEMP_VIDEO"

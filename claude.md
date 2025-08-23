@@ -60,46 +60,146 @@ ffmpeg -loop 1 -i "[サムネイル.png]" -i "[音声.wav]" -c:v libx264 -c:a aa
 ffmpeg -y -stream_loop -1 -i "[動画.mp4]" -i "[音声.wav]" -vf "scale=1920:1080,setpts=2.0*PTS" -c:v libx264 -c:a aac -pix_fmt yuv420p -r 30 -shortest "[出力.mp4]"
 ```
 
-### バッシュスクリプト（.sh）作成方法
+### 高機能バッシュスクリプト（.sh）作成方法
 
-#### 基本構造
+#### 基本構造（自動パス取得 + エラーハンドリング）
 ```bash
 #!/bin/bash
 
 # スクリプトの説明コメント
-# エラー時に停止
 set -e
 
-# 変数定義
-BASE_DIR="/path/to/project"
-INPUT_FILE="$BASE_DIR/input.wav"
-OUTPUT_DIR="$BASE_DIR/output"
+# 基本設定（スクリプトの場所から自動取得）
+SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+BASE_DIR="$SCRIPT_DIR"
+INPUT_VIDEO="$BASE_DIR/10-assets/main-movie.mp4"
+INPUT_AUDIO="$BASE_DIR/01-master/master-audio.wav"
+OUTPUT_DIR="$BASE_DIR/03-Individual-movie"
 
-# 処理実行
+# ディレクトリ作成
+mkdir -p "$OUTPUT_DIR"
+
 echo "🎬 処理開始"
-# ここに実際のコマンドを記述
-
-echo "✅ 処理完了"
+echo "📁 作業ディレクトリ: $BASE_DIR"
 ```
 
-#### ファイル確認・バリデーション
+#### 高度なファイル確認・バリデーション
 ```bash
-# ファイル存在確認
-if [ ! -f "$INPUT_FILE" ]; then
-    echo "❌ エラー: ファイルが見つかりません"
-    echo "   パス: $INPUT_FILE"
+# 動画ファイル存在・有効性確認
+echo "🎬 動画ファイル確認中..."
+if [ ! -f "$INPUT_VIDEO" ]; then
+    echo "❌ エラー: 動画ファイルが見つかりません"
+    echo "   パス: $INPUT_VIDEO"
     exit 1
 fi
 
-# ffprobeでファイル有効性確認
-if ! ffprobe -v quiet -show_format "$INPUT_FILE" > /dev/null 2>&1; then
-    echo "❌ エラー: ファイルが破損しているか、サポートされていない形式です"
+# ffprobeで動画ファイルの有効性確認
+if ! ffprobe -v quiet -show_format "$INPUT_VIDEO" > /dev/null 2>&1; then
+    echo "❌ エラー: 動画ファイルが破損しているか、サポートされていない形式です"
+    echo "   パス: $INPUT_VIDEO"
     exit 1
 fi
-echo "✅ ファイル: $(basename "$INPUT_FILE") - 有効"
+echo "✅ 動画ファイル: $(basename "$INPUT_VIDEO") - 有効"
+
+# 音声ファイル確認
+echo "🎵 音声ファイル確認中..."
+if [ ! -f "$INPUT_AUDIO" ]; then
+    echo "❌ エラー: 音声ファイルが見つかりません"
+    echo "   パス: $INPUT_AUDIO"
+    exit 1
+fi
+
+if ! ffprobe -v quiet -show_format "$INPUT_AUDIO" > /dev/null 2>&1; then
+    echo "❌ エラー: 音声ファイルが破損しているか、サポートされていない形式です"
+    exit 1
+fi
+echo "✅ 音声ファイル: $(basename "$INPUT_AUDIO") - 有効"
 ```
 
-#### ループ処理・進行表示
+#### npm install風プログレスバー付き処理
+```bash
+# 時間測定開始
+START_TIME=$(date +%s)
+
+# プログレス情報を一時ファイルに出力
+PROGRESS_FILE="/tmp/ffmpeg_progress_$$"
+
+# FFmpegをバックグラウンドで実行
+ffmpeg -y -i "$INPUT_VIDEO" -i "$INPUT_AUDIO" \
+       -c:v libx264 -c:a aac \
+       -progress "pipe:1" \
+       "$OUTPUT_FILE" 2>/dev/null | grep "out_time_ms" > "$PROGRESS_FILE" &
+
+FFMPEG_PID=$!
+
+# npm install風プログレスバー表示
+SPINNER_CHARS=("⠋" "⠙" "⠹" "⠸" "⠼" "⠴" "⠦" "⠧" "⠇" "⠏")
+SPINNER_INDEX=0
+LAST_PROGRESS=-1
+
+while kill -0 $FFMPEG_PID 2>/dev/null; do
+    if [ -f "$PROGRESS_FILE" ]; then
+        LATEST_TIME=$(tail -1 "$PROGRESS_FILE" 2>/dev/null | grep "out_time_ms=" | cut -d= -f2)
+        if [ -n "$LATEST_TIME" ] && [ "$LATEST_TIME" -gt 0 ] 2>/dev/null; then
+            CURRENT_MS=$((LATEST_TIME / 1000))
+            TARGET_MS=$((DURATION * 1000))
+            if [ "$TARGET_MS" -gt 0 ]; then
+                PROGRESS=$((CURRENT_MS * 100 / TARGET_MS))
+                if [ "$PROGRESS" -gt 100 ]; then
+                    PROGRESS=100
+                fi
+                
+                # プログレスバーを構築
+                FILLED=$((PROGRESS * 20 / 100))
+                BAR=""
+                for i in $(seq 1 $FILLED); do
+                    BAR="${BAR}█"
+                done
+                for i in $(seq $((FILLED + 1)) 20); do
+                    BAR="${BAR}░"
+                done
+                
+                SPINNER=${SPINNER_CHARS[$SPINNER_INDEX]}
+                SPINNER_INDEX=$(( (SPINNER_INDEX + 1) % 10 ))
+                
+                printf "\r     %s [%s] %d%%" "$SPINNER" "$BAR" "$PROGRESS"
+                LAST_PROGRESS=$PROGRESS
+            fi
+        fi
+    fi
+    
+    # プログレス未取得時はスピナーのみ
+    if [ "$LAST_PROGRESS" -eq -1 ]; then
+        SPINNER=${SPINNER_CHARS[$SPINNER_INDEX]}
+        SPINNER_INDEX=$(( (SPINNER_INDEX + 1) % 10 ))
+        printf "\r     %s 処理中..." "$SPINNER"
+    fi
+    
+    sleep 0.1
+done
+
+# 完了表示
+printf "\r     ✅ [████████████████████] 100%%\n"
+
+# 時間測定・表示
+END_TIME=$(date +%s)
+ELAPSED=$((END_TIME - START_TIME))
+MINUTES=$((ELAPSED / 60))
+SECONDS=$((ELAPSED % 60))
+
+if [ $MINUTES -gt 0 ]; then
+    TIME_FORMAT="${MINUTES}:$(printf "%02d" $SECONDS)"
+else
+    TIME_FORMAT="${SECONDS}秒"
+fi
+
+echo "✅ 処理完了 (生成時間: $TIME_FORMAT)"
+
+# 一時ファイル削除
+rm -f "$PROGRESS_FILE"
+```
+
+#### 個別ファイル処理（時間測定付き）
 ```bash
 PROCESSED=0
 SUCCESSFUL=0
@@ -110,16 +210,25 @@ for file in "$INPUT_DIR"/*.wav; do
         continue
     fi
     
+    filename=$(basename "$file" .wav)
     ((PROCESSED++))
-    echo "🎬 [$PROCESSED/$TOTAL] 処理中: $(basename "$file")"
+    echo "🎬 [$PROCESSED/$TOTAL] 処理中: $filename"
     
-    if some_command "$file"; then
+    # 個別処理時間測定
+    INDIVIDUAL_START=$(date +%s)
+    
+    # 処理実行（プログレスバー付き）
+    if process_file_with_progress "$file"; then
+        INDIVIDUAL_END=$(date +%s)
+        INDIVIDUAL_ELAPSED=$((INDIVIDUAL_END - INDIVIDUAL_START))
+        echo "   ✅ 完了 (生成時間: ${INDIVIDUAL_ELAPSED}秒)"
         ((SUCCESSFUL++))
-        echo "   ✅ 完了"
     else
-        ((FAILED++))
         echo "   ❌ エラー"
+        ((FAILED++))
     fi
+    
+    echo ""
 done
 
 echo "📊 結果: 成功 $SUCCESSFUL / 失敗 $FAILED / 総数 $PROCESSED"
@@ -197,6 +306,7 @@ Perfect for gaming, studying, or relaxing to nostalgic melodies.
 ```
 
 ## 📝 重要ルール
+- **すべてのタスク開始前に claude.md を確認する**: 最新の方針・技法・構造を把握
 - **awareness/ 記録必須**: システム変更・技術発見・戦略変更時
 - **実ファイル確認必須**: 楽曲リスト・時間データ作成時
 - **ナレッジベース確認**: `documentation/00-unified-knowledge-base.md` 参照
