@@ -84,46 +84,46 @@ CHAPTER_NAMES=(
 
 echo "🎬 章別画像切り替えマスター動画生成中..."
 
-# FFmpegでの複数画像切り替えコマンド構築
-FILTER_COMPLEX=""
-INPUT_ARGS=""
+# 画像切り替え版の実装
+echo "🎬 章別画像切り替え版を作成中..."
 
-# 各画像を入力として追加
+# 各章の長さを計算（秒）
+CHAPTER_DURATIONS=(
+    "$((${CHAPTER_TIMES[1]} - ${CHAPTER_TIMES[0]}))"  # 第1章: 1104秒
+    "$((${CHAPTER_TIMES[2]} - ${CHAPTER_TIMES[1]}))"  # 第2章: 1131秒
+    "$((${CHAPTER_TIMES[3]} - ${CHAPTER_TIMES[2]}))"  # 第3章: 1345秒
+    "$((${CHAPTER_TIMES[4]} - ${CHAPTER_TIMES[3]}))"  # 第4章: 1218秒
+    "$((5871 - ${CHAPTER_TIMES[4]}))"                 # 第5章: 1073秒
+)
+
+# 各章の動画セグメントを作成
+SEGMENT_FILES=()
 for i in "${!IMAGES[@]}"; do
-    INPUT_ARGS="$INPUT_ARGS -loop 1 -i \"${IMAGES[$i]}\""
-done
-
-# 音声入力追加
-INPUT_ARGS="$INPUT_ARGS -i \"$MASTER_AUDIO\""
-
-# フィルター構築（画像切り替えタイミング指定）
-FILTER_COMPLEX="[0:v]trim=0:${CHAPTER_TIMES[1]},setpts=PTS-STARTPTS[v0];"
-
-for i in 1; i < ${#CHAPTER_TIMES[@]}; do
-    next_time=${CHAPTER_TIMES[$((i+1))]}
-    if [ -z "$next_time" ]; then
-        next_time="5871"  # 最後は総時間まで
-    fi
+    chapter_start=${CHAPTER_TIMES[$i]}
+    chapter_duration=${CHAPTER_DURATIONS[$i]}
+    segment_file="$TEMP_DIR/chapter_$i.mp4"
     
-    duration=$((next_time - CHAPTER_TIMES[i]))
-    FILTER_COMPLEX="$FILTER_COMPLEX[$i:v]trim=0:$duration,setpts=PTS-STARTPTS[v$i];"
+    echo "📹 第$((i+1))章セグメント作成: ${CHAPTER_NAMES[$i]} (${chapter_duration}秒)"
+    
+    ffmpeg -y -loop 1 -i "${IMAGES[$i]}" \
+           -i "$MASTER_AUDIO" -ss $chapter_start -t $chapter_duration \
+           -c:v libx264 -c:a aac -pix_fmt yuv420p -r 30 \
+           "$segment_file"
+    
+    SEGMENT_FILES+=("$segment_file")
 done
 
-# 動画の結合
-CONCAT_INPUTS=""
-for i in "${!CHAPTER_TIMES[@]}"; do
-    CONCAT_INPUTS="$CONCAT_INPUTS[v$i]"
+# セグメントリストファイル作成
+CONCAT_LIST="$TEMP_DIR/concat_list.txt"
+echo "# 章別結合リスト" > "$CONCAT_LIST"
+for segment in "${SEGMENT_FILES[@]}"; do
+    echo "file '$segment'" >> "$CONCAT_LIST"
 done
 
-FILTER_COMPLEX="$FILTER_COMPLEX${CONCAT_INPUTS}concat=n=${#CHAPTER_TIMES[@]}:v=1:a=0[outv]"
-
-# 実際のFFmpegコマンド実行
-eval "ffmpeg -y $INPUT_ARGS \
-    -filter_complex \"$FILTER_COMPLEX\" \
-    -map \"[outv]\" -map \"$((${#IMAGES[@]})):a\" \
-    -c:v libx264 -c:a aac \
-    -pix_fmt yuv420p -r 30 -shortest \
-    \"$MASTER_DIR/00-academy-magic-master-chapters.mp4\""
+# セグメントを結合
+ffmpeg -y -f concat -safe 0 -i "$CONCAT_LIST" \
+       -c copy \
+       "$MASTER_DIR/00-academy-magic-master-chapters.mp4"
 
 echo ""
 echo "✅ 章別画像切り替えマスター動画完了: 00-academy-magic-master-chapters.mp4"
