@@ -16,14 +16,16 @@
 - **ポジショニング**: 感動系8-bitチップチューンのパイオニア
 - **コアメッセージ**: "Your ultimate destination for epic chiptune adventures!"
 
-### 現在の成果（2025-08-25更新）
+### 現在の成果（2025-08-25更新 v5.0）
 - **総制作時間**: 20.5+ 時間
 - **総楽曲数**: 335+ 曲（WAVファイル）
 - **完成コレクション**: 16つ
 - **最新投稿**: Nostalgia & Campfire Collection（投稿予約完了）
+- **技術革新**: ビジュアル制作システム + FFmpeg自動化完成
+- **戦略改革**: 概要欄Over-promotional問題解決
+- **コミュニティ構築**: 高価値リスナー@agler4986との継続対話確立
 - **ディレクトリ改革**: 日付プレフィックス + ステータス管理システム導入済み
 - **作業文書管理**: 分散型システム（各コレクション内20-documentation/）導入
-- **プロンプト技法確立**: 装飾語マシマシ + 繰り返し強調 + ループ最適化
 
 ## 🔧 重要なワークフロー
 
@@ -58,6 +60,35 @@ ffmpeg -loop 1 -i "[サムネイル.png]" -i "[音声.wav]" -c:v libx264 -c:a aa
 動画ファイル + 音声ファイルから 0.5倍速ループ動画生成:
 ```bash
 ffmpeg -y -stream_loop -1 -i "[動画.mp4]" -i "[音声.wav]" -vf "scale=1920:1080,setpts=2.0*PTS" -c:v libx264 -c:a aac -pix_fmt yuv420p -r 30 -shortest "[出力.mp4]"
+```
+
+### Midjourneyビジュアル制作技法（v5.0新規追加）
+
+#### 基本プロンプト構造
+```
+[主要テーマ] + [具体的情景] + [感情・雰囲気] + [技術パラメータ --ar 16:9]
+```
+
+#### 楽曲感情→視覚要素変換
+- **希望・明るい系**: golden sunrise, warm daylight, optimistic tones
+- **神秘・魔法系**: mystical moonlight, crystal illumination, ethereal palette  
+- **ノスタルジー系**: golden hour, bittersweet light, nostalgic palette
+
+#### 成功例（Nostalgia & Campfire Collection）
+```
+a weary knight lost in thought beside a small campfire in dark woods, helmet placed nearby, contemplating memories under starlit night sky, warm orange firelight --ar 16:9
+```
+
+### 一括動画生成システム
+22本+マスター動画を40-60分で完全自動生成:
+```bash
+#!/bin/bash
+# 基本構造例
+for file in *.wav; do
+    ffmpeg -y -loop 1 -i "thumbnail.png" -i "$file" \
+           -vf "setpts=2.0*PTS" -c:v libx264 -c:a aac \
+           -pix_fmt yuv420p -r 30 -shortest "${file%.wav}.mp4"
+done
 ```
 
 ### 高機能バッシュスクリプト（.sh）作成方法
@@ -263,10 +294,16 @@ XXX-collection-name/
 
 ## 🎵 プロンプト技法
 
-### 8-bit特化プロンプト構造
+### 8-bit特化プロンプト構造（進化版）
 ```
 authentic Game Boy DMG sound loop music [テーマ] + [楽器 楽器 楽器] + [テンポ テンポ テンポ] + [雰囲気 雰囲気 雰囲気]
 ```
+
+### 重要な学習・改善点（v5.0）
+- **cheerful要素の必須化**: 「明るさ・陽気さ」が最重要成功要素
+- **electronic guitar回避**: 聴取疲労の原因となる楽器構成排除
+- **authentic Game Boy/NES sound強調**: 純正8-bit音色への回帰
+- **simple強調**: 複雑すぎるアレンジの回避で長時間聴取適応
 
 ## 📊 完成済みコレクション一覧（16コレクション）
 
@@ -293,7 +330,9 @@ authentic Game Boy DMG sound loop music [テーマ] + [楽器 楽器 楽器] + [
 1. **Day 1**: Complete Collection（フル動画・長尺版）投稿
 2. **Day 2**: 全楽曲を個別動画として一斉投稿 + 再生リスト作成
 
-### 概要欄テンプレート（Complete Collection用）
+### 概要欄テンプレート改革版（v5.0）
+
+#### Complete Collection用（Over-promotional問題解決済み）
 ```
 🎵 [COLLECTION_NAME] - [楽曲数] tracks, [時間]
 
@@ -307,28 +346,59 @@ Perfect for gaming, studying, or relaxing to nostalgic melodies.
 #8BitMusic #ChiptuneStudy #RPGMusic #StudyBGM
 ```
 
-## 📝 重要ルール
+#### Individual Track用（統一版・作業効率大幅向上）
+```
+8-bit chiptune music inspired by classic RPG adventures.
+Perfect for gaming, studying, or relaxing.
+
+🎵 Full Collection: [Collection URL]
+🎮 All tracks: [Playlist URL]
+
+#8BitMusic #ChiptuneStudy #RPGMusic
+```
+
+#### 改革のポイント
+- **宣伝的表現完全削除**: "Ultimate destination"等の誇張排除
+- **音楽に語らせる**: @Skycrusher指摘への対応完了
+- **統一版採用**: 22回個別入力→1回統一版で作業効率化
+
+## 📝 重要ルール（v5.0更新）
 - **すべてのタスク開始前に claude.md を確認する**: 最新の方針・技法・構造を把握
 - **awareness/ 記録必須**: システム変更・技術発見・戦略変更時
 - **実ファイル確認必須**: 楽曲リスト・時間データ作成時
 - **ナレッジベース確認**: `documentation/00-unified-knowledge-base.md` 参照
+- **ユーザーコメント管理**: `documentation/user-comments.md` で継続記録
+- **高価値リスナー対応**: @agler4986等への建設的フィードバック重視
+- **誠実なAI対応**: 批判的コメントにも真摯に向き合う
 
 ## 🎯 品質管理チェックリスト
 
-### 音楽品質チェック
+### 音楽品質チェック（v5.0更新）
 ```
 □ テーマとの適合性
-□ 8-bit音源の忠実再現
-□ 感情表現の深度
+□ 8-bit音源の忠実再現（authentic Game Boy/NES sound）
+□ 感情表現の深度（cheerful要素重視）
 □ RPGシーンとの整合性
 □ 楽曲タイトルとの一致性
+□ 長時間聴取疲労回避（electronic guitar等排除）
+□ 用途別最適長さ（ジングル ≠ 通常楽曲）
 ```
 
-### 概要欄品質チェック
+### 概要欄品質チェック（v5.0改革版）
 ```
 □ 楽曲リスト（タイムスタンプ付き）配置
-□ 簡潔な説明文（2-3行）
-□ AI生成明記
+□ 簡潔な説明文（2-3行、宣伝感排除）
+□ AI生成への透明性
 □ シンプルハッシュタグ（4個以内）
-□ 関連コレクション1-2個のみ
+□ 音楽体験を阻害しない情報提供
+□ Over-promotional表現完全回避
+```
+
+### ユーザーコミュニケーション品質チェック（v5.0新規追加）
+```
+□ 建設的フィードバックへの即座対応
+□ 誇張表現回避（真摯で控えめな返信）
+□ 高価値リスナー（@agler4986等）との継続対話
+□ 批判的コメントへの誠実な向き合い
+□ コメント・返信の user-comments.md 記録
 ```
