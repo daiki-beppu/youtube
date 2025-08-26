@@ -300,18 +300,41 @@ XXX-collection-name/
 └── 20-documentation/    # プロジェクト固有の作業文書・資料
 ```
 
-## 🎵 プロンプト技法
+## 🎵 SunoAI プロンプト技法
 
-### 8-bit特化プロンプト構造（進化版）
+### 8-bit特化プロンプト構造（進化版v5.1）
 ```
-authentic Game Boy DMG sound loop music [テーマ] + [楽器 楽器 楽器] + [テンポ テンポ テンポ] + [雰囲気 雰囲気 雰囲気]
+Game Boy DMG sound loop music [テーマ] + [楽器 楽器 楽器] + [slow/medium/fast] + [雰囲気 雰囲気 雰囲気]
 ```
 
-### 重要な学習・改善点（v5.0）
+### 重要な学習・改善点（v5.1更新）
 - **cheerful要素の必須化**: 「明るさ・陽気さ」が最重要成功要素
 - **electronic guitar回避**: 聴取疲労の原因となる楽器構成排除
 - **authentic Game Boy/NES sound強調**: 純正8-bit音色への回帰
 - **simple強調**: 複雑すぎるアレンジの回避で長時間聴取適応
+
+### 楽器構成最適化
+```
+✅ 推奨楽器: square wave, triangle wave, noise channel, simple percussion
+✅ 効果音: coin collect, jump sound, power-up chime
+❌ 回避楽器: electronic guitar, complex synthesizer, modern drums
+```
+
+### テンポ・長さ設定
+```
+✅ テンポ指定: slow / medium / fast（3段階のみ）
+✅ 標準推奨: medium tempo + upbeat rhythm
+✅ 楽曲長さ: 2:30-4:30（Individual Track用）
+✅ ループ構造: seamless loop, Game Boy style arrangement
+```
+
+### 感情表現キーワード
+```
+✅ Adventure系: heroic, adventurous, hopeful, inspiring
+✅ Battle系: intense, dramatic, powerful, determined  
+✅ Peaceful系: calm, nostalgic, peaceful, serene
+✅ Mystery系: mysterious, ancient, magical, ethereal
+```
 
 ## 📊 完成済みコレクション一覧（16コレクション）
 
