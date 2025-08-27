@@ -87,87 +87,75 @@ brave young adventurer standing at mountain cliff edge overlooking vast fantasy 
 ❌ 禁止: Epic, Ultimate, Amazing, Incredible, Legendary, Supreme
 ✅ 推奨: Adventure, Heroic, Mysterious, Peaceful, Majestic
 
-### 一括動画生成システム
+### 完全自動動画生成システム（v5.2進化版）
 22本+マスター動画を40-60分で完全自動生成:
-```bash
-#!/bin/bash
-# 基本構造例
-for file in *.wav; do
-    ffmpeg -y -loop 1 -i "thumbnail.png" -i "$file" \
-           -vf "setpts=2.0*PTS" -c:v libx264 -c:a aac \
-           -pix_fmt yuv420p -r 30 -shortest "${file%.wav}.mp4"
-done
-```
 
-### 高機能バッシュスクリプト（.sh）作成方法
-
-#### 基本構造（自動パス取得 + エラーハンドリング）
+#### 高度プログレスバー付き動画生成（npm install風）
 ```bash
 #!/bin/bash
 
-# スクリプトの説明コメント
+# [コレクション名] - 完全動画生成スクリプト
+# マスター動画: main 0.5倍速ループ
+# 個別動画: 各楽曲 + main 0.5倍速ループ
+
 set -e
 
-# 基本設定（スクリプトの場所から自動取得）
+# 基本設定（自動パス取得）
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 BASE_DIR="$SCRIPT_DIR"
-INPUT_VIDEO="$BASE_DIR/10-assets/main-movie.mp4"
-INPUT_AUDIO="$BASE_DIR/01-master/master-audio.wav"
+INPUT_MAIN="$BASE_DIR/10-assets/main.mp4"
+MASTER_AUDIO="$BASE_DIR/01-master/00-master.wav"
+INDIVIDUAL_DIR="$BASE_DIR/02-Individual-music"
 OUTPUT_DIR="$BASE_DIR/03-Individual-movie"
 
-# ディレクトリ作成
 mkdir -p "$OUTPUT_DIR"
-
-echo "🎬 処理開始"
-echo "📁 作業ディレクトリ: $BASE_DIR"
 ```
 
-#### 高度なファイル確認・バリデーション
+#### ファイル確認・バリデーション関数
 ```bash
-# 動画ファイル存在・有効性確認
-echo "🎬 動画ファイル確認中..."
-if [ ! -f "$INPUT_VIDEO" ]; then
-    echo "❌ エラー: 動画ファイルが見つかりません"
-    echo "   パス: $INPUT_VIDEO"
-    exit 1
-fi
+# ファイル存在確認関数
+check_file() {
+    local file="$1"
+    local name="$2"
+    
+    if [ ! -f "$file" ]; then
+        echo "❌ エラー: ${name}が見つかりません"
+        echo "   パス: $file"
+        return 1
+    fi
+    
+    if ! ffprobe -v quiet -show_format "$file" > /dev/null 2>&1; then
+        echo "❌ エラー: ${name}が破損しているか、サポートされていない形式です"
+        return 1
+    fi
+    
+    echo "✅ ${name}: $(basename "$file") - 有効"
+    return 0
+}
 
-# ffprobeで動画ファイルの有効性確認
-if ! ffprobe -v quiet -show_format "$INPUT_VIDEO" > /dev/null 2>&1; then
-    echo "❌ エラー: 動画ファイルが破損しているか、サポートされていない形式です"
-    echo "   パス: $INPUT_VIDEO"
-    exit 1
-fi
-echo "✅ 動画ファイル: $(basename "$INPUT_VIDEO") - 有効"
-
-# 音声ファイル確認
-echo "🎵 音声ファイル確認中..."
-if [ ! -f "$INPUT_AUDIO" ]; then
-    echo "❌ エラー: 音声ファイルが見つかりません"
-    echo "   パス: $INPUT_AUDIO"
-    exit 1
-fi
-
-if ! ffprobe -v quiet -show_format "$INPUT_AUDIO" > /dev/null 2>&1; then
-    echo "❌ エラー: 音声ファイルが破損しているか、サポートされていない形式です"
-    exit 1
-fi
-echo "✅ 音声ファイル: $(basename "$INPUT_AUDIO") - 有効"
+# 必要ファイル確認
+echo "📁 ファイル存在確認中..."
+check_file "$INPUT_MAIN" "main.mp4" || exit 1
+check_file "$MASTER_AUDIO" "マスター音声" || exit 1
 ```
 
-#### npm install風プログレスバー付き処理
+#### 高度プログレスバー実装（npm install風・完全版）
 ```bash
-# 時間測定開始
+# 音声の長さ取得
+DURATION=$(ffprobe -v quiet -show_entries format=duration -of csv=p=0 "$MASTER_AUDIO")
+DURATION_INT=${DURATION%.*}
+echo "⏱️ マスター音声時間: ${DURATION_INT}秒"
+
+# マスター動画生成開始
 START_TIME=$(date +%s)
-
-# プログレス情報を一時ファイルに出力
 PROGRESS_FILE="/tmp/ffmpeg_progress_$$"
 
-# FFmpegをバックグラウンドで実行
-ffmpeg -y -i "$INPUT_VIDEO" -i "$INPUT_AUDIO" \
-       -c:v libx264 -c:a aac \
-       -progress "pipe:1" \
-       "$OUTPUT_FILE" 2>/dev/null | grep "out_time_ms" > "$PROGRESS_FILE" &
+# FFmpegをバックグラウンドで実行（プログレス情報付き）
+ffmpeg -y -stream_loop -1 -i "$INPUT_MAIN" -i "$MASTER_AUDIO" \
+       -vf "scale=1920:1080,setpts=2.0*PTS" \
+       -c:v libx264 -c:a aac -pix_fmt yuv420p -r 30 \
+       -shortest -progress "pipe:1" \
+       "$MASTER_OUTPUT" 2>/dev/null | grep "out_time_ms" > "$PROGRESS_FILE" &
 
 FFMPEG_PID=$!
 
@@ -181,14 +169,14 @@ while kill -0 $FFMPEG_PID 2>/dev/null; do
         LATEST_TIME=$(tail -1 "$PROGRESS_FILE" 2>/dev/null | grep "out_time_ms=" | cut -d= -f2)
         if [ -n "$LATEST_TIME" ] && [ "$LATEST_TIME" -gt 0 ] 2>/dev/null; then
             CURRENT_MS=$((LATEST_TIME / 1000))
-            TARGET_MS=$((DURATION * 1000))
+            TARGET_MS=$((DURATION_INT * 1000))
             if [ "$TARGET_MS" -gt 0 ]; then
                 PROGRESS=$((CURRENT_MS * 100 / TARGET_MS))
                 if [ "$PROGRESS" -gt 100 ]; then
                     PROGRESS=100
                 fi
                 
-                # プログレスバーを構築
+                # プログレスバーを構築（20文字幅）
                 FILLED=$((PROGRESS * 20 / 100))
                 BAR=""
                 for i in $(seq 1 $FILLED); do
@@ -201,6 +189,7 @@ while kill -0 $FFMPEG_PID 2>/dev/null; do
                 SPINNER=${SPINNER_CHARS[$SPINNER_INDEX]}
                 SPINNER_INDEX=$(( (SPINNER_INDEX + 1) % 10 ))
                 
+                # npm install風の表示
                 printf "\r     %s [%s] %d%%" "$SPINNER" "$BAR" "$PROGRESS"
                 LAST_PROGRESS=$PROGRESS
             fi
@@ -211,7 +200,7 @@ while kill -0 $FFMPEG_PID 2>/dev/null; do
     if [ "$LAST_PROGRESS" -eq -1 ]; then
         SPINNER=${SPINNER_CHARS[$SPINNER_INDEX]}
         SPINNER_INDEX=$(( (SPINNER_INDEX + 1) % 10 ))
-        printf "\r     %s 処理中..." "$SPINNER"
+        printf "\r     %s マスター動画生成中..." "$SPINNER"
     fi
     
     sleep 0.1
@@ -233,57 +222,119 @@ else
 fi
 
 echo "✅ 処理完了 (生成時間: $TIME_FORMAT)"
-
-# 一時ファイル削除
 rm -f "$PROGRESS_FILE"
 ```
 
-#### 個別ファイル処理（時間測定付き）
+### 高機能バッシュスクリプト作成技法（v5.2改良版）
+
+#### 個別ファイル処理（afinfo時間取得・プログレスバー付き）
 ```bash
 PROCESSED=0
 SUCCESSFUL=0
 FAILED=0
+TOTAL=$(find "$INDIVIDUAL_DIR" -name "*.wav" | wc -l)
 
-for file in "$INPUT_DIR"/*.wav; do
+for file in "$INDIVIDUAL_DIR"/*.wav; do
     if [ ! -f "$file" ]; then
         continue
     fi
     
     filename=$(basename "$file" .wav)
+    output_file="$OUTPUT_DIR/${filename}.mp4"
     ((PROCESSED++))
+    
     echo "🎬 [$PROCESSED/$TOTAL] 処理中: $filename"
     
-    # 個別処理時間測定
-    INDIVIDUAL_START=$(date +%s)
-    
-    # 処理実行（プログレスバー付き）
-    if process_file_with_progress "$file"; then
-        INDIVIDUAL_END=$(date +%s)
-        INDIVIDUAL_ELAPSED=$((INDIVIDUAL_END - INDIVIDUAL_START))
-        echo "   ✅ 完了 (生成時間: ${INDIVIDUAL_ELAPSED}秒)"
-        ((SUCCESSFUL++))
-    else
-        echo "   ❌ エラー"
+    # 楽曲の長さ取得（afinfoを使用）
+    duration=$(afinfo "$file" | grep "estimated duration" | awk '{print $3}' | cut -d. -f1)
+    if [ -z "$duration" ] || [ "$duration" -eq 0 ] 2>/dev/null; then
+        echo "   ❌ エラー: 楽曲の長さを取得できません"
         ((FAILED++))
+        continue
     fi
     
+    minutes=$((duration/60))
+    seconds=$((duration%60))
+    echo "   ⏱️  楽曲長: ${duration}秒 (${minutes}:$(printf "%02d" $seconds))"
+    
+    # 個別処理時間測定開始
+    INDIVIDUAL_START=$(date +%s)
+    PROGRESS_FILE="/tmp/ffmpeg_progress_individual_$$"
+    
+    # FFmpegをバックグラウンドで実行（プログレス情報付き）
+    ffmpeg -y -stream_loop -1 -i "$INPUT_MAIN" -i "$file" \
+           -vf "scale=1920:1080,setpts=2.0*PTS" -c:v libx264 -c:a aac \
+           -pix_fmt yuv420p -r 30 -shortest \
+           -progress "pipe:1" \
+           "$output_file" 2>/dev/null | grep "out_time_ms" > "$PROGRESS_FILE" &
+    
+    FFMPEG_PID=$!
+    
+    # プログレスバー表示（個別版）
+    while kill -0 $FFMPEG_PID 2>/dev/null; do
+        if [ -f "$PROGRESS_FILE" ]; then
+            LATEST_TIME=$(tail -1 "$PROGRESS_FILE" 2>/dev/null | grep "out_time_ms=" | cut -d= -f2)
+            if [ -n "$LATEST_TIME" ] && [ "$LATEST_TIME" -gt 0 ] 2>/dev/null; then
+                CURRENT_MS=$((LATEST_TIME / 1000))
+                TARGET_MS=$((duration * 1000))
+                if [ "$TARGET_MS" -gt 0 ]; then
+                    PROGRESS=$((CURRENT_MS * 100 / TARGET_MS))
+                    FILLED=$((PROGRESS * 15 / 100))
+                    BAR=""
+                    for i in $(seq 1 $FILLED); do
+                        BAR="${BAR}█"
+                    done
+                    for i in $(seq $((FILLED + 1)) 15); do
+                        BAR="${BAR}░"
+                    done
+                    printf "\r       ⠋ [%s] %d%%" "$BAR" "$PROGRESS"
+                fi
+            fi
+        fi
+        sleep 0.1
+    done
+    
+    wait $FFMPEG_PID
+    printf "\r       ✅ [███████████████] 100%%\n"
+    
+    # 時間測定
+    INDIVIDUAL_END=$(date +%s)
+    ELAPSED=$((INDIVIDUAL_END - INDIVIDUAL_START))
+    echo "   ✅ 完了 (生成時間: ${ELAPSED}秒)"
+    ((SUCCESSFUL++))
+    
+    rm -f "$PROGRESS_FILE"
     echo ""
 done
 
-echo "📊 結果: 成功 $SUCCESSFUL / 失敗 $FAILED / 総数 $PROCESSED"
+echo "📊 結果: 成功 $SUCCESSFUL / 失敗 $FAILED / 総数 $TOTAL"
 ```
 
-#### 実行方法
+#### スクリプト完成・実行方法
 ```bash
 # 実行権限付与
-chmod +x script.sh
+chmod +x generate_videos.sh
 
 # 実行
-./script.sh
+./generate_videos.sh
 
-# または
-bash script.sh
+# スクリプト完成例出力
+echo "🎉 [Collection Name] 動画生成完了！"
+echo "📊 結果サマリー:"
+echo "   📹 マスター動画: 1本生成完了"
+echo "   🎵 個別動画: 成功 $SUCCESSFUL本 / 失敗 $FAILED本 / 総数 $TOTAL本"
+echo "📁 出力先: $OUTPUT_DIR"
 ```
+
+#### 動画生成システムの特徴（v5.2改良版）
+- **完全自動化**: マスター動画 + 個別動画 自動生成
+- **npm install風プログレスバー**: リアルタイム進捗表示
+- **afinfo時間取得**: macOS最適化音声時間確認
+- **エラーハンドリング**: ファイル検証・破損チェック
+- **時間測定**: 各処理の生成時間詳細表示
+- **0.5倍速ループ**: main動画と音声の完美同期
+- **統計表示**: 成功/失敗/総数の完全集計
+
 
 ## 📁 ディレクトリ構造
 - `YYYYMMDD-STATUS-TYPE-NAME/`: 新規コンテンツ（日付プレフィックス付き）
@@ -302,9 +353,17 @@ XXX-collection-name/
 
 ## 🎵 SunoAI プロンプト技法
 
+### 制作フロー（v5.1改良版）
+```
+1. RPG固有名詞楽曲タイトル決定
+2. タイトルから楽曲の世界観・雰囲気を想像
+3. その世界観に最適な8-bitプロンプト構築
+4. SunoAI生成・品質チェック
+```
+
 ### 8-bit特化プロンプト構造（進化版v5.1）
 ```
-Game Boy DMG sound loop music [テーマ] + [楽器 楽器 楽器] + [slow/medium/fast] + [雰囲気 雰囲気 雰囲気]
+Game Boy DMG sound loop music [タイトルから導出したテーマ] + [楽器 楽器 楽器] + [slow/medium/fast] + [雰囲気 雰囲気 雰囲気]
 ```
 
 ### 重要な学習・改善点（v5.1更新）
@@ -326,6 +385,26 @@ Game Boy DMG sound loop music [テーマ] + [楽器 楽器 楽器] + [slow/mediu
 ✅ 標準推奨: medium tempo + upbeat rhythm
 ✅ 楽曲長さ: 2:30-4:30（Individual Track用）
 ✅ ループ構造: seamless loop, Game Boy style arrangement
+```
+
+### タイトル→プロンプト変換例（16-Bit Adventure Collection実例）
+
+#### 村・町系タイトル
+```
+"Windmere Village" → peaceful village theme, cozy hometown, gentle wind sounds
+"The Silver Tavern" → warm inn atmosphere, friendly gathering, cheerful conversation
+```
+
+#### 地域・探索系タイトル  
+```
+"Thornwood Forest" → mysterious forest exploration, ancient trees, adventure discovery
+"Sunspear Desert" → desert caravan journey, sand dunes, exotic adventure
+```
+
+#### 戦闘・敵系タイトル
+```
+"Lord Drakemoor" → powerful boss battle, dark lord confrontation, intense combat
+"The Shadow Legion" → army of darkness, rising threat, ominous atmosphere
 ```
 
 ### 感情表現キーワード
@@ -361,12 +440,20 @@ Game Boy DMG sound loop music [テーマ] + [楽器 楽器 楽器] + [slow/mediu
 1. **Day 1**: Complete Collection（フル動画・長尺版）投稿
 2. **Day 2**: 全楽曲を個別動画として一斉投稿 + 再生リスト作成
 
-### CTR改善戦略（v5.1新規追加）
+### CTR改善戦略（v5.2ベンチマーク模倣版）
 
 #### 現状と目標
-- **現在CTR**: 0.5%（業界平均2-10%に対して低い）
+- **現在CTR**: 0.5%（業界平均2-10%に対して低い）  
 - **目標CTR**: 2.0%+（4倍改善）
-- **成功実績**: Adventure系 2.47%、Boss Battle系 5-7%
+- **新戦略**: ベンチマークチャンネル完全模倣
+
+#### ベンチマーク模倣の徹底方針
+- **サムネイル**: キャラクター大配置・鮮やかな色彩・アクション感
+- **構図**: キャラクターが画面の大部分を占める
+- **背景**: シンプルで邪魔しない
+- **表情**: 明確で感情が伝わる
+- **ポーズ**: 動きのあるアクション重視
+- **色彩**: 明るく鮮やかで目を引く配色
 
 #### サムネイル戦略（誇張表現完全回避）
 ```
@@ -415,12 +502,44 @@ Perfect for gaming, studying, or relaxing.
 #8BitMusic #ChiptuneStudy #RPGMusic
 ```
 
+#### Playlist用（v5.2実用版・Guild&Quest実例ベース）
+```
+8-Bit [Collection Name] Music - Complete [テーマ] Playlist [絵文字][絵文字]
+
+🎵 Welcome to 8-Bit Adventure Hub! 🎵
+
+Experience the complete collection of [楽曲数] individual tracks from our 8-Bit [Collection Name] [総時間]-hour masterpiece that will take you through every [テーマ] adventure! Each track is now available separately, perfect for finding your exact favorite [テーマ] moment or creating custom adventure playlists for any RPG mood! [絵文字]➡️[絵文字]
+
+[絵文字] FROM THE 8-Bit [Collection Name] Collection: This playlist features all [楽曲数] tracks from our complete [総時間]-hour [テーマ] masterpiece: ➤ Full: [Collection URL]
+
+Perfect for:
+• Gaming background music 🎮
+• Study and focus sessions 📚  
+• RPG adventure atmosphere ⚔️
+• Nostalgic chiptune experience 🎵
+
+#8BitMusic #[CollectionName]Playlist #RPGMusic #ChiptunePlaylist
+```
+
+#### Playlist用テンプレート記入例（Guild & Quest実例）
+```
+タイトル: 8-Bit Guild & Quest Music - Complete Adventure Playlist 🏛️⚔️
+[Collection Name]: Guild & Quest
+[テーマ]: guild
+[楽曲数]: 20
+[総時間]: 1:40:44
+[絵文字]: 🏛️, ⚔️
+[Collection URL]: https://youtu.be/nYCLeMcJL2k
+```
+
 ## 📝 重要ルール（v5.1更新）
 - **すべてのタスク開始前に claude.md を確認する**: 最新の方針・技法・構造を把握
 - **awareness/ 記録必須**: システム変更・技術発見・戦略変更時
 - **実ファイル確認必須**: 楽曲リスト・時間データ作成時
 - **CTR改善最優先**: 0.5% → 2.0%+ 達成が現在の最重要課題
 - **誇張表現完全回避**: Epic/Ultimate/Amazing等の使用禁止（@Skycrusher指摘対応）
+- **RPG固有名詞楽曲名**: 実際のゲームにありそうな町名・敵名・地域名を使用
+- **ベンチマーク模倣徹底**: タイトル・内容以外は完全模倣でCTR最大化
 - **ヒューマンファクター重視**: サムネイルに人物・顔要素を含める（CTR向上効果実証済み）
 - **モバイル最適化**: 70%がモバイル視聴、文字サイズ32px以上必須
 - **ナレッジベース確認**: `documentation/00-unified-knowledge-base.md` 参照
@@ -447,7 +566,7 @@ Perfect for gaming, studying, or relaxing.
 □ 8-bit音源の忠実再現（authentic Game Boy/NES sound）
 □ 感情表現の深度（cheerful要素重視）
 □ RPGシーンとの整合性
-□ 楽曲タイトルとの一致性
+□ 楽曲タイトルとの一致性（RPG固有名詞使用）
 □ 長時間聴取疲労回避（electronic guitar等排除）
 □ 用途別最適長さ（ジングル ≠ 通常楽曲）
 ```
@@ -471,3 +590,4 @@ Perfect for gaming, studying, or relaxing.
 □ 音楽体験を阻害しない情報提供
 □ Over-promotional表現完全回避
 ```
+- to memorize

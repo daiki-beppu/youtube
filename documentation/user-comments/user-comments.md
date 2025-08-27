@@ -1,8 +1,78 @@
 # User Comments Collection
 
-**最終更新**: 2025-08-25
+**最終更新**: 2025-08-27
 
 ## 📝 コメント一覧
+
+### 2025-08-27
+
+**@Donnyblue1273** | 6時間前 | Love Under Starlight
+```
+I saw the title, saw 22 views and posted 2 days ago so I had to be the 23rd viewer. Hehehe
+```
+
+**@agler4986** | 1日前 | Academy & Magic School Collection (追加フォローアップ)
+```
+Well, maybe I was too harsh on "Rescue Mission Success" here and on the fact it is bad for a victory jingle. It is not bad, the track is just long (and has a lot of loops). From my incompetent perspective, if the track itself is cut shorter, it would've been better to the listener to not notice it repeats a lot (which is a case in games and not in music track playlists). As for victory jingles themself, they are usually present for a short period of time, but often - which means they are supposed to be concise :) 
+Maybe a set of tracks it reminds me as well are those that you hear picking up Invisibility Candy in Kirby games. But as the power-up was supposed to last around 20 seconds, the track was very short too (around 10 seconds per loop or so - I don't remember well). 
+
+Don't worry about "Dark Sorcerer" - a lot of tracks in your playlists fit way other locations they are meant for by name. They are still very good :) 
+
+Heh, I don't analyze, just say what caught my ear (and spitball what thoughts I have about this). Love to listen to something new.
+```
+
+**@agler4986** | 1日前 | Emotional Journey Music
+```
+"Empty Castle Halls" is very... aggressive... It is as if you are the one who made them empty... 
+"Letters Never Sent" is actually very sweet and pleasant! It is like finding all those letters way later and reading through all of them - all those unspoken words of someone's life and love!
+"The Long Road Home" reminds me of some tracks from Final Fantasy 6... Maybe the World of Ruins map theme? Relistening again, it shares a leitmotif with Final Fantasy 6 (or 4, I don't remember) menu theme. It can be best heard at 27:44 and around 15 seconds into it. Also the track is very... underwater, like floating on a lake at night, stars at sky and grotto near you... 
+"Light in the Darkness" and "Dreams Come True" fit amazing for an ending theme and credits roll respectively! 
+Your Emotional playlist really made me emotional here, heh :)
+```
+
+**@aguyontheinternet8715** | 12時間前 | The Fire Burns Eternal
+```
+Nice vibes
+```
+
+**[返信]** @8-BitAdventureHub-i5j
+```
+Thanks for asking!
+I'm glad you like it.
+We will continue to make more products in the future.
+```
+
+**@PasinBeam** | 14時間前 | Forgotten Summer Days
+```
+ts make me sad
+```
+
+**[返信]** @8-BitAdventureHub-i5j
+```
+Thanks for asking!
+I'm glad you like it.
+We will continue to make more products in the future.
+```
+
+**@GuaseVerse-o3x** | 2日前 | Academy Collection
+```
+AI slop
+```
+
+**[返信]** @8-BitAdventureHub-i5j
+```
+You're right that this is AI-generated content. I understand your concern about quality - it's something I'm constantly working to improve. If you have specific feedback on what could make the music better, I'd genuinely appreciate hearing it.
+```
+
+**@GuaseVerse-o3x** | 2日前 | Academy Collection
+```
+get a job
+```
+
+**[返信]** @8-BitAdventureHub-i5j
+```
+I appreciate the direct feedback. You're pointing out that relying on AI might not be the right approach, and that's worth considering. I'm always looking to improve my process and create better content for listeners.
+```
 
 ### 2025-08-25
 

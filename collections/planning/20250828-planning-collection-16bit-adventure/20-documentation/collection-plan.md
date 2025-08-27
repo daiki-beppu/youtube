@@ -10,7 +10,7 @@
 
 ### 基本フォーマット
 ```
-authentic Super Nintendo SNES sound loop music [テーマ] + [楽器 楽器 楽器] + [テンポ テンポ テンポ] + [雰囲気 雰囲気 雰囲気]
+Super Nintendo SNES sound loop music [テーマ] + [楽器 楽器 楽器] + [テンポ テンポ テンポ] + [雰囲気 雰囲気 雰囲気]
 ```
 
 ### 8-bitとの違い
