@@ -1,16 +1,16 @@
 # 👑 Royal Castle Collection - 16-bit SunoAI プロンプト完全版
 
-## 🎯 基本プロンプト構造（装飾語マシマシ技法 v5.2）
+## 🎯 基本プロンプト構造（改良版技法 v5.3 - SunoAI耐性版）
 
-### 16-bit SNES特化版（統一音源）
+### 16-bit SNES特化版（自然文構造）
 ```
-[装飾語1] [装飾語2] [装飾語3] 16-bit chiptune [royal castle theme], [装飾語4] SNES sound chip, [装飾語5] [装飾語6] [装飾語7] orchestral [楽器1], [装飾語8] [装飾語9] [装飾語10] [楽器2] [楽器3], slow/medium tempo, [雰囲気描写], [装飾語11] [装飾語12] [装飾語13] [最終感情表現]
+[感情1], [感情2] 16-bit chiptune unfolds with [楽器特徴], [音色特性] SNES [楽器群] [動作]. [副楽器] [楽器特徴] sweep in, capturing [雰囲気1] and [雰囲気2]. [テンポ] pacing drives a [最終感情], [補完感情] [場所] ambiance, [総合印象] and [結末感情].
 ```
 
-### 装飾語マシマシ技法の威力
-- **王室威厳の最大化**: 多層装飾語で城の荘厳さを完璧表現
-- **16-bit音色強化**: SNES特有のオーケストラ深度を言葉で増幅
-- **3回繰り返し強調**: `majestic majestic majestic` で感情を3倍増幅
+### SunoAI耐性版技法の特徴
+- **自然な英語構造**: 動詞活用で音楽の流れを表現
+- **音楽理論統合**: 専門用語で16-bit音色の特性を強化
+- **感情アーク構築**: 開始→展開→結末の感情変化を設計
 
 ## 🎨 Royal Castle専用装飾語体系
 
@@ -54,7 +54,7 @@ Mystical, Ancient, Profound, Mysterious, Ethereal, Echoing, Resonating, Infinite
 01. Royal Throne Room
 ```
 ```
-Majestic, royal, noble 16-bit chiptune royal throne room entrance, grand SNES sound chip, dignified dignified dignified orchestral harp ceremonial melody, stately stately stately concert strings brass foundation, slow slow slow tempo, grand palace throne chamber atmosphere, timeless timeless timeless royal authority
+Majestic, dignified 16-bit chiptune unfolds with commanding, layered SNES orchestral brass fanfare. Ceremonial harp arpeggios sweep in, capturing royal authority and sacred grandeur. Slow pacing drives a timeless, reverent throne chamber ambiance, powerful and eternal.
 ```
 
 #### 02. Crown Coronation Ceremony
@@ -62,7 +62,7 @@ Majestic, royal, noble 16-bit chiptune royal throne room entrance, grand SNES so
 02. Crown Coronation Ceremony
 ```
 ```
-Triumphant, ceremonial, regal 16-bit chiptune crown coronation ceremony, magnificent SNES sound chip, celebrating celebrating celebrating orchestral brass royal fanfare, soaring soaring soaring concert strings harp ensemble, medium medium medium tempo, glorious coronation hall atmosphere, sacred sacred sacred crown blessing
+Triumphant, ceremonial 16-bit chiptune unfolds with soaring, brilliant SNES brass ensemble crescendo. Concert strings and sparkling harp sweep in, capturing celebration and magnificence. Medium pacing drives a glorious, sacred coronation hall ambiance, uplifting and divine.
 ```
 
 #### 03. Royal Decree Announcement
@@ -70,7 +70,7 @@ Triumphant, ceremonial, regal 16-bit chiptune crown coronation ceremony, magnifi
 03. Royal Decree Announcement
 ```
 ```
-Authoritative, formal, dignified 16-bit chiptune royal decree announcement, commanding SNES sound chip, important important important ceremonial brass proclamation, resonant resonant resonant woodwind strings accompaniment, medium medium medium tempo, official royal chamber atmosphere, binding binding binding royal decision
+Authoritative, formal 16-bit chiptune unfolds with bold, resonant SNES ceremonial brass proclamation. Woodwind ensemble and strings sweep in, capturing official gravity and binding power. Medium pacing drives a commanding, judicial royal chamber ambiance, decisive and absolute.
 ```
 
 #### 04. Imperial Treasury Vault
@@ -78,7 +78,7 @@ Authoritative, formal, dignified 16-bit chiptune royal decree announcement, comm
 04. Imperial Treasury Vault
 ```
 ```
-Mysterious, wealthy, secure 16-bit chiptune imperial treasury vault, shimmering SNES sound chip, glittering glittering glittering orchestral harp treasure melody, protective protective protective strings brass harmony, slow slow slow tempo, hidden treasure chamber atmosphere, precious precious precious royal wealth
+Mysterious, wealthy 16-bit chiptune unfolds with shimmering, delicate SNES harp treasure melody. Protective strings and subtle brass sweep in, capturing hidden riches and ancient secrets. Slow pacing drives a secure, glittering vault chamber ambiance, precious and enchanting.
 ```
 
 #### 05. Court of Honor Assembly
@@ -86,7 +86,7 @@ Mysterious, wealthy, secure 16-bit chiptune imperial treasury vault, shimmering 
 05. Court of Honor Assembly
 ```
 ```
-Noble, honorable, dignified 16-bit chiptune court of honor assembly, ceremonial SNES sound chip, respected respected respected woodwind ensemble melody, faithful faithful faithful strings harp foundation, medium medium medium tempo, judicial royal hall atmosphere, righteous righteous righteous judgment
+Noble, honorable 16-bit chiptune unfolds with respectful, warm SNES woodwind ensemble harmony. Faithful strings and ceremonial harp sweep in, capturing righteous judgment and moral strength. Medium pacing drives a dignified, judicial assembly hall ambiance, fair and inspiring.
 ```
 
 #### 06. Royal Bloodline Legacy
@@ -94,7 +94,7 @@ Noble, honorable, dignified 16-bit chiptune court of honor assembly, ceremonial 
 06. Royal Bloodline Legacy
 ```
 ```
-Ancient, ancestral, proud 16-bit chiptune royal bloodline legacy, timeless SNES sound chip, hereditary hereditary hereditary orchestral strings lineage, eternal eternal eternal brass harp harmony, slow slow slow tempo, ancestral portrait gallery atmosphere, noble noble noble family heritage
+Ancient, ancestral 16-bit chiptune unfolds with timeless, profound SNES orchestral strings heritage. Eternal brass and noble harp sweep in, capturing family lineage and proud tradition. Slow pacing drives a reverent, historical portrait gallery ambiance, noble and enduring.
 ```
 
 ### 💃 社交文化エリア（6曲）
@@ -104,7 +104,7 @@ Ancient, ancestral, proud 16-bit chiptune royal bloodline legacy, timeless SNES 
 07. Grand Ballroom Waltz
 ```
 ```
-Elegant, graceful, enchanting 16-bit chiptune grand ballroom waltz dance, refined SNES sound chip, flowing flowing flowing orchestral strings waltz melody, swaying swaying swaying harp flute accompaniment, medium medium medium tempo, glittering palace ballroom atmosphere, beautiful beautiful beautiful royal dancing
+Elegant, graceful 16-bit chiptune unfolds with flowing, rhythmic SNES orchestral strings waltz melody. Swaying harp and delicate flute sweep in, capturing royal dancing and refined beauty. Medium pacing drives an enchanting, glittering ballroom atmosphere, romantic and sophisticated.
 ```
 
 #### 08. Noble Tea Party Gathering
@@ -112,7 +112,7 @@ Elegant, graceful, enchanting 16-bit chiptune grand ballroom waltz dance, refine
 08. Noble Tea Party Gathering
 ```
 ```
-Refined, social, delightful 16-bit chiptune noble tea party gathering, elegant SNES sound chip, chattering chattering chattering woodwind ensemble conversation, cheerful cheerful cheerful harp strings melody, slow slow slow tempo, sophisticated royal salon atmosphere, pleasant pleasant pleasant social gathering
+Refined, delightful 16-bit chiptune unfolds with cheerful, conversational SNES woodwind ensemble chatter. Warm harp and gentle strings sweep in, capturing social elegance and pleasant company. Slow pacing drives a sophisticated, cozy salon atmosphere, welcoming and cultured.
 ```
 
 #### 09. Royal Garden Promenade
@@ -120,7 +120,7 @@ Refined, social, delightful 16-bit chiptune noble tea party gathering, elegant S
 09. Royal Garden Promenade
 ```
 ```
-Peaceful, natural, serene 16-bit chiptune royal garden promenade, blooming SNES sound chip, strolling strolling strolling flute harp nature melody, gentle gentle gentle strings accompaniment, slow slow slow tempo, beautiful castle garden atmosphere, refreshing refreshing refreshing nature walk
+Peaceful, natural 16-bit chiptune unfolds with gentle, blooming SNES flute and harp nature melody. Soft strings and bird-like woodwinds sweep in, capturing garden serenity and fresh air. Slow pacing drives a refreshing, beautiful garden atmosphere, tranquil and rejuvenating.
 ```
 
 #### 10. Castle Library Study
@@ -128,7 +128,7 @@ Peaceful, natural, serene 16-bit chiptune royal garden promenade, blooming SNES 
 10. Castle Library Study
 ```
 ```
-Scholarly, wise, contemplative 16-bit chiptune castle library study, intellectual SNES sound chip, reading reading reading harp strings wisdom melody, thoughtful thoughtful thoughtful woodwind accompaniment, slow slow slow tempo, quiet royal library atmosphere, enlightening enlightening enlightening knowledge
+Scholarly, contemplative 16-bit chiptune unfolds with thoughtful, measured SNES harp and strings wisdom melody. Quiet woodwind and subtle brass sweep in, capturing intellectual pursuit and ancient knowledge. Slow pacing drives an enlightening, hushed library atmosphere, wise and inspiring.
 ```
 
 #### 11. Art Gallery Exhibition
@@ -136,7 +136,7 @@ Scholarly, wise, contemplative 16-bit chiptune castle library study, intellectua
 11. Art Gallery Exhibition
 ```
 ```
-Sophisticated, cultural, inspiring 16-bit chiptune art gallery exhibition, artistic SNES sound chip, admiring admiring admiring orchestral strings appreciation, creative creative creative harp brass harmony, slow slow slow tempo, elegant art gallery atmosphere, beautiful beautiful beautiful cultural experience
+Sophisticated, inspiring 16-bit chiptune unfolds with appreciative, cultured SNES orchestral strings gallery melody. Creative harp and refined brass sweep in, capturing artistic beauty and cultural enrichment. Slow pacing drives an elegant, museum atmosphere, beautiful and uplifting.
 ```
 
 #### 12. Royal Music Conservatory
@@ -144,7 +144,7 @@ Sophisticated, cultural, inspiring 16-bit chiptune art gallery exhibition, artis
 12. Royal Music Conservatory
 ```
 ```
-Musical, harmonious, educational 16-bit chiptune royal music conservatory, melodic SNES sound chip, practicing practicing practicing woodwind ensemble lessons, skilled skilled skilled strings harp instruction, medium medium medium tempo, learning music hall atmosphere, talented talented talented musical education
+Musical, harmonious 16-bit chiptune unfolds with skilled, educational SNES woodwind ensemble practice sessions. Talented strings and instructive harp sweep in, capturing musical learning and artistic growth. Medium pacing drives a dedicated, creative conservatory atmosphere, inspiring and melodic.
 ```
 
 ### ⚔️ 守護騎士エリア（6曲）
@@ -154,7 +154,7 @@ Musical, harmonious, educational 16-bit chiptune royal music conservatory, melod
 13. Knights of the Round Table
 ```
 ```
-Heroic, brotherly, loyal 16-bit chiptune knights round table assembly, chivalrous SNES sound chip, united united united brass ensemble brotherhood, honorable honorable honorable strings percussion march, medium medium medium tempo, legendary round table hall atmosphere, faithful faithful faithful knightly fellowship
+Heroic, brotherly 16-bit chiptune unfolds with united, chivalrous SNES brass ensemble brotherhood anthem. Honorable strings and ceremonial percussion sweep in, capturing loyal fellowship and noble bonds. Medium pacing drives a legendary, sacred round table atmosphere, faithful and inspiring.
 ```
 
 #### 14. Castle Gate Watch Duty
@@ -162,7 +162,7 @@ Heroic, brotherly, loyal 16-bit chiptune knights round table assembly, chivalrou
 14. Castle Gate Watch Duty
 ```
 ```
-Vigilant, protective, alert 16-bit chiptune castle gate watch duty, watchful SNES sound chip, guarding guarding guarding brass strings patrol melody, steady steady steady percussion accompaniment, medium medium medium tempo, fortified castle entrance atmosphere, secure secure secure gate protection
+Vigilant, protective 16-bit chiptune unfolds with alert, steady SNES brass and strings patrol melody. Watchful percussion and defensive harmonies sweep in, capturing gate security and unwavering duty. Medium pacing drives a fortified, secure entrance atmosphere, reliable and strong.
 ```
 
 #### 15. Royal Guard Parade March
@@ -170,7 +170,7 @@ Vigilant, protective, alert 16-bit chiptune castle gate watch duty, watchful SNE
 15. Royal Guard Parade March
 ```
 ```
-Disciplined, military, proud 16-bit chiptune royal guard parade march, marching SNES sound chip, stepping stepping stepping brass percussion military rhythm, organized organized organized strings accompaniment, medium medium medium tempo, ceremonial parade ground atmosphere, impressive impressive impressive military display
+Disciplined, proud 16-bit chiptune unfolds with organized, marching SNES brass and percussion military cadence. Coordinated strings and ceremonial fanfare sweep in, capturing parade precision and royal honor. Medium pacing drives an impressive, ceremonial ground atmosphere, magnificent and orderly.
 ```
 
 #### 16. Tower Sentinel Night Watch
@@ -178,7 +178,7 @@ Disciplined, military, proud 16-bit chiptune royal guard parade march, marching 
 16. Tower Sentinel Night Watch
 ```
 ```
-Watchful, solitary, dedicated 16-bit chiptune tower sentinel night watch, observant SNES sound chip, monitoring monitoring monitoring strings harp lookout melody, patient patient patient woodwind accompaniment, slow slow slow tempo, high castle tower atmosphere, protective protective protective night vigil
+Watchful, dedicated 16-bit chiptune unfolds with solitary, observant SNES strings and harp lookout melody. Patient woodwind and protective harmonies sweep in, capturing night vigilance and loyal service. Slow pacing drives a high, moonlit tower atmosphere, serene and dutiful.
 ```
 
 #### 17. Oath of Loyalty Ceremony
@@ -186,7 +186,7 @@ Watchful, solitary, dedicated 16-bit chiptune tower sentinel night watch, observ
 17. Oath of Loyalty Ceremony
 ```
 ```
-Devoted, sworn, committed 16-bit chiptune oath of loyalty ceremony, pledging SNES sound chip, promising promising promising brass strings vow melody, faithful faithful faithful harp accompaniment, medium medium medium tempo, sacred oath chamber atmosphere, binding binding binding loyalty pledge
+Devoted, committed 16-bit chiptune unfolds with sworn, binding SNES brass and strings vow melody. Sacred harp and ceremonial chorus sweep in, capturing loyalty pledges and faithful promises. Medium pacing drives a solemn, sacred chamber atmosphere, honorable and eternal.
 ```
 
 #### 18. Royal Armory Training
@@ -194,7 +194,7 @@ Devoted, sworn, committed 16-bit chiptune oath of loyalty ceremony, pledging SNE
 18. Royal Armory Training
 ```
 ```
-Skilled, training, disciplined 16-bit chiptune royal armory training, practicing SNES sound chip, honing honing honing brass percussion skill development, improving improving improving strings accompaniment, medium medium medium tempo, weapon training hall atmosphere, masterful masterful masterful combat preparation
+Skilled, disciplined 16-bit chiptune unfolds with focused, training SNES brass and percussion skill-building rhythms. Improving strings and masterful techniques sweep in, capturing combat preparation and weapon mastery. Medium pacing drives a dedicated, practice hall atmosphere, determined and powerful.
 ```
 
 ### 🌙 日常憩いエリア（6曲）
@@ -204,7 +204,7 @@ Skilled, training, disciplined 16-bit chiptune royal armory training, practicing
 19. Morning Royal Chambers
 ```
 ```
-Peaceful, awakening, fresh 16-bit chiptune morning royal chambers, gentle SNES sound chip, rising rising rising flute harp dawn melody, refreshing refreshing refreshing strings accompaniment, slow slow slow tempo, sunlit royal bedroom atmosphere, renewed renewed renewed morning energy
+Peaceful, awakening 16-bit chiptune unfolds with gentle, rising SNES flute and harp dawn melody. Refreshing strings and soft woodwind sweep in, capturing morning renewal and royal comfort. Slow pacing drives a sunlit, serene bedroom atmosphere, fresh and energizing.
 ```
 
 #### 20. Castle Kitchen Grand Feast
@@ -212,7 +212,7 @@ Peaceful, awakening, fresh 16-bit chiptune morning royal chambers, gentle SNES s
 20. Castle Kitchen Grand Feast
 ```
 ```
-Festive, delicious, abundant 16-bit chiptune castle kitchen grand feast, cooking SNES sound chip, preparing preparing preparing woodwind percussion feast melody, satisfying satisfying satisfying strings accompaniment, medium medium medium tempo, bustling royal kitchen atmosphere, nourishing nourishing nourishing feast preparation
+Festive, abundant 16-bit chiptune unfolds with bustling, delicious SNES woodwind and percussion feast preparation. Satisfying strings and cheerful brass sweep in, capturing culinary celebration and royal hospitality. Medium pacing drives a warm, bustling kitchen atmosphere, nourishing and joyful.
 ```
 
 #### 21. Royal Stable Countryside
@@ -220,7 +220,7 @@ Festive, delicious, abundant 16-bit chiptune castle kitchen grand feast, cooking
 21. Royal Stable Countryside
 ```
 ```
-Pastoral, natural, peaceful 16-bit chiptune royal stable countryside, rustic SNES sound chip, galloping galloping galloping flute strings horse melody, free free free harp accompaniment, medium medium medium tempo, countryside royal stable atmosphere, liberating liberating liberating nature connection
+Pastoral, free 16-bit chiptune unfolds with galloping, natural SNES flute and strings horse melody. Liberating harp and rustic percussion sweep in, capturing countryside freedom and noble steeds. Medium pacing drives an open, pastoral stable atmosphere, refreshing and spirited.
 ```
 
 #### 22. Chapel Sacred Prayer
@@ -228,7 +228,7 @@ Pastoral, natural, peaceful 16-bit chiptune royal stable countryside, rustic SNE
 22. Chapel Sacred Prayer
 ```
 ```
-Spiritual, holy, reverent 16-bit chiptune chapel sacred prayer, divine SNES sound chip, praying praying praying cathedral organ holy melody, blessed blessed blessed strings choir harmony, slow slow slow tempo, sacred royal chapel atmosphere, transcendent transcendent transcendent spiritual connection
+Spiritual, reverent 16-bit chiptune unfolds with divine, blessed SNES cathedral organ and choir harmonies. Sacred strings and heavenly brass sweep in, capturing holy devotion and transcendent prayer. Slow pacing drives a blessed, sacred chapel atmosphere, peaceful and divine.
 ```
 
 #### 23. Moonlit Castle Ramparts
@@ -236,7 +236,7 @@ Spiritual, holy, reverent 16-bit chiptune chapel sacred prayer, divine SNES soun
 23. Moonlit Castle Ramparts
 ```
 ```
-Mystical, nocturnal, romantic 16-bit chiptune moonlit castle ramparts, silvery SNES sound chip, glowing glowing glowing harp strings moonlight melody, dreamy dreamy dreamy flute accompaniment, slow slow slow tempo, moonlit castle wall atmosphere, enchanting enchanting enchanting night beauty
+Mystical, romantic 16-bit chiptune unfolds with silvery, glowing SNES harp and strings moonlight serenade. Dreamy flute and nocturnal harmonies sweep in, capturing enchanted night beauty and castle magic. Slow pacing drives a moonlit, ethereal rampart atmosphere, dreamy and captivating.
 ```
 
 #### 24. Kingdom's Peaceful Slumber
@@ -244,7 +244,7 @@ Mystical, nocturnal, romantic 16-bit chiptune moonlit castle ramparts, silvery S
 24. Kingdom's Peaceful Slumber
 ```
 ```
-Tranquil, sleepy, serene 16-bit chiptune kingdom peaceful slumber, restful SNES sound chip, dreaming dreaming dreaming harp strings lullaby melody, gentle gentle gentle woodwind accompaniment, slow slow slow tempo, quiet royal bedroom atmosphere, peaceful peaceful peaceful night rest
+Tranquil, serene 16-bit chiptune unfolds with gentle, restful SNES harp and strings lullaby melody. Peaceful woodwind and soft harmonies sweep in, capturing royal slumber and kingdom rest. Slow pacing drives a quiet, dreamy bedroom atmosphere, soothing and restorative.
 ```
 
 ## 🎵 制作ガイドライン
