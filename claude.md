@@ -231,7 +231,7 @@ rm -f "$PROGRESS_FILE"
 ```bash
 PROCESSED=0
 SUCCESSFUL=0
-FAILED=0
+FAILED=0ß
 TOTAL=$(find "$INDIVIDUAL_DIR" -name "*.wav" | wc -l)
 
 for file in "$INDIVIDUAL_DIR"/*.wav; do
@@ -341,6 +341,20 @@ echo "📁 出力先: $OUTPUT_DIR"
 - `documentation/awareness/`: 重要な学習・発見の記録
 - `collections/`: コレクション管理（live/, ready/, production/, planning/）
 
+### コレクション管理ワークフロー（v5.3新規追加）
+```
+1. 企画段階（planning/）
+   - 動画の企画（テーマ）作成時に '/Users/macmini/Dropbox/08-youtube/01-8BAH/collections/planning' に作成
+
+2. 制作段階（production/）
+   - SunoAI用プロンプト作成完了時に該当ディレクトリを '/Users/macmini/Dropbox/08-youtube/01-8BAH/collections/production' に移動
+
+3. 公開段階（live/）
+   - Full Size と Playlist の URL 取得時に該当ディレクトリを '/Users/macmini/Dropbox/08-youtube/01-8BAH/collections/live' に移動
+
+※ 各段階でディレクトリ名も適切に変更する（planning → production → live）
+```
+
 ### 各コレクションの標準構造
 ```
 XXX-collection-name/
@@ -353,18 +367,109 @@ XXX-collection-name/
 
 ## 🎵 SunoAI プロンプト技法
 
-### 制作フロー（v5.1改良版）
+### 標準プロンプトファイル構造（v5.3新規追加・Royal Castle Collection確立版）
+
+#### music-prompts.md 標準テンプレート
 ```
-1. RPG固有名詞楽曲タイトル決定
-2. タイトルから楽曲の世界観・雰囲気を想像
-3. その世界観に最適な8-bitプロンプト構築
-4. SunoAI生成・品質チェック
+# 👑 [Collection Name] - 16-bit SunoAI プロンプト完全版
+
+## 🎯 基本プロンプト構造（装飾語マシマシ技法 v5.2）
+### 16-bit SNES特化版（統一音源）
+[装飾語1] [装飾語2] [装飾語3] 16-bit chiptune [theme], [装飾語4] SNES sound chip, [装飾語5] [装飾語6] [装飾語7] orchestral [楽器1], [装飾語8] [装飾語9] [装飾語10] [楽器2] [楽器3], slow/medium tempo, [雰囲気描写], [装飾語11] [装飾語12] [装飾語13] [最終感情表現]
+
+## 🎨 [Collection Name]専用装飾語体系
+### [テーマ]系
+基本装飾語, 深化装飾語, 感情装飾語...
+
+## 🎼 16-bit専用楽器構成（[Collection Name]最適化）
+✅ 推奨楽器: orchestral harp, concert strings, ceremonial brass, woodwind ensemble, cathedral organ, royal percussion
+❌ 回避楽器: electronic guitar, modern synthesizer, heavy drums
+
+## 📋 楽曲タイトル一覧（コピー用）
+### 🎵 [エリア名]（6曲）
+```
+01. [Track Title]
+02. [Track Title]
+...
 ```
 
-### 8-bit特化プロンプト構造（進化版v5.1）
+## 👑 楽曲プロンプト（24曲完全版）
+### 🎵 [エリア名]（6曲）
+#### 01. [Track Title]
 ```
-Game Boy DMG sound loop music [タイトルから導出したテーマ] + [楽器 楽器 楽器] + [slow/medium/fast] + [雰囲気 雰囲気 雰囲気]
+01. [Track Title]
 ```
+```
+[Full Prompt Here]
+```
+
+## 🎵 制作ガイドライン
+### ✅ 必須要素
+- 16-bit SNES sound統一
+- cheerful要素統合
+- orchestral elements
+- 装飾語3回繰り返し
+- seamless loop structure
+
+### ❌ 絶対回避要素
+- electronic guitar, aggressive expressions, modern synthesizer
+
+### ⏱️ テンポ戦略
+- slow tempo: 威厳・瞑想シーン（12曲）
+- medium tempo: バランス・活動シーン（12曲）
+```
+
+#### GitHub コピー最適化要素
+- **📋 楽曲タイトル一覧**: エリア別コードブロックで一括コピー用
+- **個別タイトルコードブロック**: `01. Track Title` 形式で見出しと完全一致
+- **全コードブロック対応**: GitHubコピーボタン表示保証
+
+### 制作フロー（v5.3更新版 - ワークフロー統合）
+```
+1. 企画作成: RPG固有名詞楽曲タイトル決定 → collections/planning/ に配置
+2. プロンプト構築: タイトルから世界観・雰囲気を想像 → その世界観に最適な8-bitプロンプト構築
+3. 制作移行: SunoAI用プロンプト完成 → collections/production/ に移動
+4. 音楽生成: SunoAI生成・品質チェック
+5. 公開完了: Full Size + Playlist URL取得 → collections/live/ に移動
+```
+
+### 8-bit特化プロンプト構造（進化版v5.2 - 装飾語マシマシ技法）
+
+#### 基本構造
+```
+[装飾語1] [装飾語2] [装飾語3] 8-bit chiptune [テーマ], [装飾語4] Game Boy DMG sound, [装飾語5] [装飾語6] [装飾語7] square wave [楽器特性], [装飾語8] [装飾語9] [装飾語10] triangle [楽器特性], slow/medium/fast tempo, [雰囲気描写], [装飾語11] [装飾語12] [装飾語13] [最終感情表現]
+```
+
+#### 装飾語マシマシ技法の威力
+- **感情深度の最大化**: 多層的装飾語で楽曲の世界観を完璧表現
+- **8-bit音色強化**: Game Boy DMG soundの美しさを言葉で増幅  
+- **聴取者の没入促進**: 豊富な形容詞で想像力を刺激
+- **3回繰り返し強調法**: `gentle gentle gentle`で感情を3倍増幅
+
+### 16-bit特化プロンプト構造（実験用・上位音源）
+
+#### 16-bit基本構造（装飾語マシマシ技法）
+```
+[装飾語1] [装飾語2] [装飾語3] 16-bit chiptune [テーマ], [装飾語4] SNES sound chip, [装飾語5] [装飾語6] [装飾語7] orchestral [楽器1], [装飾語8] [装飾語9] [装飾語10] [楽器2] [楽器3], slow/medium/fast tempo, [雰囲気描写], [装飾語11] [装飾語12] [装飾語13] [最終感情表現]
+```
+
+#### 16-bit特有の優位性
+- **Orchestral Depth**: オーケストラ楽器の豊かな和音・重厚感
+- **Dynamic Range**: 音の強弱表現の繊細さ・ダイナミクス  
+- **Harmonic Richness**: 複雑な和声進行・洗練されたコード
+- **Layered Composition**: 多層的な楽器配置・立体音響
+
+#### 16-bit推奨楽器構成
+```
+✅ 推奨楽器: orchestral harp, concert strings, ceremonial brass, woodwind ensemble, cathedral organ
+✅ 効果音: royal fanfare, church bells, wind chimes, crystal sounds
+❌ 回避楽器: electronic guitar, modern synthesizer, heavy drums（8-bitと共通）
+```
+
+#### 16-bit特化装飾語
+- **音響系**: Orchestral, Symphonic, Harmonic, Resonant, Reverberant
+- **深度系**: Layered, Multi-dimensional, Complex, Rich, Full-bodied
+- **洗練系**: Sophisticated, Nuanced, Refined, Polished, Cultivated
 
 ### 重要な学習・改善点（v5.1更新）
 - **cheerful要素の必須化**: 「明るさ・陽気さ」が最重要成功要素
@@ -415,7 +520,7 @@ Game Boy DMG sound loop music [タイトルから導出したテーマ] + [楽�
 ✅ Mystery系: mysterious, ancient, magical, ethereal
 ```
 
-## 📊 完成済みコレクション一覧（16コレクション）
+## 📊 完成済みコレクション一覧（17コレクション）
 
 1. **Adventure Music** (24曲・1:00:00) - https://youtu.be/j3VYctGmZTE
 2. **Battle Music** (13曲・1:00:00) - https://youtu.be/BDgtysOgcmQ
@@ -433,6 +538,7 @@ Game Boy DMG sound loop music [タイトルから導出したテーマ] + [楽�
 14. **Treasure Collection** (22曲・1:46:21) - https://youtu.be/9fdLLfrtNp0
 15. **Academy & Magic School Collection** (25曲・1:37:51) - https://youtu.be/5JSRFGxgE4c (プレイリスト: https://www.youtube.com/playlist?list=PLJ5vG59SMwtVCYNMnSbOEv-lD7ZsIUvKb)
 16. **Nostalgia & Campfire Collection** (22曲・1:26:06) - https://youtu.be/514WfslqAkI (プレイリスト: https://www.youtube.com/playlist?list=PLJ5vG59SMwtUi65cCn_YxyPoSlMTKbF6_)
+17. **16-Bit Adventure Collection** (24曲・1:46:18) - https://youtu.be/Nym-_wnCVbw (プレイリスト: https://www.youtube.com/playlist?list=PLJ5vG59SMwtXihp96jiTzl35n7f33aI52)
 
 ## 📝 YouTube コンテンツ戦略
 
@@ -532,8 +638,11 @@ Perfect for:
 [Collection URL]: https://youtu.be/nYCLeMcJL2k
 ```
 
-## 📝 重要ルール（v5.1更新）
+## 📝 重要ルール（v5.3更新 - 標準プロンプト形式統合）
 - **すべてのタスク開始前に claude.md を確認する**: 最新の方針・技法・構造を把握
+- **装飾語マシマシ技法必須**: 全プロンプトで多層装飾語・3回繰り返し強調法適用
+- **16-bit SNES特化戦略**: Royal Castle Collection確立の16-bit統一音源を標準採用
+- **標準プロンプト形式必須**: music-prompts.md テンプレート準拠・GitHub コピー最適化
 - **awareness/ 記録必須**: システム変更・技術発見・戦略変更時
 - **実ファイル確認必須**: 楽曲リスト・時間データ作成時
 - **CTR改善最優先**: 0.5% → 2.0%+ 達成が現在の最重要課題
@@ -560,10 +669,13 @@ Perfect for:
 □ Individual Track専用サムネ未作成確認（工数削減）
 ```
 
-### 音楽品質チェック（v5.1更新）
+### 音楽品質チェック（v5.2更新 - 装飾語マシマシ技法対応）
 ```
 □ テーマとの適合性
+□ 装飾語マシマシ技法適用（多層装飾語・3回繰り返し強調）
+□ 8-bit/16-bit音源選択適切性（メイン8-bit、特別16-bit）
 □ 8-bit音源の忠実再現（authentic Game Boy/NES sound）
+□ 16-bit音源の活用（Orchestral Depth、Dynamic Range等）
 □ 感情表現の深度（cheerful要素重視）
 □ RPGシーンとの整合性
 □ 楽曲タイトルとの一致性（RPG固有名詞使用）

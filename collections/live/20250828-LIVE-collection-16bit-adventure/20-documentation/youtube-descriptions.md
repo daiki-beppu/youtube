@@ -1,5 +1,17 @@
 # 16-Bit Adventure Collection - YouTube概要欄
 
+## 📺 投稿完了URL情報
+
+### Complete Collection
+- **Full Size URL**: https://youtu.be/Nym-_wnCVbw
+- **投稿日**: 2025年8月29日
+
+### Playlist
+- **Playlist URL**: https://www.youtube.com/playlist?list=PLJ5vG59SMwtXihp96jiTzl35n7f33aI52
+- **作成日**: 2025年8月29日
+
+---
+
 ## Complete Collection用概要欄
 
 ```
@@ -33,7 +45,7 @@
 8-bit chiptune music inspired by classic RPG adventures. 
 Perfect for gaming, studying, or relaxing to nostalgic melodies.
 
-🎮 Individual tracks: [プレイリストURL]
+🎮 Individual tracks: https://www.youtube.com/playlist?list=PLJ5vG59SMwtXihp96jiTzl35n7f33aI52
 
 #8BitMusic #ChiptuneStudy #RPGMusic #StudyBGM
 ```
@@ -47,7 +59,7 @@ A collection of 24 original 8-bit chiptune tracks inspired by classic RPG advent
 
 Perfect for gaming, studying, working, or relaxing to nostalgic melodies that capture the spirit of retro adventure games.
 
-🎬 Complete Collection: [Collection URL]
+🎬 Complete Collection: https://youtu.be/Nym-_wnCVbw
 
 #8BitMusic #ChiptuneStudy #RPGMusic #RetroGaming
 ```
@@ -58,8 +70,8 @@ Perfect for gaming, studying, working, or relaxing to nostalgic melodies that ca
 8-bit chiptune music inspired by classic RPG adventures.
 Perfect for gaming, studying, or relaxing.
 
-🎵 Full Collection: [Collection URL]
-🎮 All tracks: [Playlist URL]
+🎵 Full Collection: https://youtu.be/Nym-_wnCVbw
+🎮 All tracks: https://www.youtube.com/playlist?list=PLJ5vG59SMwtXihp96jiTzl35n7f33aI52
 
 #8BitMusic #ChiptuneStudy #RPGMusic
 ```
