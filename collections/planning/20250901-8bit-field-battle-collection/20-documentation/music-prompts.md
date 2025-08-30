@@ -27,7 +27,7 @@ Dynamic, Active, Moving, Charging, Advancing, Rushing, Surging, Flowing, Clashin
 Brave, Courageous, Determined, Resolute, Bold, Fearless, Heroic, Steadfast, Unwavering, Valiant
 
 ### 地形環境系
-Grassy, Rocky, Sandy, Snowy, Muddy, Hilly, Mountainous, Forested, Desert, Coastal
+Grassy, Plains, Forested, Dark, Rocky, Mountainous, Frozen, Tundra, Sandy, Desert, Coastal, Shoreline, Underground, Cave, Volcanic, Lava, Swampy, Marsh, River, Flowing, Ice, Valley, Jungle, Canopy, Prairie, Dawn, Cliff, Crystal, Ancient, Ruins, Muddy, Wetland, Canyon, Ridge, Stormy, Highland
 
 ## 🎼 8-bit専用楽器構成（Field Battle最適化）
 
@@ -43,47 +43,32 @@ Grassy, Rocky, Sandy, Snowy, Muddy, Hilly, Mountainous, Forested, Desert, Coasta
 - electronic guitar, modern synthesizer, heavy drums
 ```
 
-## 📋 楽曲タイトル一覧（コピー用）
+## 📋 楽曲タイトル一覧（コピー用・20フィールドバリエーション）
 
-### 🌾 草原戦場（5曲）
 ```
 01. Windswept Plains Conflict
-02. Rolling Hills Skirmish  
-03. Meadow Battalion March
-04. Prairie Dawn Assault
-05. Grassland Victory Charge
+02. Dark Forest Ambush  
+03. Alpine Ridge Battle
+04. Frozen Tundra March
+05. Desert Storm Campaign
+06. Shoreline Tide Battle
+07. Underground Cave Clash
+08. Volcanic Lava Fields
+09. Swamp Marsh Combat
+10. River Crossing Fight
+11. Mountain Pass Siege
+12. Ice Valley Skirmish
+13. Jungle Canopy Battle
+14. Prairie Dawn Assault
+15. Coastal Cliff Defense
+16. Crystal Cavern War
+17. Ancient Ruins Siege
+18. Muddy Wetlands Clash
+19. Canyon Ridge Ambush
+20. Stormy Highlands Final Stand
 ```
 
-### 🏔️ 山岳戦場（5曲）
-```
-06. Alpine Ridge Battle
-07. Mountain Pass Siege
-08. Highland Warrior Stand
-09. Peak Summit Confrontation
-10. Cliff Edge Last Stand
-```
-
-### 🌊 海岸戦場（5曲）
-```
-11. Shoreline Tide Battle
-12. Coastal Fortress Defense
-13. Beach Landing Assault
-14. Lighthouse Point Clash
-15. Harbor Gate Showdown
-```
-
-### 🏜️ 砂漠戦場（5曲）
-```
-16. Desert Storm Campaign
-17. Oasis Stronghold Siege
-18. Dune Rider Ambush
-19. Sandstorm Brigade March
-20. Mirage Valley Conflict
-```
-
-## ⚔️ 楽曲プロンプト（20曲完全版）
-
-### 🌾 草原戦場（5曲）
+## ⚔️ 楽曲プロンプト（20フィールドバリエーション完全版）
 
 #### 01. Windswept Plains Conflict
 ```
@@ -93,162 +78,156 @@ Grassy, Rocky, Sandy, Snowy, Muddy, Hilly, Mountainous, Forested, Desert, Coasta
 Tactical, determined 8-bit chiptune unfolds with bold, driving Game Boy square wave battle melody. Strategic triangle bass and precise percussion sweep in, capturing open field combat and tactical coordination. Medium pacing drives a focused, expansive plains ambiance, brave and methodical.
 ```
 
-#### 02. Rolling Hills Skirmish
+#### 02. Dark Forest Ambush
 ```
-02. Rolling Hills Skirmish
-```
-```
-Dynamic, engaging 8-bit chiptune unfolds with active, flowing Game Boy square wave terrain navigation. Moving triangle bass and rhythmic percussion sweep in, capturing rolling landscape and mobile combat. Medium pacing drives a sweeping, undulating hills ambiance, active and coordinated.
-```
-
-#### 03. Meadow Battalion March
-```
-03. Meadow Battalion March
+02. Dark Forest Ambush
 ```
 ```
-Disciplined, organized 8-bit chiptune unfolds with marching, coordinated Game Boy square wave formation advance. Systematic triangle bass and military percussion sweep in, capturing battalion movement and field strategy. Medium pacing drives a structured, grassy meadow ambiance, determined and precise.
+Stealthy, surprising 8-bit chiptune unfolds with lurking, hidden Game Boy square wave forest attack. Shadowy triangle bass and rustling percussion sweep in, capturing woodland ambush and tree cover tactics. Medium pacing drives a dense, dark forest ambiance, mysterious and tactical.
 ```
 
-#### 04. Prairie Dawn Assault
+#### 03. Alpine Ridge Battle
 ```
-04. Prairie Dawn Assault
-```
-```
-Bold, advancing 8-bit chiptune unfolds with charging, heroic Game Boy square wave sunrise attack. Surging triangle bass and dynamic percussion sweep in, capturing dawn offensive and morning courage. Fast pacing drives a bright, open prairie ambiance, fearless and resolute.
-```
-
-#### 05. Grassland Victory Charge
-```
-05. Grassland Victory Charge
+03. Alpine Ridge Battle
 ```
 ```
-Triumphant, victorious 8-bit chiptune unfolds with soaring, celebrating Game Boy square wave final push. Powerful triangle bass and victory percussion sweep in, capturing battlefield success and heroic achievement. Fast pacing drives a glorious, vast grassland ambiance, valiant and uplifting.
+Rugged, challenging 8-bit chiptune unfolds with climbing, ascending Game Boy square wave mountain combat. Rocky triangle bass and echoing percussion sweep in, capturing high altitude conflict and alpine struggle. Medium pacing drives a steep, alpine ridge ambiance, steadfast and enduring.
 ```
 
-### 🏔️ 山岳戦場（5曲）
-
-#### 06. Alpine Ridge Battle
+#### 04. Frozen Tundra March
 ```
-06. Alpine Ridge Battle
+04. Frozen Tundra March
 ```
 ```
-Rugged, challenging 8-bit chiptune unfolds with climbing, ascending Game Boy square wave mountain combat. Rocky triangle bass and echoing percussion sweep in, capturing high altitude conflict and alpine struggle. Medium pacing drives a steep, mountainous ridge ambiance, steadfast and enduring.
+Harsh, enduring 8-bit chiptune unfolds with trudging, persistent Game Boy square wave winter advance. Icy triangle bass and crystalline percussion sweep in, capturing frozen warfare and arctic endurance. Slow pacing drives a bitter, frozen tundra ambiance, resilient and determined.
 ```
 
-#### 07. Mountain Pass Siege
+#### 05. Desert Storm Campaign
 ```
-07. Mountain Pass Siege
-```
-```
-Strategic, defensive 8-bit chiptune unfolds with blocking, protective Game Boy square wave narrow passage control. Fortified triangle bass and tactical percussion sweep in, capturing chokepoint defense and strategic positioning. Slow pacing drives a confined, rocky pass ambiance, calculated and unwavering.
-```
-
-#### 08. Highland Warrior Stand
-```
-08. Highland Warrior Stand
-```
-```
-Brave, defiant 8-bit chiptune unfolds with standing, resistant Game Boy square wave highland defense. Courageous triangle bass and warrior percussion sweep in, capturing elevated ground advantage and heroic resistance. Medium pacing drives a proud, highland plateau ambiance, bold and determined.
-```
-
-#### 09. Peak Summit Confrontation
-```
-09. Peak Summit Confrontation
-```
-```
-Intense, climactic 8-bit chiptune unfolds with confronting, clashing Game Boy square wave mountain peak duel. Elevated triangle bass and dramatic percussion sweep in, capturing ultimate showdown and summit battle. Fast pacing drives a towering, peak summit ambiance, focused and decisive.
-```
-
-#### 10. Cliff Edge Last Stand
-```
-10. Cliff Edge Last Stand
-```
-```
-Desperate, courageous 8-bit chiptune unfolds with defending, final Game Boy square wave precipice battle. Resolute triangle bass and dramatic percussion sweep in, capturing last hope defense and cliff edge bravery. Medium pacing drives a precarious, cliff edge ambiance, fearless and heroic.
-```
-
-### 🌊 海岸戦場（5曲）
-
-#### 11. Shoreline Tide Battle
-```
-11. Shoreline Tide Battle
-```
-```
-Flowing, rhythmic 8-bit chiptune unfolds with surging, tidal Game Boy square wave coastal combat. Wave-like triangle bass and oceanic percussion sweep in, capturing beach warfare and tidal strategy. Medium pacing drives a dynamic, shoreline ambiance, fluid and adaptive.
-```
-
-#### 12. Coastal Fortress Defense
-```
-12. Coastal Fortress Defense
-```
-```
-Fortified, protective 8-bit chiptune unfolds with defending, secured Game Boy square wave stronghold protection. Solid triangle bass and defensive percussion sweep in, capturing fortress walls and coastal security. Slow pacing drives a sturdy, fortress ambiance, reliable and impenetrable.
-```
-
-#### 13. Beach Landing Assault
-```
-13. Beach Landing Assault
-```
-```
-Charging, amphibious 8-bit chiptune unfolds with landing, advancing Game Boy square wave shore invasion. Rushing triangle bass and assault percussion sweep in, capturing beach storming and amphibious tactics. Fast pacing drives an urgent, beach landing ambiance, bold and advancing.
-```
-
-#### 14. Lighthouse Point Clash
-```
-14. Lighthouse Point Clash
-```
-```
-Guiding, strategic 8-bit chiptune unfolds with beacon, illuminating Game Boy square wave navigation battle. Lighthouse triangle bass and rhythmic percussion sweep in, capturing coastal guidance and strategic positioning. Medium pacing drives a bright, lighthouse point ambiance, focused and directing.
-```
-
-#### 15. Harbor Gate Showdown
-```
-15. Harbor Gate Showdown
-```
-```
-Decisive, controlling 8-bit chiptune unfolds with blocking, gateway Game Boy square wave port battle. Protective triangle bass and tactical percussion sweep in, capturing harbor control and gate defense. Medium pacing drives a critical, harbor entrance ambiance, strategic and determined.
-```
-
-### 🏜️ 砂漠戦場（5曲）
-
-#### 16. Desert Storm Campaign
-```
-16. Desert Storm Campaign
+05. Desert Storm Campaign
 ```
 ```
 Harsh, enduring 8-bit chiptune unfolds with weathering, surviving Game Boy square wave sandstorm battle. Windswept triangle bass and desert percussion sweep in, capturing sandy warfare and environmental challenge. Medium pacing drives a dusty, desert storm ambiance, resilient and persistent.
 ```
 
-#### 17. Oasis Stronghold Siege
+#### 06. Shoreline Tide Battle
 ```
-17. Oasis Stronghold Siege
-```
-```
-Vital, contested 8-bit chiptune unfolds with surrounding, capturing Game Boy square wave water source battle. Precious triangle bass and siege percussion sweep in, capturing oasis control and desert survival. Slow pacing drives a crucial, oasis stronghold ambiance, strategic and life-sustaining.
-```
-
-#### 18. Dune Rider Ambush
-```
-18. Dune Rider Ambush
+06. Shoreline Tide Battle
 ```
 ```
-Swift, surprising 8-bit chiptune unfolds with ambushing, mobile Game Boy square wave sand cavalry attack. Racing triangle bass and rapid percussion sweep in, capturing desert mobility and surprise tactics. Fast pacing drives a shifting, sand dune ambiance, quick and unpredictable.
+Flowing, rhythmic 8-bit chiptune unfolds with surging, tidal Game Boy square wave coastal combat. Wave-like triangle bass and oceanic percussion sweep in, capturing beach warfare and tidal strategy. Medium pacing drives a dynamic, shoreline ambiance, fluid and adaptive.
 ```
 
-#### 19. Sandstorm Brigade March
+#### 07. Underground Cave Clash
 ```
-19. Sandstorm Brigade March
+07. Underground Cave Clash
 ```
 ```
-Organized, advancing 8-bit chiptune unfolds with marching, coordinated Game Boy square wave desert formation. Disciplined triangle bass and military percussion sweep in, capturing organized advance and desert discipline. Medium pacing drives a structured, sandstorm march ambiance, methodical and determined.
+Echoing, confined 8-bit chiptune unfolds with reverberating, cavernous Game Boy square wave underground combat. Deep triangle bass and stalactite percussion sweep in, capturing cave warfare and subterranean tactics. Medium pacing drives a mysterious, underground cave ambiance, confined and strategic.
 ```
 
-#### 20. Mirage Valley Conflict
+#### 08. Volcanic Lava Fields
 ```
-20. Mirage Valley Conflict
+08. Volcanic Lava Fields
 ```
 ```
-Mystical, deceptive 8-bit chiptune unfolds with illusory, confusing Game Boy square wave desert mirage battle. Shimmering triangle bass and ethereal percussion sweep in, capturing visual deception and desert mystery. Medium pacing drives a wavering, mirage valley ambiance, mysterious and challenging.
+Scorching, dangerous 8-bit chiptune unfolds with burning, avoiding Game Boy square wave volcanic battle. Molten triangle bass and bubbling percussion sweep in, capturing lava navigation and extreme heat combat. Fast pacing drives an intense, volcanic fields ambiance, dangerous and thrilling.
+```
+
+#### 09. Swamp Marsh Combat
+```
+09. Swamp Marsh Combat
+```
+```
+Muddy, treacherous 8-bit chiptune unfolds with sinking, struggling Game Boy square wave wetland battle. Boggy triangle bass and squelching percussion sweep in, capturing marsh warfare and swamp navigation. Slow pacing drives a sticky, swamp marsh ambiance, challenging and persistent.
+```
+
+#### 10. River Crossing Fight
+```
+10. River Crossing Fight
+```
+```
+Flowing, strategic 8-bit chiptune unfolds with crossing, bridging Game Boy square wave river passage battle. Current triangle bass and splash percussion sweep in, capturing water crossing and riverbank tactics. Medium pacing drives a rushing, river crossing ambiance, strategic and determined.
+```
+
+#### 11. Mountain Pass Siege
+```
+11. Mountain Pass Siege
+```
+```
+Strategic, defensive 8-bit chiptune unfolds with blocking, protective Game Boy square wave narrow passage control. Fortified triangle bass and tactical percussion sweep in, capturing chokepoint defense and strategic positioning. Slow pacing drives a confined, mountain pass ambiance, calculated and unwavering.
+```
+
+#### 12. Ice Valley Skirmish
+```
+12. Ice Valley Skirmish
+```
+```
+Slippery, challenging 8-bit chiptune unfolds with sliding, treacherous Game Boy square wave ice combat. Frozen triangle bass and brittle percussion sweep in, capturing icy terrain warfare and winter tactics. Fast pacing drives a dangerous, ice valley ambiance, precarious and intense.
+```
+
+#### 13. Jungle Canopy Battle
+```
+13. Jungle Canopy Battle
+```
+```
+Wild, untamed 8-bit chiptune unfolds with swinging, aerial Game Boy square wave jungle combat. Vine-like triangle bass and tropical percussion sweep in, capturing canopy warfare and jungle mobility. Fast pacing drives a lush, jungle canopy ambiance, wild and adaptive.
+```
+
+#### 14. Prairie Dawn Assault
+```
+14. Prairie Dawn Assault
+```
+```
+Bold, advancing 8-bit chiptune unfolds with charging, heroic Game Boy square wave sunrise attack. Surging triangle bass and dynamic percussion sweep in, capturing dawn offensive and morning courage. Fast pacing drives a bright, prairie dawn ambiance, fearless and resolute.
+```
+
+#### 15. Coastal Cliff Defense
+```
+15. Coastal Cliff Defense
+```
+```
+Elevated, protective 8-bit chiptune unfolds with guarding, high Game Boy square wave cliff fortification. Solid triangle bass and defensive percussion sweep in, capturing clifftop warfare and coastal defense. Medium pacing drives a commanding, coastal cliff ambiance, elevated and secure.
+```
+
+#### 16. Crystal Cavern War
+```
+16. Crystal Cavern War
+```
+```
+Shimmering, beautiful 8-bit chiptune unfolds with sparkling, reflective Game Boy square wave crystal cave battle. Glittering triangle bass and crystalline percussion sweep in, capturing gem warfare and underground beauty. Medium pacing drives a magical, crystal cavern ambiance, sparkling and mystical.
+```
+
+#### 17. Ancient Ruins Siege
+```
+17. Ancient Ruins Siege
+```
+```
+Historical, ancient 8-bit chiptune unfolds with weathered, timeless Game Boy square wave ruins combat. Crumbling triangle bass and stone percussion sweep in, capturing archaeological warfare and ancient mystery. Slow pacing drives a reverent, ancient ruins ambiance, historical and profound.
+```
+
+#### 18. Muddy Wetlands Clash
+```
+18. Muddy Wetlands Clash
+```
+```
+Soggy, difficult 8-bit chiptune unfolds with slogging, muddy Game Boy square wave wetland struggle. Heavy triangle bass and squelchy percussion sweep in, capturing bog warfare and difficult terrain. Slow pacing drives a challenging, muddy wetlands ambiance, exhausting and persistent.
+```
+
+#### 19. Canyon Ridge Ambush
+```
+19. Canyon Ridge Ambush
+```
+```
+Echoing, strategic 8-bit chiptune unfolds with hiding, elevated Game Boy square wave canyon attack. Reverberating triangle bass and rocky percussion sweep in, capturing gorge warfare and ridge advantage. Medium pacing drives a dramatic, canyon ridge ambiance, strategic and echoing.
+```
+
+#### 20. Stormy Highlands Final Stand
+```
+20. Stormy Highlands Final Stand
+```
+```
+Climactic, ultimate 8-bit chiptune unfolds with storming, final Game Boy square wave highland peak battle. Thunderous triangle bass and storm percussion sweep in, capturing ultimate showdown and weather fury. Fast pacing drives a dramatic, stormy highlands ambiance, decisive and tempestuous.
 ```
 
 ## 🎵 制作ガイドライン
@@ -265,10 +244,13 @@ Mystical, deceptive 8-bit chiptune unfolds with illusory, confusing Game Boy squ
 - **aggressive expressions**: 作業BGMに不適
 - **modern synthesizer**: 8-bit純正性を損なう
 
-### ⏱️ テンポ戦略
-- **slow tempo**: 戦術・守備シーン（5曲）
-- **medium tempo**: バランス・移動シーン（10曲）
-- **fast tempo**: 攻撃・突撃シーン（5曲）
+### ⏱️ テンポ戦略（20フィールドバリエーション）
+- **slow tempo**: 戦術・守備・困難地形（6曲）
+  - Frozen Tundra March, Mountain Pass Siege, Swamp Marsh Combat, Ancient Ruins Siege, Muddy Wetlands Clash
+- **medium tempo**: バランス・探索・標準戦闘（11曲）
+  - Windswept Plains, Dark Forest, Alpine Ridge, Shoreline Tide, Underground Cave, River Crossing, Coastal Cliff, Crystal Cavern, Canyon Ridge
+- **fast tempo**: 攻撃・突撃・激戦（6曲）
+  - Volcanic Lava Fields, Ice Valley Skirmish, Jungle Canopy, Prairie Dawn, Stormy Highlands Final Stand
 
 ---
 

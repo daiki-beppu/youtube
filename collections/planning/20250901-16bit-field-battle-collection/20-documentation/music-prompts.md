@@ -27,7 +27,7 @@ Dynamic, Powerful, Surging, Charging, Advancing, Flowing, Clashing, Engaging, Mo
 Heroic, Valiant, Courageous, Bold, Fearless, Noble, Gallant, Brave, Determined, Steadfast
 
 ### 地形環境系
-Rolling, Rocky, Sandy, Snowy, Forested, Mountainous, Coastal, Desert, Highland, Plains
+Grassy, Plains, Forested, Dark, Rocky, Mountainous, Frozen, Tundra, Sandy, Desert, Coastal, Shoreline, Underground, Cave, Volcanic, Lava, Swampy, Marsh, River, Flowing, Ice, Valley, Jungle, Canopy, Prairie, Dawn, Cliff, Crystal, Ancient, Ruins, Muddy, Wetland, Canyon, Ridge, Stormy, Highland
 
 ## 🎼 16-bit専用楽器構成（Field Battle最適化）
 
@@ -43,49 +43,32 @@ Rolling, Rocky, Sandy, Snowy, Forested, Mountainous, Coastal, Desert, Highland, 
 - electronic guitar, modern synthesizer, heavy drums
 ```
 
-## 📋 楽曲タイトル一覧（コピー用）
+## 📋 楽曲タイトル一覧（コピー用・20フィールドバリエーション）
 
-### 🌾 草原戦場（6曲）
 ```
 01. Windswept Plains Campaign
-02. Rolling Hills Strategic Battle  
-03. Meadow Legion Advance
-04. Prairie Storm Offensive
-05. Grassland Coalition March
-06. Plains Victory Triumph
+02. Dark Forest Ambush War  
+03. Alpine Ridge Strategic Battle
+04. Frozen Tundra Legion March
+05. Desert Storm Epic Campaign
+06. Shoreline Tide Orchestral War
+07. Underground Cave Tactical Clash
+08. Volcanic Lava Epic Fields
+09. Swamp Marsh Strategic Combat
+10. River Crossing Tactical Fight
+11. Mountain Pass Grand Siege
+12. Ice Valley Strategic Skirmish
+13. Jungle Canopy Epic Battle
+14. Prairie Dawn Heroic Assault
+15. Coastal Cliff Grand Defense
+16. Crystal Cavern Orchestral War
+17. Ancient Ruins Epic Siege
+18. Muddy Wetlands Strategic Clash
+19. Canyon Ridge Tactical Ambush
+20. Stormy Highlands Final Stand
 ```
 
-### 🏔️ 山岳戦場（5曲）
-```
-07. Alpine Ridge War Council
-08. Mountain Pass Siege Battle
-09. Highland Fortress Assault
-10. Peak Summit Final Stand
-11. Cliff Edge Honor Duel
-```
-
-### 🌊 海岸戦場（6曲）
-```
-12. Shoreline Tide War
-13. Coastal Stronghold Defense
-14. Beach Landing Operation
-15. Lighthouse Strategic Point
-16. Harbor Gate Last Defense
-17. Ocean Cliff Battalion
-```
-
-### 🏜️ 砂漠戦場（5曲）
-```
-18. Desert Storm Legion
-19. Oasis Fortress Siege
-20. Dune Cavalry Charge
-21. Sandstorm Army March
-22. Mirage Valley Showdown
-```
-
-## ⚔️ 楽曲プロンプト（22曲完全版）
-
-### 🌾 草原戦場（6曲）
+## ⚔️ 楽曲プロンプト（20フィールドバリエーション完全版）
 
 #### 01. Windswept Plains Campaign
 ```
@@ -95,178 +78,156 @@ Rolling, Rocky, Sandy, Snowy, Forested, Mountainous, Coastal, Desert, Highland, 
 Epic, strategic 16-bit chiptune unfolds with sweeping, orchestrated SNES strings and brass campaign melody. Tactical percussion and woodwind formations sweep in, capturing vast plains warfare and coordinated strategy. Medium pacing drives a magnificent, expansive grassland ambiance, heroic and masterful.
 ```
 
-#### 02. Rolling Hills Strategic Battle
+#### 02. Dark Forest Ambush War
 ```
-02. Rolling Hills Strategic Battle
-```
-```
-Dynamic, calculated 16-bit chiptune unfolds with flowing, undulating SNES orchestral strings terrain navigation. Strategic brass and tactical percussion sweep in, capturing rolling landscape combat and battlefield coordination. Medium pacing drives a sweeping, undulating hills ambiance, methodical and powerful.
-```
-
-#### 03. Meadow Legion Advance
-```
-03. Meadow Legion Advance
+02. Dark Forest Ambush War
 ```
 ```
-Disciplined, coordinated 16-bit chiptune unfolds with marching, organized SNES brass and strings legion formation. Systematic percussion and unified woodwind sweep in, capturing army advancement and field discipline. Medium pacing drives a structured, grassy meadow ambiance, determined and orchestrated.
+Stealthy, orchestrated 16-bit chiptune unfolds with lurking, hidden SNES strings and brass forest attack. Shadowy percussion and rustling woodwind sweep in, capturing woodland ambush and orchestral tree cover tactics. Medium pacing drives a dense, dark forest ambiance, mysterious and tactical.
 ```
 
-#### 04. Prairie Storm Offensive
+#### 03. Alpine Ridge Strategic Battle
 ```
-04. Prairie Storm Offensive
-```
-```
-Powerful, surging 16-bit chiptune unfolds with charging, overwhelming SNES orchestral brass storm attack. Dynamic strings and thunderous percussion sweep in, capturing offensive power and prairie tempest. Fast pacing drives a turbulent, storm-swept prairie ambiance, bold and unstoppable.
-```
-
-#### 05. Grassland Coalition March
-```
-05. Grassland Coalition March
+03. Alpine Ridge Strategic Battle
 ```
 ```
-United, coordinated 16-bit chiptune unfolds with harmonizing, allied SNES brass and strings coalition anthem. Unified percussion and cooperative woodwind sweep in, capturing allied forces and grassland unity. Medium pacing drives a collaborative, vast grassland ambiance, steadfast and inspiring.
+Rugged, majestic 16-bit chiptune unfolds with climbing, ascending SNES orchestral strings and brass mountain combat. Rocky percussion and echoing woodwind sweep in, capturing high altitude conflict and alpine grandeur. Medium pacing drives a steep, alpine ridge ambiance, steadfast and magnificent.
 ```
 
-#### 06. Plains Victory Triumph
+#### 04. Frozen Tundra Legion March
 ```
-06. Plains Victory Triumph
-```
-```
-Triumphant, glorious 16-bit chiptune unfolds with celebrating, victorious SNES orchestral brass and strings victory fanfare. Soaring percussion and jubilant woodwind sweep in, capturing battlefield success and plains conquest. Fast pacing drives a magnificent, triumphant grassland ambiance, heroic and uplifting.
-```
-
-### 🏔️ 山岳戦場（5曲）
-
-#### 07. Alpine Ridge War Council
-```
-07. Alpine Ridge War Council
+04. Frozen Tundra Legion March
 ```
 ```
-Strategic, contemplative 16-bit chiptune unfolds with deliberating, planning SNES strings and brass council meeting. Thoughtful percussion and advisory woodwind sweep in, capturing mountain strategy and tactical planning. Slow pacing drives a serious, alpine ridge ambiance, calculated and wise.
+Harsh, orchestrated 16-bit chiptune unfolds with trudging, persistent SNES brass and strings winter advance. Icy percussion and crystalline woodwind sweep in, capturing frozen warfare and arctic endurance. Slow pacing drives a bitter, frozen tundra ambiance, resilient and epic.
 ```
 
-#### 08. Mountain Pass Siege Battle
+#### 05. Desert Storm Epic Campaign
 ```
-08. Mountain Pass Siege Battle
-```
-```
-Intense, tactical 16-bit chiptune unfolds with blocking, defensive SNES brass and strings narrow passage control. Fortified percussion and strategic woodwind sweep in, capturing chokepoint warfare and mountain defense. Medium pacing drives a confined, rocky pass ambiance, determined and methodical.
-```
-
-#### 09. Highland Fortress Assault
-```
-09. Highland Fortress Assault
+05. Desert Storm Epic Campaign
 ```
 ```
-Bold, advancing 16-bit chiptune unfolds with storming, attacking SNES orchestral brass and strings fortress siege. Assault percussion and charging woodwind sweep in, capturing highland storming and elevated battle. Fast pacing drives a dramatic, highland fortress ambiance, courageous and powerful.
+Harsh, orchestrated 16-bit chiptune unfolds with weathering, surviving SNES orchestral brass and strings sandstorm army. Windswept percussion and desert woodwind sweep in, capturing sandy warfare and environmental grandeur. Medium pacing drives a dusty, desert storm ambiance, resilient and powerful.
 ```
 
-#### 10. Peak Summit Final Stand
+#### 06. Shoreline Tide Orchestral War
 ```
-10. Peak Summit Final Stand
-```
-```
-Epic, climactic 16-bit chiptune unfolds with defending, ultimate SNES orchestral strings and brass mountain peak battle. Dramatic percussion and heroic woodwind sweep in, capturing summit showdown and final confrontation. Medium pacing drives a towering, peak summit ambiance, valiant and decisive.
-```
-
-#### 11. Cliff Edge Honor Duel
-```
-11. Cliff Edge Honor Duel
+06. Shoreline Tide Orchestral War
 ```
 ```
-Noble, focused 16-bit chiptune unfolds with dueling, honorable SNES strings and brass precipice combat. Precise percussion and respectful woodwind sweep in, capturing individual honor and cliff edge courage. Medium pacing drives a precarious, cliff edge ambiance, gallant and respectful.
+Flowing, rhythmic 16-bit chiptune unfolds with surging, tidal SNES orchestral strings and brass coastal warfare. Wave-like percussion and oceanic woodwind sweep in, capturing beach combat and orchestral tidal strategy. Medium pacing drives a dynamic, shoreline ambiance, fluid and majestic.
 ```
 
-### 🌊 海岸戦場（6曲）
-
-#### 12. Shoreline Tide War
+#### 07. Underground Cave Tactical Clash
 ```
-12. Shoreline Tide War
+07. Underground Cave Tactical Clash
 ```
 ```
-Flowing, rhythmic 16-bit chiptune unfolds with surging, tidal SNES orchestral strings and brass coastal warfare. Wave-like percussion and oceanic woodwind sweep in, capturing beach combat and tidal strategy. Medium pacing drives a dynamic, shoreline ambiance, fluid and powerful.
+Echoing, orchestrated 16-bit chiptune unfolds with reverberating, cavernous SNES strings and organ underground combat. Deep percussion and stalactite woodwind sweep in, capturing cave warfare and subterranean orchestral tactics. Medium pacing drives a mysterious, underground cave ambiance, confined and strategic.
 ```
 
-#### 13. Coastal Stronghold Defense
+#### 08. Volcanic Lava Epic Fields
 ```
-13. Coastal Stronghold Defense
-```
-```
-Fortified, protective 16-bit chiptune unfolds with defending, secured SNES brass and strings fortress protection. Solid percussion and defensive woodwind sweep in, capturing coastal walls and stronghold security. Slow pacing drives a sturdy, coastal fortress ambiance, reliable and impenetrable.
-```
-
-#### 14. Beach Landing Operation
-```
-14. Beach Landing Operation
+08. Volcanic Lava Epic Fields
 ```
 ```
-Coordinated, amphibious 16-bit chiptune unfolds with landing, tactical SNES orchestral brass and strings shore invasion. Strategic percussion and assault woodwind sweep in, capturing beach operations and amphibious coordination. Fast pacing drives an urgent, beach landing ambiance, organized and advancing.
+Scorching, orchestrated 16-bit chiptune unfolds with burning, avoiding SNES orchestral brass and organ volcanic battle. Molten percussion and bubbling woodwind sweep in, capturing lava navigation and extreme heat grandeur. Fast pacing drives an intense, volcanic fields ambiance, dangerous and epic.
 ```
 
-#### 15. Lighthouse Strategic Point
+#### 09. Swamp Marsh Strategic Combat
 ```
-15. Lighthouse Strategic Point
-```
-```
-Guiding, tactical 16-bit chiptune unfolds with beacon, illuminating SNES strings and brass navigation warfare. Lighthouse percussion and directing woodwind sweep in, capturing coastal guidance and strategic positioning. Medium pacing drives a bright, lighthouse point ambiance, focused and directing.
-```
-
-#### 16. Harbor Gate Last Defense
-```
-16. Harbor Gate Last Defense
+09. Swamp Marsh Strategic Combat
 ```
 ```
-Desperate, determined 16-bit chiptune unfolds with blocking, final SNES brass and strings gateway defense. Protective percussion and resolute woodwind sweep in, capturing harbor control and last stand courage. Medium pacing drives a critical, harbor entrance ambiance, steadfast and heroic.
+Muddy, orchestrated 16-bit chiptune unfolds with sinking, struggling SNES strings and brass wetland battle. Boggy percussion and squelching woodwind sweep in, capturing marsh warfare and orchestral swamp navigation. Slow pacing drives a sticky, swamp marsh ambiance, challenging and strategic.
 ```
 
-#### 17. Ocean Cliff Battalion
+#### 10. River Crossing Tactical Fight
 ```
-17. Ocean Cliff Battalion
-```
-```
-Elevated, commanding 16-bit chiptune unfolds with overlooking, strategic SNES orchestral strings and brass cliff formation. Coastal percussion and commanding woodwind sweep in, capturing high ground advantage and ocean overlook. Medium pacing drives a majestic, ocean cliff ambiance, dominant and tactical.
-```
-
-### 🏜️ 砂漠戦場（5曲）
-
-#### 18. Desert Storm Legion
-```
-18. Desert Storm Legion
+10. River Crossing Tactical Fight
 ```
 ```
-Harsh, enduring 16-bit chiptune unfolds with weathering, surviving SNES orchestral brass and strings sandstorm army. Windswept percussion and desert woodwind sweep in, capturing sandy warfare and environmental challenge. Medium pacing drives a dusty, desert storm ambiance, resilient and powerful.
+Flowing, orchestrated 16-bit chiptune unfolds with crossing, bridging SNES strings and brass river passage battle. Current percussion and splash woodwind sweep in, capturing water crossing and orchestral riverbank tactics. Medium pacing drives a rushing, river crossing ambiance, strategic and determined.
 ```
 
-#### 19. Oasis Fortress Siege
+#### 11. Mountain Pass Grand Siege
 ```
-19. Oasis Fortress Siege
-```
-```
-Vital, contested 16-bit chiptune unfolds with surrounding, strategic SNES brass and strings water source battle. Precious percussion and siege woodwind sweep in, capturing oasis control and desert survival strategy. Slow pacing drives a crucial, oasis stronghold ambiance, tactical and life-sustaining.
-```
-
-#### 20. Dune Cavalry Charge
-```
-20. Dune Cavalry Charge
+11. Mountain Pass Grand Siege
 ```
 ```
-Swift, thundering 16-bit chiptune unfolds with galloping, mobile SNES orchestral strings and brass sand cavalry attack. Racing percussion and rapid woodwind sweep in, capturing desert mobility and cavalry tactics. Fast pacing drives a shifting, sand dune ambiance, swift and unstoppable.
+Strategic, orchestrated 16-bit chiptune unfolds with blocking, protective SNES brass and strings narrow passage control. Fortified percussion and tactical woodwind sweep in, capturing chokepoint defense and orchestral positioning. Slow pacing drives a confined, mountain pass ambiance, calculated and grand.
 ```
 
-#### 21. Sandstorm Army March
+#### 12. Ice Valley Strategic Skirmish
 ```
-21. Sandstorm Army March
+12. Ice Valley Strategic Skirmish
 ```
 ```
-Organized, advancing 16-bit chiptune unfolds with marching, disciplined SNES brass and strings desert formation. Military percussion and coordinated woodwind sweep in, capturing organized advance and desert discipline. Medium pacing drives a structured, sandstorm march ambiance, methodical and determined.
+Slippery, orchestrated 16-bit chiptune unfolds with sliding, treacherous SNES strings and brass ice combat. Frozen percussion and brittle woodwind sweep in, capturing icy terrain warfare and orchestral winter tactics. Fast pacing drives a dangerous, ice valley ambiance, precarious and strategic.
 ```
 
-#### 22. Mirage Valley Showdown
+#### 13. Jungle Canopy Epic Battle
 ```
-22. Mirage Valley Showdown
+13. Jungle Canopy Epic Battle
 ```
 ```
-Mystical, climactic 16-bit chiptune unfolds with illusory, final SNES orchestral strings and brass desert mirage battle. Shimmering percussion and ethereal woodwind sweep in, capturing visual deception and ultimate confrontation. Medium pacing drives a wavering, mirage valley ambiance, mysterious and decisive.
+Wild, orchestrated 16-bit chiptune unfolds with swinging, aerial SNES strings and brass jungle combat. Vine-like percussion and tropical woodwind sweep in, capturing canopy warfare and orchestral jungle mobility. Fast pacing drives a lush, jungle canopy ambiance, wild and epic.
+```
+
+#### 14. Prairie Dawn Heroic Assault
+```
+14. Prairie Dawn Heroic Assault
+```
+```
+Bold, orchestrated 16-bit chiptune unfolds with charging, heroic SNES brass and strings sunrise attack. Surging percussion and dynamic woodwind sweep in, capturing dawn offensive and orchestral morning courage. Fast pacing drives a bright, prairie dawn ambiance, fearless and heroic.
+```
+
+#### 15. Coastal Cliff Grand Defense
+```
+15. Coastal Cliff Grand Defense
+```
+```
+Elevated, orchestrated 16-bit chiptune unfolds with guarding, high SNES strings and brass cliff fortification. Solid percussion and defensive woodwind sweep in, capturing clifftop warfare and orchestral coastal defense. Medium pacing drives a commanding, coastal cliff ambiance, elevated and grand.
+```
+
+#### 16. Crystal Cavern Orchestral War
+```
+16. Crystal Cavern Orchestral War
+```
+```
+Shimmering, orchestrated 16-bit chiptune unfolds with sparkling, reflective SNES strings and brass crystal cave battle. Glittering percussion and crystalline woodwind sweep in, capturing gem warfare and orchestral underground beauty. Medium pacing drives a magical, crystal cavern ambiance, sparkling and epic.
+```
+
+#### 17. Ancient Ruins Epic Siege
+```
+17. Ancient Ruins Epic Siege
+```
+```
+Historical, orchestrated 16-bit chiptune unfolds with weathered, timeless SNES organ and strings ruins combat. Crumbling percussion and stone woodwind sweep in, capturing archaeological warfare and orchestral ancient mystery. Slow pacing drives a reverent, ancient ruins ambiance, historical and epic.
+```
+
+#### 18. Muddy Wetlands Strategic Clash
+```
+18. Muddy Wetlands Strategic Clash
+```
+```
+Soggy, orchestrated 16-bit chiptune unfolds with slogging, muddy SNES strings and brass wetland struggle. Heavy percussion and squelchy woodwind sweep in, capturing bog warfare and orchestral difficult terrain. Slow pacing drives a challenging, muddy wetlands ambiance, exhausting and strategic.
+```
+
+#### 19. Canyon Ridge Tactical Ambush
+```
+19. Canyon Ridge Tactical Ambush
+```
+```
+Echoing, orchestrated 16-bit chiptune unfolds with hiding, elevated SNES strings and brass canyon attack. Reverberating percussion and rocky woodwind sweep in, capturing gorge warfare and orchestral ridge advantage. Medium pacing drives a dramatic, canyon ridge ambiance, strategic and tactical.
+```
+
+#### 20. Stormy Highlands Final Stand
+```
+20. Stormy Highlands Final Stand
+```
+```
+Climactic, orchestrated 16-bit chiptune unfolds with storming, final SNES orchestral brass and organ highland peak battle. Thunderous percussion and storm woodwind sweep in, capturing ultimate showdown and orchestral weather fury. Fast pacing drives a dramatic, stormy highlands ambiance, decisive and epic.
 ```
 
 ## 🎵 制作ガイドライン
@@ -283,13 +244,16 @@ Mystical, climactic 16-bit chiptune unfolds with illusory, final SNES orchestral
 - **aggressive expressions**: 作業BGMに不適
 - **modern synthesizer**: 16-bit品格を損なう
 
-### ⏱️ テンポ戦略
-- **slow tempo**: 戦術・守備シーン（3曲）
-- **medium tempo**: バランス・移動シーン（14曲）
-- **fast tempo**: 攻撃・突撃シーン（5曲）
+### ⏱️ テンポ戦略（20フィールドバリエーション）
+- **slow tempo**: 戦術・守備・困難地形（5曲）
+  - Frozen Tundra Legion March, Swamp Marsh Strategic Combat, Mountain Pass Grand Siege, Ancient Ruins Epic Siege, Muddy Wetlands Strategic Clash
+- **medium tempo**: バランス・探索・標準戦闘（9曲）
+  - Windswept Plains Campaign, Dark Forest Ambush War, Alpine Ridge Strategic Battle, Shoreline Tide Orchestral War, Underground Cave Tactical Clash, River Crossing Tactical Fight, Coastal Cliff Grand Defense, Crystal Cavern Orchestral War, Canyon Ridge Tactical Ambush
+- **fast tempo**: 攻撃・突撃・激戦（6曲）
+  - Desert Storm Epic Campaign, Volcanic Lava Epic Fields, Ice Valley Strategic Skirmish, Jungle Canopy Epic Battle, Prairie Dawn Heroic Assault, Stormy Highlands Final Stand
 
 ---
 
 *作成日: 2025年9月1日*  
 *音源: 16-bit SNES特化統一*  
-*コンセプト: Field Battle = 戦術 + 壮大さ + 作業BGM最適化*
+*コンセプト: Field Battle = 戦術 + 壮大さ + orchestral depth + 作業BGM最適化*
