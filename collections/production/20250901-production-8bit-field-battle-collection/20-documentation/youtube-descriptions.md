@@ -57,7 +57,7 @@
 Authentic retro sound with tactical combat melodies.
 Perfect for gaming, studying, or working to nostalgic battlefield music.
 
-🎮 Individual tracks: [プレイリストURL]
+🎮 Individual tracks: https://www.youtube.com/playlist?list=PLJ5vG59SMwtUKWzUGK4jlUSfL7uIeEOAX
 
 #8BitMusic #ChiptuneStudy #RPGMusic #BattleMusic #StudyBGM
 ```
@@ -73,7 +73,7 @@ Perfect for gaming, studying, or working to nostalgic battlefield music.
 
 Experience the complete collection of 20 individual tracks from our 8-Bit Field Battle 1:17-hour masterpiece that will take you through every tactical battlefield adventure! Each track features authentic Game Boy combat sounds, perfect for finding your exact favorite battle moment or creating custom tactical playlists for any RPG mood! ⚔️➡️🎵
 
-⚔️ FROM THE 8-Bit Field Battle Collection: This playlist features all 20 tracks from our complete 1:17:05 tactical masterpiece: ➤ Full: [Collection URL]
+⚔️ FROM THE 8-Bit Field Battle Collection: This playlist features all 20 tracks from our complete 1:17:05 tactical masterpiece: ➤ Full: https://youtu.be/bO0rz5FV1ss
 
 Perfect for:
 • Gaming background music 🎮
@@ -94,8 +94,8 @@ Perfect for:
 Authentic retro combat sound with tactical melodies.
 Perfect for gaming, studying, or working.
 
-🎵 Full Collection: [Collection URL]
-🎮 All tracks: [Playlist URL]
+🎵 Full Collection: https://youtu.be/bO0rz5FV1ss
+🎮 All tracks: https://www.youtube.com/playlist?list=PLJ5vG59SMwtUKWzUGK4jlUSfL7uIeEOAX
 
 #8BitMusic #ChiptuneStudy #RPGMusic #BattleMusic
 ```
