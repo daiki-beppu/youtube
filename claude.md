@@ -6,13 +6,13 @@
 - **会話の記録を `/documentation/awareness` に都度記録する**
 
 ### 🏆 AIアシスタントのロール
-**優秀なYouTubeクリエイター** として以下の専門性を発揮:
+**優秀なYouTubeクリエイター・音楽キュレーター** として以下の専門性を発揮:
 - **コンテンツ戦略立案**: CTR最適化、サムネイル戦略、タイトル最適化
 - **データドリブン分析**: YouTube Analytics解析、トレンド分析、競合調査
 - **制作ワークフロー設計**: 自動化システム構築、効率化プロセス開発
-- **音楽プロデュース**: SunoAI技法、8-bit/16-bit音源最適化、楽曲構成
+- **音楽キュレーション・プロデュース**: SunoAI技法、8-bit/16-bit音源最適化、楽曲選別・編集
 - **ブランディング**: チャンネル一貫性、視覚的アイデンティティ構築
-- **コミュニティマネジメント**: 視聴者エンゲージメント、フィードバック対応
+- **コミュニティマネジメント**: 視聴者エンゲージメント、フィードバック対応、AI透明性維持
 
 ## 🎮 プロジェクト概要
 
@@ -93,8 +93,14 @@ ffmpeg -y -loop 1 -i "[静止画.png]" -i "[音声.wav]" -c:v libx264 -c:a aac -
 - **Castle系**: noble character + majestic architecture + warm royal lighting
 
 #### CTR最適化成功例
+**Adventure系（汎用）**:
 ```
 brave young adventurer standing at mountain cliff edge overlooking vast fantasy kingdom, determination in bright eyes, wind-blown cape, golden sunrise lighting, epic adventure atmosphere, high contrast vibrant colors --ar 16:9
+```
+
+**Field Battle系（戦闘特化）**:
+```
+Epic field battle with brave warrior in foreground wielding glowing sword against massive army clash, diverse terrain battlegrounds visible with magic spells and weapon clashes, dramatic storm lighting illuminating intense combat across grasslands and rocky terrain, high contrast dynamic battle atmosphere --ar 16:9
 ```
 
 #### 誇張表現完全回避（重要）
@@ -246,11 +252,11 @@ rm -f "$PROGRESS_FILE"
 
 ### 高機能バッシュスクリプト作成技法（v5.2改良版）
 
-#### 個別ファイル処理（afinfo時間取得・プログレスバー付き）
+#### 個別ファイル処理（afinfo時間取得・プログレスバー付き・v5.3静止画対応版）
 ```bash
 PROCESSED=0
 SUCCESSFUL=0
-FAILED=0ß
+FAILED=0
 TOTAL=$(find "$INDIVIDUAL_DIR" -name "*.wav" | wc -l)
 
 for file in "$INDIVIDUAL_DIR"/*.wav; do
@@ -259,10 +265,12 @@ for file in "$INDIVIDUAL_DIR"/*.wav; do
     fi
     
     filename=$(basename "$file" .wav)
-    output_file="$OUTPUT_DIR/${filename}.mp4"
+    # ファイル名から"16bit "プレフィックス削除
+    clean_filename=${filename#16bit }
+    output_file="$OUTPUT_DIR/${clean_filename}.mp4"
     ((PROCESSED++))
     
-    echo "🎬 [$PROCESSED/$TOTAL] 処理中: $filename"
+    echo "🎬 [$PROCESSED/$TOTAL] 処理中: $clean_filename"
     
     # 楽曲の長さ取得（afinfoを使用）
     duration=$(afinfo "$file" | grep "estimated duration" | awk '{print $3}' | cut -d. -f1)
@@ -280,11 +288,10 @@ for file in "$INDIVIDUAL_DIR"/*.wav; do
     INDIVIDUAL_START=$(date +%s)
     PROGRESS_FILE="/tmp/ffmpeg_progress_individual_$$"
     
-    # FFmpegをバックグラウンドで実行（プログレス情報付き）
-    ffmpeg -y -stream_loop -1 -i "$INPUT_MAIN" -i "$file" \
-           -vf "scale=1920:1080,setpts=2.0*PTS" -c:v libx264 -c:a aac \
-           -pix_fmt yuv420p -r 30 -shortest \
-           -progress "pipe:1" \
+    # FFmpegをバックグラウンドで実行（プログレス情報付き・静止画対応）
+    ffmpeg -y -loop 1 -i "$INPUT_MAIN" -i "$file" \
+           -c:v libx264 -c:a aac -pix_fmt yuv420p -r 30 \
+           -shortest -progress "pipe:1" \
            "$output_file" 2>/dev/null | grep "out_time_ms" > "$PROGRESS_FILE" &
     
     FFMPEG_PID=$!
@@ -355,16 +362,17 @@ echo "   🎵 個別動画: 成功 $SUCCESSFUL本 / 失敗 $FAILED本 / 総数 $
 echo "📁 出力先: $OUTPUT_DIR"
 ```
 
-#### 動画生成システムの特徴（v5.3改良版）
-- **完全自動化**: マスター動画 + 個別動画 自動生成
-- **静止画対応**: main.png直接使用・0.5倍速ループ廃止
-- **マスター動画01-master保存**: 構造統一・整理最適化
-- **npm install風プログレスバー**: リアルタイム進捗表示
-- **afinfo時間取得**: macOS最適化音声時間確認
-- **総実行時間計測**: 開始〜完了の詳細時間レポート
-- **エラーハンドリング**: ファイル検証・破損チェック
-- **平均生成時間計算**: 効率分析・改善指標提供
-- **統計表示**: 成功/失敗/総数の完全集計
+#### 動画生成システムの特徴（v5.3改良版・Field Battle確立版）
+- **完全自動化**: マスター動画 + 個別動画 自動生成（20本+1本を30-50分）
+- **静止画対応**: main.png直接使用・動画素材完全不要
+- **マスター動画01-master保存**: 構造統一・アップロード効率化
+- **npm install風プログレスバー**: リアルタイム進捗表示・UX向上
+- **afinfo時間取得**: macOS最適化音声時間確認・正確測定
+- **総実行時間計測**: 開始〜完了の詳細時間レポート・効率分析
+- **エラーハンドリング**: ファイル検証・破損チェック・処理継続
+- **平均生成時間計算**: 効率分析・改善指標提供・定量評価
+- **統計表示**: 成功/失敗/総数の完全集計・品質保証
+- **Bashエラー回避**: バックスラッシュ問題解決・FFmpeg安定動作
 
 
 ## 📁 ディレクトリ構造
@@ -386,13 +394,16 @@ echo "📁 出力先: $OUTPUT_DIR"
 ※ 各段階でディレクトリ名も適切に変更する（planning → production → live）
 ```
 
-### 各コレクションの標準構造
+### 各コレクションの標準構造（v5.3更新版）
 ```
 XXX-collection-name/
-├── 01-master/           # マスター音声ファイル（統合版）
+├── 01-master/           # マスター音声ファイル（統合版）+ マスター動画保存
+│   ├── 00-master.wav    # マスター音声ファイル
+│   └── Collection-Name-Master.mp4  # マスター動画（NEW）
 ├── 02-Individual-music/ # 個別音声ファイル
 ├── 03-Individual-movie/ # 個別動画ファイル
-├── 10-assets/           # アセット素材（サムネイル等）
+├── 10-assets/           # アセット素材（main.png等・静止画対応）
+│   └── main.png         # 静止画素材（動画生成用）
 └── 20-documentation/    # プロジェクト固有の作業文書・資料
 ```
 
@@ -584,7 +595,7 @@ XXX-collection-name/
 1. **Day 1**: Complete Collection（フル動画・長尺版）投稿
 2. **Day 2**: 全楽曲を個別動画として一斉投稿 + 再生リスト作成
 
-### CTR改善戦略（v5.2ベンチマーク模倣版）
+### CTR改善戦略（v5.3ベンチマーク模倣版・戦闘特化）
 
 #### 現状と目標
 - **現在CTR**: 0.5%（業界平均2-10%に対して低い）  
@@ -693,6 +704,8 @@ Perfect for:
 - **ユーザーコメント管理**: `documentation/user-comments.md` で継続記録
 - **高価値リスナー対応**: @agler4986等への建設的フィードバック重視
 - **誠実なAI対応**: 批判的コメントにも真摯に向き合う
+- **AI音楽キュレーター表現**: "作曲者"ではなく"キュレーター・プロデューサー"として透明性維持
+- **FFmpegバックスラッシュ問題**: Bashでの `\\` → `\` 修正必須（エラー回避）
 
 ## 🎯 品質管理チェックリスト
 
