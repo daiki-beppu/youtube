@@ -70,9 +70,14 @@ def format_timestamp(seconds):
 ffmpeg -loop 1 -i "[サムネイル.png]" -i "[音声.wav]" -c:v libx264 -c:a aac -shortest "[出力.mp4]"
 ```
 
-動画ファイル + 音声ファイルから 0.5倍速ループ動画生成:
+動画ファイル + 音声ファイルから 0.5倍速ループ動画生成（廃止予定）:
 ```bash
 ffmpeg -y -stream_loop -1 -i "[動画.mp4]" -i "[音声.wav]" -vf "scale=1920:1080,setpts=2.0*PTS" -c:v libx264 -c:a aac -pix_fmt yuv420p -r 30 -shortest "[出力.mp4]"
+```
+
+**新規採用**: 静止画 + 音声から直接動画生成（v5.3対応）:
+```bash
+ffmpeg -y -loop 1 -i "[静止画.png]" -i "[音声.wav]" -c:v libx264 -c:a aac -pix_fmt yuv420p -r 30 -shortest "[出力.mp4]"
 ```
 
 ### CTR最適化Midjourneyビジュアル制作技法（v5.1改良版）
@@ -96,8 +101,8 @@ brave young adventurer standing at mountain cliff edge overlooking vast fantasy 
 ❌ 禁止: Epic, Ultimate, Amazing, Incredible, Legendary, Supreme
 ✅ 推奨: Adventure, Heroic, Mysterious, Peaceful, Majestic
 
-### 完全自動動画生成システム（v5.2進化版）
-22本+マスター動画を40-60分で完全自動生成:
+### 完全自動動画生成システム（v5.3進化版）
+20本+マスター動画を30-50分で完全自動生成（静止画対応・総時間計測付き）:
 
 #### 高度プログレスバー付き動画生成（npm install風）
 ```bash
@@ -112,10 +117,13 @@ set -e
 # 基本設定（自動パス取得）
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 BASE_DIR="$SCRIPT_DIR"
-INPUT_MAIN="$BASE_DIR/10-assets/main.mp4"
+INPUT_MAIN="$BASE_DIR/10-assets/main.png"  # 静止画対応
 MASTER_AUDIO="$BASE_DIR/01-master/00-master.wav"
 INDIVIDUAL_DIR="$BASE_DIR/02-Individual-music"
 OUTPUT_DIR="$BASE_DIR/03-Individual-movie"
+
+# 総実行時間計測開始
+TOTAL_START_TIME=$(date +%s)
 
 mkdir -p "$OUTPUT_DIR"
 ```
@@ -144,7 +152,7 @@ check_file() {
 
 # 必要ファイル確認
 echo "📁 ファイル存在確認中..."
-check_file "$INPUT_MAIN" "main.mp4" || exit 1
+check_file "$INPUT_MAIN" "main.png" || exit 1  # 静止画対応
 check_file "$MASTER_AUDIO" "マスター音声" || exit 1
 ```
 
@@ -159,9 +167,11 @@ echo "⏱️ マスター音声時間: ${DURATION_INT}秒"
 START_TIME=$(date +%s)
 PROGRESS_FILE="/tmp/ffmpeg_progress_$$"
 
-# FFmpegをバックグラウンドで実行（プログレス情報付き）
-ffmpeg -y -stream_loop -1 -i "$INPUT_MAIN" -i "$MASTER_AUDIO" \
-       -vf "scale=1920:1080,setpts=2.0*PTS" \
+# マスター動画出力先（01-masterフォルダ）
+MASTER_OUTPUT="$BASE_DIR/01-master/[Collection-Name]-Master.mp4"
+
+# FFmpegをバックグラウンドで実行（プログレス情報付き・静止画対応）
+ffmpeg -y -loop 1 -i "$INPUT_MAIN" -i "$MASTER_AUDIO" \
        -c:v libx264 -c:a aac -pix_fmt yuv420p -r 30 \
        -shortest -progress "pipe:1" \
        "$MASTER_OUTPUT" 2>/dev/null | grep "out_time_ms" > "$PROGRESS_FILE" &
@@ -317,6 +327,16 @@ for file in "$INDIVIDUAL_DIR"/*.wav; do
 done
 
 echo "📊 結果: 成功 $SUCCESSFUL / 失敗 $FAILED / 総数 $TOTAL"
+
+# 総実行時間計算・表示
+TOTAL_END_TIME=$(date +%s)
+TOTAL_ELAPSED=$((TOTAL_END_TIME - TOTAL_START_TIME))
+TOTAL_HOURS=$((TOTAL_ELAPSED / 3600))
+TOTAL_MINUTES=$(((TOTAL_ELAPSED % 3600) / 60))
+TOTAL_SECONDS=$((TOTAL_ELAPSED % 60))
+
+echo "⏱️  総実行時間: ${TOTAL_HOURS}時間${TOTAL_MINUTES}分${TOTAL_SECONDS}秒"
+echo "📈 平均生成時間: $((TOTAL_ELAPSED / (SUCCESSFUL + 1)))秒/動画"
 ```
 
 #### スクリプト完成・実行方法
@@ -335,13 +355,15 @@ echo "   🎵 個別動画: 成功 $SUCCESSFUL本 / 失敗 $FAILED本 / 総数 $
 echo "📁 出力先: $OUTPUT_DIR"
 ```
 
-#### 動画生成システムの特徴（v5.2改良版）
+#### 動画生成システムの特徴（v5.3改良版）
 - **完全自動化**: マスター動画 + 個別動画 自動生成
+- **静止画対応**: main.png直接使用・0.5倍速ループ廃止
+- **マスター動画01-master保存**: 構造統一・整理最適化
 - **npm install風プログレスバー**: リアルタイム進捗表示
 - **afinfo時間取得**: macOS最適化音声時間確認
+- **総実行時間計測**: 開始〜完了の詳細時間レポート
 - **エラーハンドリング**: ファイル検証・破損チェック
-- **時間測定**: 各処理の生成時間詳細表示
-- **0.5倍速ループ**: main動画と音声の完美同期
+- **平均生成時間計算**: 効率分析・改善指標提供
 - **統計表示**: 成功/失敗/総数の完全集計
 
 
