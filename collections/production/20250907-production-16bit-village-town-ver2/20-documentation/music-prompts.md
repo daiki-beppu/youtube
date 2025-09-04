@@ -1,277 +1,257 @@
-# 🏙️ 16-bit Village & Town Collection ver.2 - SunoAI プロンプト完全版
+# 🏘️ 8-bit Village & Town Collection ver.2 - SunoAI プロンプト完全版
 
 ## 🎯 基本プロンプト構造（改良版技法 v5.3 - SunoAI耐性版）
 
-### 16-bit SNES特化版（自然文構造）
+### 8-bit Game Boy特化版（自然文構造）
 ```
-[感情1], [感情2] 16-bit chiptune unfolds with [楽器特徴], [音色特性] SNES [楽器群] [動作]. [副楽器] [楽器特徴] sweep in, capturing [雰囲気1] and [雰囲気2]. [テンポ] pacing drives a [最終感情], [補完感情] [場所] ambiance, [総合印象] and [結末感情].
+[感情1], [感情2] 8-bit chiptune unfolds with [楽器特徴], [音色特性] Game Boy [楽器群] [動作]. [副楽器] [楽器特徴] sweep in, capturing [雰囲気1] and [雰囲気2]. [テンポ] pacing drives a [最終感情], [補完感情] [場所] ambiance, [総合印象] and [結末感情].
 ```
 
 ### SunoAI耐性版技法の特徴
 - **自然な英語構造**: 動詞活用で音楽の流れを表現
-- **音楽理論統合**: 専門用語で16-bit音色の特性を強化
+- **音楽理論統合**: 専門用語で8-bit音色の特性を強化
 - **感情アーク構築**: 開始→展開→結末の感情変化を設計
 
 ## 🎨 Village & Town ver.2専用装飾語体系
 
-### 都市洗練系
-Sophisticated, Refined, Elegant, Cultured, Polished, Cosmopolitan, Metropolitan, Urban, Modern, Advanced
+### 田舎郷愁系
+Nostalgic, Rural, Countryside, Pastoral, Rustic, Simple, Traditional, Homely, Quaint, Charming
 
-### 商業繁栄系
-Prosperous, Thriving, Bustling, Commercial, Trading, Wealthy, Successful, Flourishing, Rich, Abundant
+### 温かみ共同体系
+Warm, Cozy, Welcoming, Friendly, Community, Neighborly, Familiar, Comfortable, Intimate, Peaceful
 
-### 建築美学系
-Architectural, Magnificent, Grand, Towering, Impressive, Monumental, Stately, Majestic, Beautiful, Ornate
+### 自然調和系
+Natural, Organic, Earthy, Seasonal, Fresh, Green, Growing, Blooming, Flowing, Breathing
 
-### 多文化共存系
-Diverse, Multicultural, International, Global, Worldly, Inclusive, Harmonious, United, Connected, Exchange
+### 手作り職人系
+Handmade, Crafted, Artisan, Skilled, Dedicated, Patient, Careful, Thoughtful, Honest, Hardworking
 
-### 進歩発展系
-Progressive, Developing, Growing, Expanding, Advancing, Innovating, Improving, Modernizing, Evolving, Forward
+### 日常生活系
+Daily, Routine, Living, Working, Resting, Gathering, Sharing, Caring, Supporting, Connecting
 
-## 🎼 16-bit専用楽器構成（Village & Town ver.2最適化）
+## 🎼 8-bit専用楽器構成（Village & Town ver.2最適化）
 
 ```
 ✅ 推奨楽器:
-- orchestral strings（都市の洗練・文化の深み）
-- ceremonial brass（商業繁栄・都市の威厳）
-- woodwind ensemble（多文化の調和・国際交流）
-- cathedral organ（建築美・都市の荘厳さ）
-- refined percussion（都市リズム・進歩の鼓動）
+- square wave melody（親しみやすい主旋律・村の歌声）
+- triangle wave bass（温かいベースライン・大地の安定感）
+- noise channel percussion（日常リズム・生活音効果）
+- simple arpeggio（村の鐘・風の音・自然ハーモニー）
+- authentic Game Boy sound（純正8-bit村落音響）
 
 ❌ 回避楽器:
 - electronic guitar, modern synthesizer, heavy drums
 ```
 
-## 📋 楽曲タイトル一覧（コピー用・22都市バリエーション）
+## 📋 楽曲タイトル一覧（コピー用・20村落バリエーション）
 
 ```
-01. Grand Capital Metropolis
-02. Royal Trading District
-03. Merchant Guild Quarter
-04. Crystal Tower City
-05. Golden Harbor Town
-06. Artisan Cultural Center
-07. University Scholar City
-08. Cathedral Square Plaza
-09. International Market Hub
-10. Noble Residential Ward
-11. Riverside Commerce Port
-12. Academy Innovation District
-13. Festival Entertainment Quarter
-14. Palace Garden District
-15. Diplomatic Embassy Zone
-16. Crafting Industrial Center
-17. Library Knowledge District
-18. Theater Arts Quarter
-19. Banking Financial Plaza
-20. Transportation Hub Center
-21. Museum Cultural Complex
-22. Administrative Government City
+01. Willow Creek Village
+02. Harvest Moon Hamlet
+03. Old Mill Township
+04. Meadowbrook Settlement
+05. Pine Ridge Community
+06. Golden Wheat Farmstead
+07. Riverside Cottage Town
+08. Maple Grove Village
+09. Stone Bridge Crossroads
+10. Sunset Valley Homestead
+11. Apple Orchard Commons
+12. Windmill Hill Village
+13. Clover Field Township
+14. Morning Dew Settlement
+15. Elderwood Village Square
+16. Honey Bee Meadows
+17. Pumpkin Patch Hamlet
+18. Crystal Stream Village
+19. Rosewood Garden Town
+20. Peaceful Valley Community
 ```
 
-## 🏙️ 楽曲プロンプト（22都市完全版）
+## 🏘️ 楽曲プロンプト（20村落完全版）
 
-#### 01. Grand Capital Metropolis
+#### 01. Willow Creek Village
 ```
-01. Grand Capital Metropolis
-```
-```
-Magnificent, grand 16-bit chiptune unfolds with towering, orchestrated SNES strings and brass capital symphony. Impressive percussion and ceremonial woodwind sweep in, capturing metropolitan grandeur and capital authority. Medium pacing drives a majestic, capital metropolis ambiance, powerful and sophisticated.
-```
-
-#### 02. Royal Trading District
-```
-02. Royal Trading District
+01. Willow Creek Village
 ```
 ```
-Prosperous, elegant 16-bit chiptune unfolds with wealthy, refined SNES brass and strings commercial melody. Rich percussion and trading woodwind sweep in, capturing royal commerce and luxury trading. Medium pacing drives a wealthy, royal trading ambiance, elegant and prosperous.
+Nostalgic, peaceful 8-bit chiptune unfolds with gentle, flowing Game Boy square wave village melody. Warm triangle bass and soft percussion sweep in, capturing rural tranquility and creek-side serenity. Slow pacing drives a cozy, pastoral village ambiance, homely and comforting.
 ```
 
-#### 03. Merchant Guild Quarter
+#### 02. Harvest Moon Hamlet
 ```
-03. Merchant Guild Quarter
-```
-```
-Bustling, organized 16-bit chiptune unfolds with coordinated, commercial SNES strings and brass guild activity. Business percussion and negotiating woodwind sweep in, capturing merchant cooperation and trade organization. Fast pacing drives a busy, merchant guild ambiance, organized and thriving.
-```
-
-#### 04. Crystal Tower City
-```
-04. Crystal Tower City
+02. Harvest Moon Hamlet
 ```
 ```
-Sparkling, magnificent 16-bit chiptune unfolds with shimmering, towering SNES strings and organ crystal architecture. Crystalline percussion and ethereal woodwind sweep in, capturing tower beauty and crystal magnificence. Medium pacing drives a dazzling, crystal tower ambiance, magnificent and luminous.
+Seasonal, grateful 8-bit chiptune unfolds with celebrating, harvest Game Boy square wave autumn festival. Abundant triangle bass and rhythmic percussion sweep in, capturing harvest joy and community gathering. Medium pacing drives a festive, harvest hamlet ambiance, warm and sharing.
 ```
 
-#### 05. Golden Harbor Town
+#### 03. Old Mill Township
 ```
-05. Golden Harbor Town
-```
-```
-Prosperous, maritime 16-bit chiptune unfolds with flowing, wealthy SNES brass and strings harbor commerce. Ocean percussion and trading woodwind sweep in, capturing harbor prosperity and golden opportunities. Medium pacing drives a flourishing, golden harbor ambiance, prosperous and connected.
-```
-
-#### 06. Artisan Cultural Center
-```
-06. Artisan Cultural Center
+03. Old Mill Township
 ```
 ```
-Creative, cultured 16-bit chiptune unfolds with artistic, inspiring SNES strings and woodwind cultural expression. Crafting percussion and creative brass sweep in, capturing artisan skill and cultural richness. Slow pacing drives a refined, cultural center ambiance, artistic and inspiring.
+Traditional, hardworking 8-bit chiptune unfolds with grinding, steady Game Boy square wave mill operation. Reliable triangle bass and mechanical percussion sweep in, capturing old-fashioned work and grain processing. Medium pacing drives a industrious, mill township ambiance, dedicated and honest.
 ```
 
-#### 07. University Scholar City
+#### 04. Meadowbrook Settlement
 ```
-07. University Scholar City
-```
-```
-Intellectual, learned 16-bit chiptune unfolds with studying, wise SNES strings and organ scholarly atmosphere. Academic percussion and thoughtful woodwind sweep in, capturing university learning and scholarly pursuit. Slow pacing drives an enlightening, scholar city ambiance, wise and educational.
-```
-
-#### 08. Cathedral Square Plaza
-```
-08. Cathedral Square Plaza
+04. Meadowbrook Settlement
 ```
 ```
-Sacred, grand 16-bit chiptune unfolds with reverent, magnificent SNES cathedral organ and strings plaza ceremony. Holy percussion and sacred brass sweep in, capturing cathedral grandeur and plaza gathering. Slow pacing drives a reverent, cathedral plaza ambiance, sacred and magnificent.
+Fresh, natural 8-bit chiptune unfolds with blooming, green Game Boy square wave meadow beauty. Flowing triangle bass and gentle percussion sweep in, capturing grassland serenity and brook babbling. Slow pacing drives a refreshing, meadow settlement ambiance, organic and peaceful.
 ```
 
-#### 09. International Market Hub
+#### 05. Pine Ridge Community
 ```
-09. International Market Hub
-```
-```
-Global, diverse 16-bit chiptune unfolds with multicultural, trading SNES woodwind ensemble and strings international exchange. World percussion and diplomatic brass sweep in, capturing global commerce and cultural exchange. Fast pacing drives a cosmopolitan, market hub ambiance, diverse and connected.
-```
-
-#### 10. Noble Residential Ward
-```
-10. Noble Residential Ward
+05. Pine Ridge Community
 ```
 ```
-Refined, elegant 16-bit chiptune unfolds with sophisticated, peaceful SNES strings and brass residential beauty. Gentle percussion and cultured woodwind sweep in, capturing noble living and residential elegance. Slow pacing drives a sophisticated, residential ward ambiance, elegant and peaceful.
+Elevated, forest 8-bit chiptune unfolds with towering, evergreen Game Boy square wave ridge atmosphere. Strong triangle bass and forest percussion sweep in, capturing mountain community and pine freshness. Medium pacing drives a sturdy, pine ridge ambiance, enduring and natural.
 ```
 
-#### 11. Riverside Commerce Port
+#### 06. Golden Wheat Farmstead
 ```
-11. Riverside Commerce Port
-```
-```
-Flowing, commercial 16-bit chiptune unfolds with trading, busy SNES brass and strings port activity. River percussion and shipping woodwind sweep in, capturing port commerce and riverside trading. Medium pacing drives a busy, commerce port ambiance, flowing and commercial.
-```
-
-#### 12. Academy Innovation District
-```
-12. Academy Innovation District
+06. Golden Wheat Farmstead
 ```
 ```
-Progressive, advancing 16-bit chiptune unfolds with innovating, forward SNES strings and brass technological progress. Research percussion and discovery woodwind sweep in, capturing academic innovation and district advancement. Medium pacing drives a forward, innovation district ambiance, progressive and inspiring.
+Abundant, golden 8-bit chiptune unfolds with waving, prosperous Game Boy square wave wheat fields. Rich triangle bass and farm percussion sweep in, capturing agricultural prosperity and grain abundance. Medium pacing drives a bountiful, wheat farmstead ambiance, nourishing and productive.
 ```
 
-#### 13. Festival Entertainment Quarter
+#### 07. Riverside Cottage Town
 ```
-13. Festival Entertainment Quarter
-```
-```
-Joyful, celebrating 16-bit chiptune unfolds with festive, entertaining SNES brass and strings celebration music. Party percussion and cheerful woodwind sweep in, capturing festival joy and entertainment excitement. Fast pacing drives a festive, entertainment quarter ambiance, joyful and celebrating.
-```
-
-#### 14. Palace Garden District
-```
-14. Palace Garden District
+07. Riverside Cottage Town
 ```
 ```
-Beautiful, serene 16-bit chiptune unfolds with blooming, peaceful SNES strings and woodwind garden paradise. Gentle percussion and floral brass sweep in, capturing palace gardens and district beauty. Slow pacing drives a serene, garden district ambiance, beautiful and tranquil.
+Flowing, intimate 8-bit chiptune unfolds with riverside, cozy Game Boy square wave cottage life. Gentle triangle bass and water percussion sweep in, capturing river proximity and cottage charm. Slow pacing drives a intimate, riverside town ambiance, comfortable and soothing.
 ```
 
-#### 15. Diplomatic Embassy Zone
+#### 08. Maple Grove Village
 ```
-15. Diplomatic Embassy Zone
-```
-```
-Formal, international 16-bit chiptune unfolds with diplomatic, respectful SNES brass and strings embassy protocol. Official percussion and ceremonial woodwind sweep in, capturing diplomatic relations and embassy formality. Medium pacing drives a formal, embassy zone ambiance, diplomatic and respectful.
-```
-
-#### 16. Crafting Industrial Center
-```
-16. Crafting Industrial Center
+08. Maple Grove Village
 ```
 ```
-Productive, skilled 16-bit chiptune unfolds with working, manufacturing SNES brass and strings industrial symphony. Crafting percussion and productive woodwind sweep in, capturing industrial crafting and center productivity. Medium pacing drives a productive, industrial center ambiance, skilled and efficient.
+Colorful, seasonal 8-bit chiptune unfolds with changing, beautiful Game Boy square wave maple colors. Vibrant triangle bass and leaf percussion sweep in, capturing autumn beauty and grove serenity. Medium pacing drives a scenic, maple grove ambiance, beautiful and transforming.
 ```
 
-#### 17. Library Knowledge District
+#### 09. Stone Bridge Crossroads
 ```
-17. Library Knowledge District
-```
-```
-Scholarly, quiet 16-bit chiptune unfolds with studying, contemplative SNES strings and organ knowledge sanctuary. Whisper percussion and thoughtful woodwind sweep in, capturing library wisdom and knowledge preservation. Slow pacing drives a peaceful, knowledge district ambiance, scholarly and wise.
-```
-
-#### 18. Theater Arts Quarter
-```
-18. Theater Arts Quarter
+09. Stone Bridge Crossroads
 ```
 ```
-Dramatic, artistic 16-bit chiptune unfolds with performing, creative SNES strings and brass theatrical expression. Stage percussion and dramatic woodwind sweep in, capturing theater arts and quarter creativity. Medium pacing drives a dramatic, arts quarter ambiance, artistic and expressive.
+Connecting, central 8-bit chiptune unfolds with crossing, meeting Game Boy square wave bridge gathering. Solid triangle bass and footstep percussion sweep in, capturing crossroads community and stone durability. Medium pacing drives a welcoming, stone bridge ambiance, connecting and enduring.
 ```
 
-#### 19. Banking Financial Plaza
+#### 10. Sunset Valley Homestead
 ```
-19. Banking Financial Plaza
-```
-```
-Prosperous, secure 16-bit chiptune unfolds with calculating, wealthy SNES brass and strings financial power. Coin percussion and business woodwind sweep in, capturing banking prosperity and financial security. Medium pacing drives a secure, financial plaza ambiance, prosperous and stable.
-```
-
-#### 20. Transportation Hub Center
-```
-20. Transportation Hub Center
+10. Sunset Valley Homestead
 ```
 ```
-Connecting, busy 16-bit chiptune unfolds with moving, traveling SNES strings and brass transportation network. Journey percussion and departure woodwind sweep in, capturing hub connectivity and center movement. Fast pacing drives a busy, transportation hub ambiance, connecting and dynamic.
+Peaceful, evening 8-bit chiptune unfolds with glowing, warm Game Boy square wave sunset beauty. Golden triangle bass and twilight percussion sweep in, capturing valley peace and homestead comfort. Slow pacing drives a serene, sunset valley ambiance, restful and golden.
 ```
 
-#### 21. Museum Cultural Complex
+#### 11. Apple Orchard Commons
 ```
-21. Museum Cultural Complex
+11. Apple Orchard Commons
 ```
 ```
-Educational, preserved 16-bit chiptune unfolds with exhibiting, historical SNES strings and organ cultural heritage. Display percussion and enlightening woodwind sweep in, capturing museum preservation and cultural education. Slow pacing drives a reverent, cultural complex ambiance, educational and preserving.
+Fruitful, community 8-bit chiptune unfolds with growing, shared Game Boy square wave orchard bounty. Sweet triangle bass and picking percussion sweep in, capturing apple harvest and community sharing. Medium pacing drives a generous, orchard commons ambiance, fruitful and cooperative.
 ```
 
-#### 22. Administrative Government City
+#### 12. Windmill Hill Village
 ```
-22. Administrative Government City
+12. Windmill Hill Village
 ```
 ```
-Official, organized 16-bit chiptune unfolds with governing, systematic SNES brass and strings administrative order. Authority percussion and official woodwind sweep in, capturing government efficiency and administrative organization. Medium pacing drives a structured, government city ambiance, official and orderly.
+Elevated, windy 8-bit chiptune unfolds with turning, grinding Game Boy square wave windmill operation. Breezy triangle bass and spinning percussion sweep in, capturing hilltop winds and mill productivity. Medium pacing drives a breezy, windmill hill ambiance, energetic and productive.
+```
+
+#### 13. Clover Field Township
+```
+13. Clover Field Township
+```
+```
+Lucky, green 8-bit chiptune unfolds with growing, fortunate Game Boy square wave clover fields. Fresh triangle bass and meadow percussion sweep in, capturing field freshness and township luck. Medium pacing drives a fortunate, clover field ambiance, fresh and blessed.
+```
+
+#### 14. Morning Dew Settlement
+```
+14. Morning Dew Settlement
+```
+```
+Fresh, awakening 8-bit chiptune unfolds with sparkling, dawn Game Boy square wave morning beauty. Crystalline triangle bass and dewdrop percussion sweep in, capturing morning freshness and settlement awakening. Slow pacing drives a refreshing, morning dew ambiance, pure and renewing.
+```
+
+#### 15. Elderwood Village Square
+```
+15. Elderwood Village Square
+```
+```
+Wise, ancient 8-bit chiptune unfolds with gathering, community Game Boy square wave village center. Elder triangle bass and meeting percussion sweep in, capturing wisdom sharing and square gathering. Medium pacing drives a wise, elderwood square ambiance, respectful and communal.
+```
+
+#### 16. Honey Bee Meadows
+```
+16. Honey Bee Meadows
+```
+```
+Busy, sweet 8-bit chiptune unfolds with buzzing, productive Game Boy square wave bee activity. Honey triangle bass and buzzing percussion sweep in, capturing meadow pollination and honey sweetness. Medium pacing drives a busy, honey bee ambiance, productive and sweet.
+```
+
+#### 17. Pumpkin Patch Hamlet
+```
+17. Pumpkin Patch Hamlet
+```
+```
+Seasonal, orange 8-bit chiptune unfolds with growing, harvest Game Boy square wave pumpkin fields. Round triangle bass and harvest percussion sweep in, capturing autumn preparation and patch abundance. Medium pacing drives a festive, pumpkin patch ambiance, seasonal and abundant.
+```
+
+#### 18. Crystal Stream Village
+```
+18. Crystal Stream Village
+```
+```
+Pure, flowing 8-bit chiptune unfolds with sparkling, clear Game Boy square wave stream beauty. Crystal triangle bass and water percussion sweep in, capturing stream purity and village cleanliness. Slow pacing drives a pure, crystal stream ambiance, clean and refreshing.
+```
+
+#### 19. Rosewood Garden Town
+```
+19. Rosewood Garden Town
+```
+```
+Fragrant, beautiful 8-bit chiptune unfolds with blooming, colorful Game Boy square wave garden paradise. Floral triangle bass and garden percussion sweep in, capturing rose fragrance and garden beauty. Slow pacing drives a beautiful, rosewood garden ambiance, fragrant and blooming.
+```
+
+#### 20. Peaceful Valley Community
+```
+20. Peaceful Valley Community
+```
+```
+Tranquil, harmonious 8-bit chiptune unfolds with resting, serene Game Boy square wave valley peace. Calm triangle bass and gentle percussion sweep in, capturing valley tranquility and community harmony. Slow pacing drives a peaceful, valley community ambiance, harmonious and restful.
 ```
 
 ## 🎵 制作ガイドライン
 
 ### ✅ 必須要素
-- **16-bit SNES sound統一**: Village & Town ver.2の都市洗練にふさわしい豊かな音色
+- **8-bit Game Boy sound統一**: authentic chiptune村落音響
 - **cheerful要素統合**: 明るさ・陽気さが最重要（作業BGM最適化）
-- **urban elements**: 都市美・建築美・文化的洗練
+- **nostalgic elements**: 懐かしさ・田舎の温かみ
 - **装飾語3回繰り返し**: 感情増幅技法
 - **seamless loop structure**: 繰り返し聴取最適化
 
 ### ❌ 絶対回避要素
 - **electronic guitar**: 聴取疲労原因
 - **aggressive expressions**: 作業BGMに不適
-- **modern synthesizer**: 16-bit品格を損なう
+- **modern synthesizer**: 8-bit純正性を損なう
 
-### ⏱️ テンポ戦略（22都市バリエーション）
-- **slow tempo**: 文化・学術・平和都市（8曲）
-  - Artisan Cultural Center, University Scholar City, Cathedral Square Plaza, Noble Residential Ward, Palace Garden District, Library Knowledge District, Museum Cultural Complex
-- **medium tempo**: 商業・行政・標準都市（10曲）
-  - Grand Capital Metropolis, Royal Trading District, Crystal Tower City, Golden Harbor Town, Riverside Commerce Port, Academy Innovation District, Diplomatic Embassy Zone, Crafting Industrial Center, Theater Arts Quarter, Banking Financial Plaza, Administrative Government City
-- **fast tempo**: 活気・娯楽・交通都市（4曲）
-  - Merchant Guild Quarter, International Market Hub, Festival Entertainment Quarter, Transportation Hub Center
+### ⏱️ テンポ戦略（20村落バリエーション）
+- **slow tempo**: 平和・瞑想村落（8曲）
+  - Willow Creek, Meadowbrook, Riverside Cottage, Sunset Valley, Morning Dew, Crystal Stream, Rosewood Garden, Peaceful Valley
+- **medium tempo**: 活動・共同体村落（12曲）
+  - Harvest Moon, Old Mill, Pine Ridge, Golden Wheat, Maple Grove, Stone Bridge, Apple Orchard, Windmill Hill, Clover Field, Elderwood Square, Honey Bee, Pumpkin Patch
 
 ---
 
 *作成日: 2025年9月2日*  
-*音源: 16-bit SNES特化統一*  
-*コンセプト: Village & Town ver.2 = 都市洗練 + 商業繁栄 + orchestral depth + 作業BGM最適化*
+*音源: 8-bit Game Boy特化統一*  
+*コンセプト: Village & Town ver.2 = 田舎郷愁 + 温かみ共同体 + 作業BGM最適化*

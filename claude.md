@@ -25,11 +25,11 @@
 - **ポジショニング**: 感動系8-bitチップチューンのパイオニア
 - **コアメッセージ**: "Your ultimate destination for epic chiptune adventures!"
 
-### 現在の成果（2025-08-31更新 v5.3）
-- **総制作時間**: 24+ 時間
-- **総楽曲数**: 379+ 曲（WAVファイル）
-- **完成コレクション**: 19つ
-- **最新投稿**: 8-Bit Field Battle Collection（2025年8月31日投稿）
+### 現在の成果（2025-09-04更新 v5.3）
+- **総制作時間**: 25+ 時間
+- **総楽曲数**: 399+ 曲（WAVファイル）
+- **完成コレクション**: 20つ
+- **最新投稿**: 16-Bit Field Battle Collection（2025年9月4日投稿）- https://youtu.be/aF9oPCjm-Ds
 - **チャンネル登録者**: 56人（+8人成長）
 - **総視聴回数**: 6,340回、190.9時間（+1,588回、+33.3時間）
 - **8月インプレッション**: 725,012回（+264,281回）
@@ -567,7 +567,7 @@ XXX-collection-name/
 ✅ Mystery系: mysterious, ancient, magical, ethereal
 ```
 
-## 📊 完成済みコレクション一覧（19コレクション）
+## 📊 完成済みコレクション一覧（20コレクション）
 
 1. **Adventure Music** (24曲・1:00:00) - https://youtu.be/j3VYctGmZTE
 2. **Battle Music** (13曲・1:00:00) - https://youtu.be/BDgtysOgcmQ
@@ -588,6 +588,7 @@ XXX-collection-name/
 17. **16-Bit Adventure Collection** (24曲・1:46:18) - https://youtu.be/Nym-_wnCVbw (プレイリスト: https://www.youtube.com/playlist?list=PLJ5vG59SMwtXihp96jiTzl35n7f33aI52)
 18. **16-Bit Royal Castle Collection** (24曲・1:27:11) - https://youtu.be/kmnUqTXyoUA (プレイリスト: https://www.youtube.com/playlist?list=PLJ5vG59SMwtXdgmFZtbSH191gVcUY-5AI)
 19. **8-Bit Field Battle Collection** (20曲・1:17:05) - https://youtu.be/bO0rz5FV1ss (プレイリスト: https://www.youtube.com/playlist?list=PLJ5vG59SMwtUKWzUGK4jlUSfL7uIeEOAX)
+20. **16-Bit Field Battle Collection** (20曲・1:14:56) - https://youtu.be/aF9oPCjm-Ds (プレイリスト: https://www.youtube.com/playlist?list=PLJ5vG59SMwtV39f02iGX7-sh9tcFvETDC)
 
 ## 📝 YouTube コンテンツ戦略
 
