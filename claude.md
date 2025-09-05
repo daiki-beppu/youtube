@@ -589,6 +589,10 @@ XXX-collection-name/
 18. **16-Bit Royal Castle Collection** (24曲・1:27:11) - https://youtu.be/kmnUqTXyoUA (プレイリスト: https://www.youtube.com/playlist?list=PLJ5vG59SMwtXdgmFZtbSH191gVcUY-5AI)
 19. **8-Bit Field Battle Collection** (20曲・1:17:05) - https://youtu.be/bO0rz5FV1ss (プレイリスト: https://www.youtube.com/playlist?list=PLJ5vG59SMwtUKWzUGK4jlUSfL7uIeEOAX)
 20. **16-Bit Field Battle Collection** (20曲・1:14:56) - https://youtu.be/aF9oPCjm-Ds (プレイリスト: https://www.youtube.com/playlist?list=PLJ5vG59SMwtV39f02iGX7-sh9tcFvETDC)
+21. **8-Bit Village & Town Collection ver.2** (20曲・1:18:48) - https://youtu.be/0pNqnPfedJM (プレイリスト: https://www.youtube.com/playlist?list=PLJ5vG59SMwtX-jbV3oDfN_INJJI1PkxfO)
+
+## 📝 制作中コレクション
+- **16-Bit Village & Town Collection**: @agler4986フィードバック反映済み（投稿予定: 2025年9月7日）
 
 ## 📝 YouTube コンテンツ戦略
 

@@ -31,16 +31,26 @@ Daily, Routine, Living, Working, Resting, Gathering, Sharing, Caring, Supporting
 
 ## 🎼 16-bit専用楽器構成（Village & Town ver.2最適化）
 
-```
-✅ 推奨楽器:
-- orchestral harp（村の優美さ・水の音・自然ハーモニー）
-- concert strings（温かい弦楽アンサンブル・共同体の絆）
-- woodwind ensemble（風の音・田園の息づかい・季節感）
-- gentle brass（村の鐘・朝夕の呼びかけ・祭りファンファーレ）
-- cathedral organ（教会・村の中心・精神的支え）
+### @agler4986フィードバック対応改良版
 
-❌ 回避楽器:
-- electronic guitar, modern synthesizer, heavy drums
+```
+✅ 村らしさ重視楽器:
+- acoustic folk instruments（伝統楽器・村の手作り感）
+- soft strings ensemble（温かい弦楽・共同体の絆）
+- pastoral woodwind（田園の風・自然の息づかい）
+- church bells, chimes（村の鐘・時を告げる音）
+- simple percussion（素朴なリズム・生活の鼓動）
+- gentle harp（水の流れ・自然ハーモニー）
+
+⚠️ 節度ある使用:
+- orchestral brass（華美すぎず村の朝夕の呼びかけ程度）
+- cathedral organ（教会シーンのみ・全体的な使用回避）
+
+❌ 完全回避楽器（@agler4986指摘対応）:
+- electronic/electro elements（現代都市感を生む）
+- aggressive modern sounds（村の平和を損なう）
+- complex synthesizer（村の素朴さと相反）
+- rapid electronic beats（せわしない現代感）
 ```
 
 ## 📋 楽曲タイトル一覧（コピー用・20村落バリエーション）
@@ -187,7 +197,7 @@ Fresh, awakening 16-bit chiptune unfolds with sparkling, dawn SNES orchestral ha
 15. Elderwood Village Square
 ```
 ```
-Wise, ancient 16-bit chiptune unfolds with gathering, community SNES cathedral organ and strings village center. Elder brass wisdom and meeting woodwind harmonies sweep in, capturing wisdom sharing and square gathering. Medium pacing drives a wise, elderwood square ambiance, respectful and communal.
+Wise, ancient 16-bit chiptune unfolds with gathering, community SNES acoustic folk strings and gentle brass village wisdom. Elder woodwind harmonies and meeting simple percussion sweep in, capturing wisdom sharing and peaceful square gathering. Consistent medium pacing drives an authentic, elderwood square village ambiance, respectful and communal.
 ```
 
 #### 16. Honey Bee Meadows
@@ -203,7 +213,7 @@ Busy, sweet 16-bit chiptune unfolds with buzzing, productive SNES strings and br
 17. Pumpkin Patch Hamlet
 ```
 ```
-Seasonal, orange 16-bit chiptune unfolds with growing, harvest SNES brass and strings pumpkin fields. Round cathedral organ tones and harvest woodwind celebrations sweep in, capturing autumn preparation and patch abundance. Medium pacing drives a festive, pumpkin patch ambiance, seasonal and abundant.
+Seasonal, harvest 16-bit chiptune unfolds with growing, warm SNES acoustic folk strings and gentle brass autumn sounds. Simple percussion rhythms and pastoral woodwind celebrations sweep in, capturing peaceful autumn preparation and village abundance. Consistent medium pacing drives an authentic, pumpkin patch village ambiance, seasonal and homely.
 ```
 
 #### 18. Crystal Stream Village
@@ -211,7 +221,7 @@ Seasonal, orange 16-bit chiptune unfolds with growing, harvest SNES brass and st
 18. Crystal Stream Village
 ```
 ```
-Pure, flowing 16-bit chiptune unfolds with sparkling, clear SNES orchestral harp and strings stream beauty. Crystal woodwind harmonies and water cathedral organ tones sweep in, capturing stream purity and village cleanliness. Slow pacing drives a pure, crystal stream ambiance, clean and refreshing.
+Pure, flowing 16-bit chiptune unfolds with sparkling, clear SNES gentle harp and acoustic strings stream beauty. Crystal pastoral woodwind harmonies and water chime tones sweep in, capturing stream purity and village cleanliness. Peaceful slow pacing drives an authentic, crystal stream village ambiance, clean and refreshing.
 ```
 
 #### 19. Rosewood Garden Town
@@ -232,17 +242,21 @@ Tranquil, harmonious 16-bit chiptune unfolds with resting, serene SNES orchestra
 
 ## 🎵 制作ガイドライン
 
-### ✅ 必須要素
-- **16-bit SNES sound統一**: Village & Townの温かさにふさわしい豊かな音色
-- **cheerful要素統合**: 明るさ・陽気さが最重要（作業BGM最適化）
-- **orchestral elements**: harp・strings・woodwind・brass・organの調和
-- **自然文構造**: 動詞活用で音楽の流れを自然に表現
-- **seamless loop structure**: 繰り返し聴取最適化
+### ✅ 必須要素（@agler4986フィードバック統合版）
+- **authentic village atmosphere**: 実際の村・町らしさを最優先
+- **acoustic folk foundation**: 伝統楽器ベースの素朴な音色統一
+- **peaceful pacing**: せわしくない・瞑想的なテンポ設定
+- **consistent leitmotif**: 楽曲全体を通した統一テーマ（ループ最適化）
+- **natural simplicity**: 複雑すぎないアレンジで長時間聴取適応
+- **seasonal warmth**: 村の季節感・生活感を重視
 
-### ❌ 絶対回避要素
-- **electronic guitar**: 聴取疲労原因
-- **aggressive expressions**: 作業BGMに不適
-- **modern synthesizer**: 16-bit純正性を損なう
+### ❌ 絶対回避要素（@agler4986問題指摘対応）
+- **electronic/electro elements**: 現代都市感・村らしさを損なう
+- **rapid pacing**: 平和な場所に不適・せわしない印象
+- **inconsistent themes**: leitmotif欠如・聴取集中阻害
+- **over-orchestration**: 華美すぎる編成・村の素朴さと相反
+- **modern synthesizer**: 16-bit村落世界観を損なう
+- **carnival-like elements**: 一般的な村BGMから逸脱
 
 ### ⏱️ テンポ戦略（20村落バリエーション）
 - **slow tempo**: 平和・瞑想村落（8曲）
@@ -265,8 +279,29 @@ Tranquil, harmonious 16-bit chiptune unfolds with resting, serene SNES orchestra
 - **Gentle Brass**: 村の鐘・祭りのファンファーレ・朝夕の呼びかけ
 - **Cathedral Organ**: 教会・村の中心・精神的な支え・伝統
 
+## 🔄 @agler4986フィードバック対応改良点
+
+### 8-bit版からの主要改善
+1. **Electronic要素完全排除**: 現代都市感を生む electronic/electro サウンドを削除
+2. **Acoustic Folk基調**: 伝統楽器ベースで村らしさを強化
+3. **一貫したLeitmotif**: 楽曲全体を通じた統一テーマでループ最適化
+4. **平和なPacing**: せわしくない瞑想的テンポで集中作業適応
+5. **Over-orchestration回避**: 華美すぎる編成を避け村の素朴さ保持
+6. **Carnival要素修正**: 一般的な村BGMから逸脱する要素を排除
+
+### 楽器選択の戦略的変更
+- **cathedral organ** → **church bells/chimes**: 重厚すぎる音色から村の鐘音へ
+- **orchestral brass** → **gentle brass**: 華美な編成から素朴な朝夕の呼びかけへ
+- **complex arrangements** → **simple folk instruments**: 複雑さから村の手作り感へ
+
+### 期待される効果
+- **真の村・町雰囲気**: Earthbound的な郷愁感の実現
+- **長時間聴取最適化**: 集中を阻害しない一貫したテーマ性
+- **ゲーム適合性**: 実際の村BGMとしての機能性向上
+
 ---
 
 *作成日: 2025年9月4日*  
+*改良日: 2025年9月5日 (@agler4986フィードバック統合)*  
 *音源: 16-bit SNES特化統一*  
-*コンセプト: Village & Town ver.2 = 田舎郷愁 + 温かみ共同体 + orchestral depth + 16-bit豊かさ*
+*コンセプト: Village & Town ver.2 = authentic village atmosphere + acoustic folk foundation + peaceful pacing*
