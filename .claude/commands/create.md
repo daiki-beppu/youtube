@@ -41,21 +41,18 @@ description: 8-Bit Adventure Hub 適応型コレクション作成システム -
 !`echo "📊 システム状況確認中..."`
 
 ### システム状況確認
-!`if [ -f "/Users/macmini/Dropbox/08-youtube/01-8BAH/CLAUDE.md" ]; then echo "✅ claude.md読み込み完了"; else echo "❌ エラー: claude.md が見つかりません"; fi`
-
-### 成功事例確認（Ocean Adventure Collection参考）
-!`if [ -f "/Users/macmini/Dropbox/08-youtube/01-8BAH/collections/production/20250913-production-ocean-adventure-collection/20-documentation/music-prompts.md" ]; then echo "✅ Ocean Adventure Collection (35楽曲物語構造) 参考データあり"; else echo "⚠️ 物語構造参考データを手動確認してください"; fi`
+!`ls /Users/macmini/Dropbox/08-youtube/01-8BAH/CLAUDE.md`
 
 ### Analytics & 投稿状況確認
-!`LATEST_LIVE=$(ls -t /Users/macmini/Dropbox/08-youtube/01-8BAH/collections/live/ | head -1 | cut -d'-' -f1); echo "✅ 最新投稿: $LATEST_LIVE"`
-!`if [ -d "/Users/macmini/Dropbox/08-youtube/01-8BAH/documentation/analytics" ] && [ "$(ls -A /Users/macmini/Dropbox/08-youtube/01-8BAH/documentation/analytics/)" ]; then echo "✅ Analytics: Adventure系 2.49% CTR, Battle系 2.8% CTR実証済み"; else echo "⚠️ Analytics情報を手動確認してください"; fi`
+!`ls -t /Users/macmini/Dropbox/08-youtube/01-8BAH/collections/live/ | head -1`
+!`ls /Users/macmini/Dropbox/08-youtube/01-8BAH/documentation/analytics/`
 
 !`echo "🎮 エピック物語テーマ分析中..."`
 !`echo "📖 完全なRPG冒険体験を設計中..."`
 
-### 物語コレクション準備
-!`echo "📁 エピック物語システム準備完了"`
-!`BASE_DIR="/Users/macmini/Dropbox/08-youtube/01-8BAH/collections/production"; echo "✅ 物語体験コレクション制作開始準備完了"`
+### 制作準備確認
+!`ls /Users/macmini/Dropbox/08-youtube/01-8BAH/collections/production/`
+!`date +"%Y%m%d"`
 
 ## 📖 適応型コレクション制作タスク
 
