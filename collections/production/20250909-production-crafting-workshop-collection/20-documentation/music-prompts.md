@@ -2,15 +2,16 @@
 
 ## 🎯 基本プロンプト構造（改良版技法 v5.3 - SunoAI耐性版）
 
-### 8-bit Game Boy特化版（自然文構造）
+### 8-bit Game Boy特化版（ライトモチーフ統一構造）
 ```
-[感情1], [感情2] 8-bit chiptune unfolds with [楽器特徴], [音色特性] Game Boy [楽器群] [動作]. [副楽器] [楽器特徴] sweep in, capturing [雰囲気1] and [雰囲気2]. [テンポ] pacing drives a [最終感情], [補完感情] [場所] ambiance, [総合印象] and [結末感情].
+[職種感情], skilled 8-bit chiptune unfolds with rhythmic, crafting Game Boy square wave [職種]artisan melody. Steady triangle bass workshop foundation and [職種特化]percussion sweep in, capturing [職種特徴] and masterful crafting. [テンポ] pacing drives a productive, [職種]workshop ambiance, skilled and accomplished.
 ```
 
-### SunoAI耐性版技法の特徴
-- **自然な英語構造**: 動詞活用で音楽の流れを表現
-- **音楽理論統合**: 専門用語で8-bit音色の特性を強化
-- **感情アーク構築**: 開始→展開→結末の感情変化を設計
+### ライトモチーフ統一技法の特徴
+- **共通音響基盤**: rhythmic square wave + steady triangle bass + workshop foundation
+- **統一感情アーク**: [職種感情] → productive/masterful crafting → skilled/accomplished
+- **工房共通要素**: skilled, crafting, workshop, artisan, masterful の必須統合
+- **職種個性表現**: 各職業特化のpercussion と特徴で差別化
 
 ## 🎨 Crafting & Workshop専用装飾語体系
 
@@ -75,7 +76,7 @@ Traditional, Ancient, Timeless, Inherited, Generational, Classic, Established, P
 01. Blacksmith Forge Fire
 ```
 ```
-Rhythmic, powerful 8-bit chiptune unfolds with hammering, forging Game Boy square wave blacksmith melody. Striking triangle bass and anvil percussion sweep in, capturing forge fire and metal shaping. Medium pacing drives a productive, blacksmith forge ambiance, skilled and powerful.
+Powerful, skilled 8-bit chiptune unfolds with rhythmic, crafting Game Boy square wave blacksmith artisan melody. Steady triangle bass workshop foundation and anvil percussion sweep in, capturing forge fire and masterful crafting. Medium pacing drives a productive, blacksmith workshop ambiance, skilled and accomplished.
 ```
 
 #### 02. Alchemist Laboratory Mix
@@ -83,7 +84,7 @@ Rhythmic, powerful 8-bit chiptune unfolds with hammering, forging Game Boy squar
 02. Alchemist Laboratory Mix
 ```
 ```
-Mysterious, bubbling 8-bit chiptune unfolds with mixing, brewing Game Boy square wave alchemist experimentation. Magical triangle bass and bubbling percussion sweep in, capturing laboratory mystery and potion creation. Medium pacing drives a mystical, alchemist lab ambiance, creative and mysterious.
+Mysterious, skilled 8-bit chiptune unfolds with rhythmic, crafting Game Boy square wave alchemist artisan melody. Steady triangle bass workshop foundation and bubbling percussion sweep in, capturing laboratory mystery and masterful crafting. Medium pacing drives a productive, alchemist workshop ambiance, skilled and accomplished.
 ```
 
 #### 03. Carpenter Workshop Build
@@ -91,7 +92,7 @@ Mysterious, bubbling 8-bit chiptune unfolds with mixing, brewing Game Boy square
 03. Carpenter Workshop Build
 ```
 ```
-Constructive, steady 8-bit chiptune unfolds with sawing, building Game Boy square wave carpenter work. Wooden triangle bass and construction percussion sweep in, capturing workshop building and wood crafting. Medium pacing drives a constructive, carpenter workshop ambiance, reliable and skilled.
+Constructive, skilled 8-bit chiptune unfolds with rhythmic, crafting Game Boy square wave carpenter artisan melody. Steady triangle bass workshop foundation and construction percussion sweep in, capturing workshop building and masterful crafting. Medium pacing drives a productive, carpenter workshop ambiance, skilled and accomplished.
 ```
 
 #### 04. Tailor Needle Craft
@@ -99,7 +100,7 @@ Constructive, steady 8-bit chiptune unfolds with sawing, building Game Boy squar
 04. Tailor Needle Craft
 ```
 ```
-Delicate, precise 8-bit chiptune unfolds with stitching, sewing Game Boy square wave tailor artistry. Fine triangle bass and needle percussion sweep in, capturing fabric crafting and clothing creation. Slow pacing drives a precise, tailor craft ambiance, delicate and artistic.
+Delicate, skilled 8-bit chiptune unfolds with rhythmic, crafting Game Boy square wave tailor artisan melody. Steady triangle bass workshop foundation and needle percussion sweep in, capturing fabric crafting and masterful crafting. Slow pacing drives a productive, tailor workshop ambiance, skilled and accomplished.
 ```
 
 #### 05. Potter Wheel Shaping
@@ -107,7 +108,7 @@ Delicate, precise 8-bit chiptune unfolds with stitching, sewing Game Boy square 
 05. Potter Wheel Shaping
 ```
 ```
-Spinning, creative 8-bit chiptune unfolds with rotating, molding Game Boy square wave pottery creation. Circular triangle bass and wheel percussion sweep in, capturing clay shaping and potter artistry. Medium pacing drives a meditative, pottery wheel ambiance, creative and flowing.
+Spinning, skilled 8-bit chiptune unfolds with rhythmic, crafting Game Boy square wave potter artisan melody. Steady triangle bass workshop foundation and wheel percussion sweep in, capturing clay shaping and masterful crafting. Medium pacing drives a productive, potter workshop ambiance, skilled and accomplished.
 ```
 
 #### 06. Jeweler Gem Cutting
@@ -115,7 +116,7 @@ Spinning, creative 8-bit chiptune unfolds with rotating, molding Game Boy square
 06. Jeweler Gem Cutting
 ```
 ```
-Sparkling, precious 8-bit chiptune unfolds with cutting, polishing Game Boy square wave gem crafting. Glittering triangle bass and crystal percussion sweep in, capturing jewel beauty and precise cutting. Slow pacing drives a brilliant, jeweler workshop ambiance, precious and meticulous.
+Sparkling, skilled 8-bit chiptune unfolds with rhythmic, crafting Game Boy square wave jeweler artisan melody. Steady triangle bass workshop foundation and crystal percussion sweep in, capturing jewel beauty and masterful crafting. Slow pacing drives a productive, jeweler workshop ambiance, skilled and accomplished.
 ```
 
 #### 07. Baker Kitchen Rising
@@ -123,7 +124,7 @@ Sparkling, precious 8-bit chiptune unfolds with cutting, polishing Game Boy squa
 07. Baker Kitchen Rising
 ```
 ```
-Warm, rising 8-bit chiptune unfolds with kneading, baking Game Boy square wave kitchen warmth. Yeasty triangle bass and oven percussion sweep in, capturing bread rising and bakery comfort. Medium pacing drives a cozy, baker kitchen ambiance, warm and nourishing.
+Warm, skilled 8-bit chiptune unfolds with rhythmic, crafting Game Boy square wave baker artisan melody. Steady triangle bass workshop foundation and oven percussion sweep in, capturing bread rising and masterful crafting. Medium pacing drives a productive, baker workshop ambiance, skilled and accomplished.
 ```
 
 #### 08. Leatherworker Tool Making
@@ -131,7 +132,7 @@ Warm, rising 8-bit chiptune unfolds with kneading, baking Game Boy square wave k
 08. Leatherworker Tool Making
 ```
 ```
-Tough, crafting 8-bit chiptune unfolds with cutting, shaping Game Boy square wave leather work. Sturdy triangle bass and tooling percussion sweep in, capturing leather crafting and tool creation. Medium pacing drives a rugged, leatherwork shop ambiance, tough and practical.
+Tough, skilled 8-bit chiptune unfolds with rhythmic, crafting Game Boy square wave leatherworker artisan melody. Steady triangle bass workshop foundation and tooling percussion sweep in, capturing leather crafting and masterful crafting. Medium pacing drives a productive, leatherworker workshop ambiance, skilled and accomplished.
 ```
 
 #### 09. Glassblower Crystal Art
@@ -139,7 +140,7 @@ Tough, crafting 8-bit chiptune unfolds with cutting, shaping Game Boy square wav
 09. Glassblower Crystal Art
 ```
 ```
-Delicate, flowing 8-bit chiptune unfolds with blowing, shaping Game Boy square wave glass artistry. Crystalline triangle bass and breath percussion sweep in, capturing glass beauty and artistic creation. Medium pacing drives a luminous, glassblower studio ambiance, delicate and artistic.
+Delicate, skilled 8-bit chiptune unfolds with rhythmic, crafting Game Boy square wave glassblower artisan melody. Steady triangle bass workshop foundation and breath percussion sweep in, capturing glass beauty and masterful crafting. Medium pacing drives a productive, glassblower workshop ambiance, skilled and accomplished.
 ```
 
 #### 10. Herbalist Garden Brew
@@ -147,7 +148,7 @@ Delicate, flowing 8-bit chiptune unfolds with blowing, shaping Game Boy square w
 10. Herbalist Garden Brew
 ```
 ```
-Natural, healing 8-bit chiptune unfolds with gathering, brewing Game Boy square wave herbal preparation. Organic triangle bass and garden percussion sweep in, capturing herb wisdom and natural healing. Slow pacing drives a peaceful, herbalist garden ambiance, natural and healing.
+Natural, skilled 8-bit chiptune unfolds with rhythmic, crafting Game Boy square wave herbalist artisan melody. Steady triangle bass workshop foundation and garden percussion sweep in, capturing herb wisdom and masterful crafting. Slow pacing drives a productive, herbalist workshop ambiance, skilled and accomplished.
 ```
 
 #### 11. Clockmaker Gear Assembly
@@ -155,7 +156,7 @@ Natural, healing 8-bit chiptune unfolds with gathering, brewing Game Boy square 
 11. Clockmaker Gear Assembly
 ```
 ```
-Precise, mechanical 8-bit chiptune unfolds with ticking, assembling Game Boy square wave clockwork precision. Clockwork triangle bass and gear percussion sweep in, capturing time mechanics and precision crafting. Medium pacing drives a precise, clockmaker workshop ambiance, mechanical and exact.
+Precise, skilled 8-bit chiptune unfolds with rhythmic, crafting Game Boy square wave clockmaker artisan melody. Steady triangle bass workshop foundation and gear percussion sweep in, capturing time mechanics and masterful crafting. Medium pacing drives a productive, clockmaker workshop ambiance, skilled and accomplished.
 ```
 
 #### 12. Weaponsmith Steel Forging
@@ -163,7 +164,7 @@ Precise, mechanical 8-bit chiptune unfolds with ticking, assembling Game Boy squ
 12. Weaponsmith Steel Forging
 ```
 ```
-Strong, forging 8-bit chiptune unfolds with tempering, sharpening Game Boy square wave weapon creation. Steel triangle bass and forging percussion sweep in, capturing weapon crafting and steel mastery. Medium pacing drives a powerful, weaponsmith forge ambiance, strong and masterful.
+Strong, skilled 8-bit chiptune unfolds with rhythmic, crafting Game Boy square wave weaponsmith artisan melody. Steady triangle bass workshop foundation and forging percussion sweep in, capturing weapon crafting and masterful crafting. Medium pacing drives a productive, weaponsmith workshop ambiance, skilled and accomplished.
 ```
 
 #### 13. Enchanter Magic Infusion
@@ -171,7 +172,7 @@ Strong, forging 8-bit chiptune unfolds with tempering, sharpening Game Boy squar
 13. Enchanter Magic Infusion
 ```
 ```
-Magical, infusing 8-bit chiptune unfolds with enchanting, empowering Game Boy square wave magic weaving. Mystical triangle bass and spell percussion sweep in, capturing magic infusion and enchantment creation. Medium pacing drives a mystical, enchanter chamber ambiance, magical and powerful.
+Magical, skilled 8-bit chiptune unfolds with rhythmic, crafting Game Boy square wave enchanter artisan melody. Steady triangle bass workshop foundation and spell percussion sweep in, capturing magic infusion and masterful crafting. Medium pacing drives a productive, enchanter workshop ambiance, skilled and accomplished.
 ```
 
 #### 14. Mason Stone Carving
@@ -179,7 +180,7 @@ Magical, infusing 8-bit chiptune unfolds with enchanting, empowering Game Boy sq
 14. Mason Stone Carving
 ```
 ```
-Solid, carving 8-bit chiptune unfolds with chiseling, shaping Game Boy square wave stone masonry. Heavy triangle bass and carving percussion sweep in, capturing stone crafting and architectural creation. Slow pacing drives a sturdy, mason workshop ambiance, solid and enduring.
+Solid, skilled 8-bit chiptune unfolds with rhythmic, crafting Game Boy square wave mason artisan melody. Steady triangle bass workshop foundation and carving percussion sweep in, capturing stone crafting and masterful crafting. Slow pacing drives a productive, mason workshop ambiance, skilled and accomplished.
 ```
 
 #### 15. Fletcher Arrow Crafting
@@ -187,7 +188,7 @@ Solid, carving 8-bit chiptune unfolds with chiseling, shaping Game Boy square wa
 15. Fletcher Arrow Crafting
 ```
 ```
-Sharp, precise 8-bit chiptune unfolds with cutting, fletching Game Boy square wave arrow making. Pointed triangle bass and feather percussion sweep in, capturing arrow precision and fletching skill. Medium pacing drives a focused, fletcher workshop ambiance, precise and skilled.
+Sharp, skilled 8-bit chiptune unfolds with rhythmic, crafting Game Boy square wave fletcher artisan melody. Steady triangle bass workshop foundation and feather percussion sweep in, capturing arrow precision and masterful crafting. Medium pacing drives a productive, fletcher workshop ambiance, skilled and accomplished.
 ```
 
 #### 16. Brewer Barrel Aging
@@ -195,7 +196,7 @@ Sharp, precise 8-bit chiptune unfolds with cutting, fletching Game Boy square wa
 16. Brewer Barrel Aging
 ```
 ```
-Fermenting, patient 8-bit chiptune unfolds with bubbling, aging Game Boy square wave brewing process. Rich triangle bass and barrel percussion sweep in, capturing brew maturation and patient crafting. Slow pacing drives a patient, brewer cellar ambiance, rich and maturing.
+Fermenting, skilled 8-bit chiptune unfolds with rhythmic, crafting Game Boy square wave brewer artisan melody. Steady triangle bass workshop foundation and barrel percussion sweep in, capturing brew maturation and masterful crafting. Slow pacing drives a productive, brewer workshop ambiance, skilled and accomplished.
 ```
 
 #### 17. Cobbler Boot Stitching
@@ -203,7 +204,7 @@ Fermenting, patient 8-bit chiptune unfolds with bubbling, aging Game Boy square 
 17. Cobbler Boot Stitching
 ```
 ```
-Sturdy, stitching 8-bit chiptune unfolds with sewing, crafting Game Boy square wave boot making. Leather triangle bass and stitching percussion sweep in, capturing footwear creation and cobbler skill. Medium pacing drives a practical, cobbler shop ambiance, sturdy and reliable.
+Sturdy, skilled 8-bit chiptune unfolds with rhythmic, crafting Game Boy square wave cobbler artisan melody. Steady triangle bass workshop foundation and stitching percussion sweep in, capturing footwear creation and masterful crafting. Medium pacing drives a productive, cobbler workshop ambiance, skilled and accomplished.
 ```
 
 #### 18. Candlemaker Wax Melting
@@ -211,7 +212,7 @@ Sturdy, stitching 8-bit chiptune unfolds with sewing, crafting Game Boy square w
 18. Candlemaker Wax Melting
 ```
 ```
-Gentle, melting 8-bit chiptune unfolds with warming, pouring Game Boy square wave candle creation. Flowing triangle bass and wax percussion sweep in, capturing candle making and warm light creation. Slow pacing drives a gentle, candlemaker workshop ambiance, warm and illuminating.
+Gentle, skilled 8-bit chiptune unfolds with rhythmic, crafting Game Boy square wave candlemaker artisan melody. Steady triangle bass workshop foundation and wax percussion sweep in, capturing candle making and masterful crafting. Slow pacing drives a productive, candlemaker workshop ambiance, skilled and accomplished.
 ```
 
 #### 19. Scribe Scroll Writing
@@ -219,7 +220,7 @@ Gentle, melting 8-bit chiptune unfolds with warming, pouring Game Boy square wav
 19. Scribe Scroll Writing
 ```
 ```
-Scholarly, writing 8-bit chiptune unfolds with penning, recording Game Boy square wave knowledge preservation. Inkwell triangle bass and quill percussion sweep in, capturing scroll writing and knowledge recording. Slow pacing drives a quiet, scribe chamber ambiance, scholarly and preserving.
+Scholarly, skilled 8-bit chiptune unfolds with rhythmic, crafting Game Boy square wave scribe artisan melody. Steady triangle bass workshop foundation and quill percussion sweep in, capturing scroll writing and masterful crafting. Slow pacing drives a productive, scribe workshop ambiance, skilled and accomplished.
 ```
 
 #### 20. Artisan Guild Mastery
@@ -227,16 +228,17 @@ Scholarly, writing 8-bit chiptune unfolds with penning, recording Game Boy squar
 20. Artisan Guild Mastery
 ```
 ```
-Masterful, accomplished 8-bit chiptune unfolds with teaching, sharing Game Boy square wave guild wisdom. Expert triangle bass and mastery percussion sweep in, capturing artisan excellence and guild tradition. Medium pacing drives a prestigious, artisan guild ambiance, masterful and inspiring.
+Masterful, skilled 8-bit chiptune unfolds with rhythmic, crafting Game Boy square wave guild artisan melody. Steady triangle bass workshop foundation and mastery percussion sweep in, capturing artisan excellence and masterful crafting. Medium pacing drives a productive, guild workshop ambiance, skilled and accomplished.
 ```
 
 ## 🎵 制作ガイドライン
 
-### ✅ 必須要素
+### ✅ 必須要素（ライトモチーフ統一版）
+- **共通ライトモチーフ**: skilled, rhythmic, crafting, workshop foundation, masterful crafting, productive, accomplished
+- **音響統一基盤**: rhythmic square wave + steady triangle bass + workshop foundation
+- **感情アーク統一**: [職種感情] → productive/masterful crafting → skilled/accomplished
 - **8-bit Game Boy sound統一**: authentic chiptune工房音響
 - **cheerful要素統合**: 明るさ・陽気さが最重要（作業BGM最適化）
-- **rhythmic elements**: 作業リズム・職人の手の動き
-- **装飾語3回繰り返し**: 感情増幅技法
 - **seamless loop structure**: 繰り返し聴取最適化
 
 ### ❌ 絶対回避要素
@@ -244,14 +246,21 @@ Masterful, accomplished 8-bit chiptune unfolds with teaching, sharing Game Boy s
 - **aggressive expressions**: 作業BGMに不適
 - **modern synthesizer**: 8-bit純正性を損なう
 
-### ⏱️ テンポ戦略（20工房バリエーション）
-- **slow tempo**: 精密・瞑想工芸（6曲）
+### ⏱️ テンポ戦略（20工房バリエーション・ライトモチーフ統一）
+- **slow tempo**: 精密・瞑想工芸（7曲）
   - Tailor Needle Craft, Jeweler Gem Cutting, Herbalist Garden Brew, Mason Stone Carving, Brewer Barrel Aging, Candlemaker Wax Melting, Scribe Scroll Writing
-- **medium tempo**: 標準・リズム工作（14曲）
+- **medium tempo**: 標準・リズム工作（13曲）
   - Blacksmith Forge Fire, Alchemist Laboratory Mix, Carpenter Workshop Build, Potter Wheel Shaping, Baker Kitchen Rising, Leatherworker Tool Making, Glassblower Crystal Art, Clockmaker Gear Assembly, Weaponsmith Steel Forging, Enchanter Magic Infusion, Fletcher Arrow Crafting, Cobbler Boot Stitching, Artisan Guild Mastery
+
+### 🎯 ライトモチーフ効果
+- **統一感創出**: 全20楽曲が一つのコレクションとして認識される
+- **長時間聴取最適化**: 共通要素で聴取疲労軽減
+- **作業BGM特化**: productive, skilled, accomplished で作業効率向上
+- **職種多様性維持**: 各percussion で個性表現
 
 ---
 
 *作成日: 2025年9月2日*  
+*改良日: 2025年9月6日（ライトモチーフ統一版）*  
 *音源: 8-bit Game Boy特化統一*  
-*コンセプト: Crafting & Workshop = 職人技術 + 作業リズム + 創造喜び + 作業BGM最適化*
+*コンセプト: Crafting & Workshop = ライトモチーフ統一 + 職人技術 + 作業リズム + 創造喜び + 作業BGM最適化*
