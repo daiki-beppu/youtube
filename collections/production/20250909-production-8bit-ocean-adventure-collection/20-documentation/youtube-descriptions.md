@@ -63,7 +63,7 @@ Perfect for gaming, studying, or experiencing a complete maritime saga.
 • Free to use with proper attribution to "8-Bit Adventure Hub"
 • Please check your platform's AI content policies for commercial use
 
-🎮 Individual tracks: [プレイリストURL]
+🎮 Individual tracks: https://www.youtube.com/playlist?list=PLJ5vG59SMwtUUgRo0E1ByXYFDP7SzkLPo
 
 #8BitMusic #OceanAdventure #RPGMusic #ChiptuneStory
 ```
@@ -79,8 +79,8 @@ Perfect for gaming, studying, or experiencing maritime storytelling.
 • Free to use with proper attribution to "8-Bit Adventure Hub"
 • Please check your platform's AI content policies for commercial use
 
-🎵 Full Collection: [Collection URL]
-🎮 All tracks: [Playlist URL]
+🎵 Full Collection: https://youtu.be/MA_MftQ7Cg0
+🎮 All tracks: https://www.youtube.com/playlist?list=PLJ5vG59SMwtUUgRo0E1ByXYFDP7SzkLPo
 
 #8BitMusic #OceanAdventure #RPGMusic
 ```
@@ -94,7 +94,7 @@ Perfect for gaming, studying, or experiencing maritime storytelling.
 
 Experience the complete collection of 35 individual tracks from our 8-Bit Ocean Adventure Collection 2:00-hour maritime masterpiece that will take you through every ocean adventure! Each track is now available separately, perfect for finding your exact favorite nautical moment or creating custom adventure playlists for any RPG seafaring mood! 🌊➡️⚓
 
-🌊 FROM THE 8-Bit Ocean Adventure Collection: This playlist features all 35 tracks from our complete 2:00-hour ocean saga masterpiece: ➤ Full: [Collection URL]
+🌊 FROM THE 8-Bit Ocean Adventure Collection: This playlist features all 35 tracks from our complete 2:00-hour ocean saga masterpiece: ➤ Full: https://youtu.be/MA_MftQ7Cg0
 
 Perfect for:
 • Gaming background music 🎮

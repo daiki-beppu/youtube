@@ -145,8 +145,8 @@ for file in "$INDIVIDUAL_DIR"/*.wav; do
     fi
     
     filename=$(basename "$file" .wav)
-    # ファイル名から番号プレフィックス削除（例: "01-" → ""）
-    clean_filename=$(echo "$filename" | sed 's/^[0-9][0-9]-//')
+    # ファイル名をそのまま使用（番号プレフィックス付き）
+    clean_filename="$filename"
     output_file="$OUTPUT_DIR/${clean_filename}.mp4"
     ((PROCESSED++))
     
