@@ -1,18 +1,18 @@
-# 🌊 8-Bit Ocean Adventure Collection - Epic Maritime Journey Saga
-## Game Boy Chiptune Musical Storytelling Experience
+# 🌊 16-Bit Ocean Adventure Collection - Epic Maritime Journey Saga
+## SNES Chiptune Musical Storytelling Experience
 
-### 🎯 ストーリー驅動型プロンプト構造（v6.0 - 8-bit物語特化版）
+### 🎯 ライトモチーフ統一戦略（v7.0 - 16-bit統一版）
 
-#### 8-bit Game Boy物語特化版（ナラティブ構造）
+#### 16-bit SNES統一版（ライトモチーフ構造）
 ```
-[物語段階], [感情進展] 8-bit chiptune unfolds as [主人公行動], [音楽展開] Game Boy [楽器群] [物語描写]. [副楽器] [感情変化] sweep in, capturing [ストーリー要素1] and [ストーリー要素2]. [テンポ] pacing drives [物語クライマックス], [感情結末] [場所設定] ambiance, [物語完結] and [次への繋がり].
+[物語段階], [感情進展] 16-bit chiptune unfolds with [共通音響基盤], [音色特性] SNES [楽器群] [物語描写]. [統一副楽器] [感情変化] sweep in, capturing [ストーリー要素1] and [ストーリー要素2]. [テンポ] pacing drives [共通展開], [場所設定] ambiance, [物語完結] and [共通結末感情].
 ```
 
-#### 物語特化技法の特徴
-- **ナラティブアーク**: 序破急の完全な物語構造
-- **キャラクター進展**: 主人公の成長を音楽で表現
-- **世界観構築**: 各楽曲で海洋世界の詳細を描写
-- **感情の旅路**: 聴く人が冒険を体験する構成
+#### ライトモチーフ4要素（16-bit Ocean Adventure特化）
+- **共通音響基盤**: orchestral harp + concert strings + ceremonial brass
+- **統一感情アーク**: [物語段階] → [共通展開] → [共通結末感情]
+- **コア装飾語統合**: nautical, maritime, orchestral, adventurous, epic
+- **個性表現**: 各楽曲別 woodwind ensemble・cathedral organ で差別化
 
 ## 🎨 Ocean Adventure専用装飾語体系
 
@@ -31,15 +31,16 @@ Vast, Boundless, Limitless, Endless, Infinite, Open, Expansive, Free, Liberated,
 ### 神秘美麗系
 Mystical, Enchanting, Shimmering, Sparkling, Glittering, Magical, Ethereal, Beautiful, Serene, Peaceful
 
-## 🎼 8-bit専用楽器構成（Ocean Adventure最適化）
+## 🎼 16-bit専用楽器構成（Ocean Adventure最適化）
 
 ```
 ✅ 推奨楽器:
-- square wave melody（主旋律・船の歌声・海の呼び声）
-- triangle wave bass（海の深さ・波のうねり・大地の安定感）
-- noise channel percussion（波の音・船のきしみ・嵐の音）
-- simple arpeggio（きらめく水面・風の音・海鳥の声）
-- authentic Game Boy sound（純正8-bit海洋音響）
+- orchestral harp melody（主旋律・海の波紋・神秘的共鳴）
+- concert strings bass（海の深遠・波のうねり・情感の安定）
+- ceremonial brass harmony（船の威厳・冒険の勇気・海の壮大さ）
+- woodwind ensemble（風の音・海鳥の声・自然の囁き）
+- cathedral organ（神秘・古代遺跡・精神的深度）
+- authentic SNES sound chip（純正16-bit海洋音響）
 
 ❌ 回避楽器:
 - electronic guitar, modern synthesizer, heavy drums
@@ -119,7 +120,7 @@ Mystical, Enchanting, Shimmering, Sparkling, Glittering, Magical, Ethereal, Beau
 01. Young Sailor's Dream
 ```
 ```
-Dreaming, yearning 8-bit chiptune unfolds as young boy gazes at distant horizon, longing Game Boy square wave and triangle bass childhood wonder. Gentle arpeggio hopes and soft noise channel dreams sweep in, capturing innocent maritime dreams and future adventure calling. Slow pacing drives a nostalgic, bedroom window ambiance, hopeful and destiny-bound.
+Dreaming, yearning 16-bit chiptune unfolds with orchestral harp melody, longing SNES concert strings and ceremonial brass childhood wonder. Gentle woodwind ensemble hopes and soft cathedral organ dreams sweep in, capturing innocent maritime dreams and future adventure calling. Slow pacing drives a nostalgic, bedroom window ambiance, hopeful and destiny-bound.
 ```
 
 #### 02. Port Town Departure - 港町からの旅立ち
@@ -127,7 +128,7 @@ Dreaming, yearning 8-bit chiptune unfolds as young boy gazes at distant horizon,
 02. Port Town Departure
 ```
 ```
-Emotional, departing 8-bit chiptune unfolds as protagonist bids farewell to family, touching Game Boy square wave and triangle bass farewell ceremony. Melancholic arpeggio memories and determined noise channel resolve sweep in, capturing bittersweet departure and brave decision. Medium pacing drives a harbor morning ambiance, sad yet determined.
+Emotional, departing 16-bit chiptune unfolds with orchestral harp melody, touching SNES concert strings and ceremonial brass farewell ceremony. Melancholic woodwind ensemble memories and determined cathedral organ resolve sweep in, capturing bittersweet departure and brave decision. Medium pacing drives a harbor morning ambiance, sad yet determined.
 ```
 
 #### 03. First Glimpse of the Ocean - 初めて見る大海原
@@ -135,7 +136,7 @@ Emotional, departing 8-bit chiptune unfolds as protagonist bids farewell to fami
 03. First Glimpse of the Ocean
 ```
 ```
-Awestruck, overwhelming 8-bit chiptune unfolds as ship clears harbor and endless ocean spreads before eyes, majestic Game Boy square wave and triangle bass infinite expanse. Breathtaking arpeggio wonder and rising melody sweep in, capturing first ocean vastness and life-changing moment. Slow pacing drives an infinite, horizon ambiance, humbling and inspiring.
+Awestruck, overwhelming 16-bit chiptune unfolds with orchestral harp melody, majestic SNES concert strings and ceremonial brass infinite expanse. Breathtaking woodwind ensemble wonder and rising cathedral organ sweep in, capturing first ocean vastness and life-changing moment. Slow pacing drives an infinite, horizon ambiance, humbling and inspiring.
 ```
 
 ### ⛵ CHAPTER 1: Setting Sail（第1章 - 航海の始まり）
@@ -145,7 +146,7 @@ Awestruck, overwhelming 8-bit chiptune unfolds as ship clears harbor and endless
 04. Captain's Morning Briefing
 ```
 ```
-Authoritative, instructional 8-bit chiptune unfolds as experienced captain teaches young sailor, commanding Game Boy square wave and triangle bass maritime wisdom. Disciplined noise channel and teaching arpeggio melodies sweep in, capturing naval discipline and knowledge sharing. Medium pacing drives a ship deck ambiance, educational and respectful.
+Authoritative, instructional 16-bit chiptune unfolds with orchestral harp melody, commanding SNES concert strings and ceremonial brass maritime wisdom. Disciplined woodwind ensemble and teaching cathedral organ melodies sweep in, capturing naval discipline and knowledge sharing. Medium pacing drives a ship deck ambiance, educational and respectful.
 ```
 
 #### 05. Hoisting the Main Sail - メインセイル掲揚
@@ -153,7 +154,7 @@ Authoritative, instructional 8-bit chiptune unfolds as experienced captain teach
 05. Hoisting the Main Sail
 ```
 ```
-Energetic, coordinated 8-bit chiptune unfolds as crew works together raising massive sail, triumphant Game Boy triangle bass and square wave teamwork anthem. Rhythmic noise channel and soaring arpeggio melodies sweep in, capturing collective effort and wind catching canvas. Medium pacing drives a deck activity ambiance, cooperative and achievement-focused.
+Energetic, coordinated 16-bit chiptune unfolds with orchestral harp melody as crew works together raising massive sail, triumphant Game Boy ceremonial brass and square wave teamwork anthem. Rhythmic cathedral organ and soaring woodwind ensemble melodies sweep in, capturing collective effort and wind catching canvas. Medium pacing drives a deck activity ambiance, cooperative and achievement-focused.
 ```
 
 #### 06. Learning the Ropes - 船員としての修行
@@ -161,7 +162,7 @@ Energetic, coordinated 8-bit chiptune unfolds as crew works together raising mas
 06. Learning the Ropes
 ```
 ```
-Determined, learning 8-bit chiptune unfolds as protagonist masters sailor skills, progressing Game Boy square wave and triangle bass training montage. Encouraging arpeggio coaching and steady noise channel practice sweep in, capturing skill development and growing confidence. Medium pacing drives a training deck ambiance, educational and improving.
+Determined, learning 16-bit chiptune unfolds with orchestral harp melody as protagonist masters sailor skills, progressing SNES concert strings and ceremonial brass training montage. Encouraging woodwind ensemble coaching and steady cathedral organ practice sweep in, capturing skill development and growing confidence. Medium pacing drives a training deck ambiance, educational and improving.
 ```
 
 #### 07. Dolphin Pod Encounter - イルカの群れとの遭遇
@@ -169,7 +170,7 @@ Determined, learning 8-bit chiptune unfolds as protagonist masters sailor skills
 07. Dolphin Pod Encounter
 ```
 ```
-Joyful, playful 8-bit chiptune unfolds as dolphins surround ship in friendly greeting, dancing Game Boy square wave melody and triangle bass marine ballet. Leaping arpeggio melodies and splashing noise channel rhythms sweep in, capturing ocean friendship and natural wonder. Medium pacing drives a sparkling, sea surface ambiance, magical and harmonious.
+Joyful, playful 16-bit chiptune unfolds with orchestral harp melody as dolphins surround ship in friendly greeting, dancing SNES concert strings melody and ceremonial brass marine ballet. Leaping woodwind ensemble melodies and splashing cathedral organ rhythms sweep in, capturing ocean friendship and natural wonder. Medium pacing drives a sparkling, sea surface ambiance, magical and harmonious.
 ```
 
 #### 08. First Ocean Storm - 初めての嵐
@@ -177,7 +178,7 @@ Joyful, playful 8-bit chiptune unfolds as dolphins surround ship in friendly gre
 08. First Ocean Storm
 ```
 ```
-Intense, challenging 8-bit chiptune unfolds as protagonist faces first major storm, dramatic Game Boy triangle bass and square wave tempest power. Thunder noise channel and howling arpeggio winds sweep in, capturing nature's fury and personal courage test. Fast pacing drives a storm-tossed, deck ambiance, dangerous yet character-building.
+Intense, challenging 16-bit chiptune unfolds with orchestral harp melody as protagonist faces first major storm, dramatic Game Boy ceremonial brass and square wave tempest power. Thunder cathedral organ and howling woodwind ensemble winds sweep in, capturing nature's fury and personal courage test. Fast pacing drives a storm-tossed, deck ambiance, dangerous yet character-building.
 ```
 
 ### 🏝️ CHAPTER 2: Island Discovery（第2章 - 島の発見）
@@ -187,7 +188,7 @@ Intense, challenging 8-bit chiptune unfolds as protagonist faces first major sto
 09. Tropical Island Sighting
 ```
 ```
-Exciting, discovering 8-bit chiptune unfolds as lookout spots verdant island on horizon, triumphant Game Boy triangle bass and square wave discovery fanfare. Exotic arpeggio island melodies and anticipatory noise channel sweep in, capturing exploration excitement and tropical paradise promise. Medium pacing drives a crow's nest ambiance, hopeful and adventure-bound.
+Exciting, discovering 16-bit chiptune unfolds with orchestral harp melody as lookout spots verdant island on horizon, triumphant Game Boy ceremonial brass and square wave discovery fanfare. Exotic woodwind ensemble island melodies and anticipatory cathedral organ sweep in, capturing exploration excitement and tropical paradise promise. Medium pacing drives a crow's nest ambiance, hopeful and adventure-bound.
 ```
 
 #### 10. Beach Landing Adventure - 浜辺への上陸
@@ -195,7 +196,7 @@ Exciting, discovering 8-bit chiptune unfolds as lookout spots verdant island on 
 10. Beach Landing Adventure
 ```
 ```
-Exciting, landing 8-bit chiptune unfolds as crew prepares small boats for island approach, adventurous Game Boy triangle bass and square wave shore preparation. Splashing noise channel and tropical arpeggio melodies sweep in, capturing beach landing excitement and new territory exploration. Medium pacing drives a sandy shore ambiance, anticipatory and discovery-bound.
+Exciting, landing 16-bit chiptune unfolds with orchestral harp melody as crew prepares small boats for island approach, adventurous Game Boy ceremonial brass and square wave shore preparation. Splashing cathedral organ and tropical woodwind ensemble melodies sweep in, capturing beach landing excitement and new territory exploration. Medium pacing drives a sandy shore ambiance, anticipatory and discovery-bound.
 ```
 
 #### 11. Jungle Exploration - ジャングル探検
@@ -203,7 +204,7 @@ Exciting, landing 8-bit chiptune unfolds as crew prepares small boats for island
 11. Jungle Exploration
 ```
 ```
-Mysterious, exploring 8-bit chiptune unfolds as team ventures into dense tropical jungle, verdant Game Boy triangle bass and arpeggio forest symphony. Rustling noise channel and exotic bird-call arpeggio patterns sweep in, capturing jungle mystery and wildlife encounter. Medium pacing drives a lush vegetation ambiance, curious and nature-immersed.
+Mysterious, exploring 16-bit chiptune unfolds with orchestral harp melody as team ventures into dense tropical jungle, verdant Game Boy ceremonial brass and woodwind ensemble forest symphony. Rustling cathedral organ and exotic bird-call woodwind ensemble patterns sweep in, capturing jungle mystery and wildlife encounter. Medium pacing drives a lush vegetation ambiance, curious and nature-immersed.
 ```
 
 #### 12. Hidden Waterfall Cave - 隠された滝の洞窟
@@ -211,7 +212,7 @@ Mysterious, exploring 8-bit chiptune unfolds as team ventures into dense tropica
 12. Hidden Waterfall Cave
 ```
 ```
-Serene, discovering 8-bit chiptune unfolds as explorers find secret waterfall behind cave entrance, crystalline Game Boy square wave melody and triangle bass water cascade. Echoing arpeggio and flowing melodies sweep in, capturing hidden beauty and natural sanctuary peace. Slow pacing drives a misty cave ambiance, magical and restorative.
+Serene, discovering 16-bit chiptune unfolds with orchestral harp melody as explorers find secret waterfall behind cave entrance, crystalline SNES concert strings melody and ceremonial brass water cascade. Echoing woodwind ensemble and flowing melodies sweep in, capturing hidden beauty and natural sanctuary peace. Slow pacing drives a misty cave ambiance, magical and restorative.
 ```
 
 #### 13. Ancient Ruins Mystery - 古代遺跡の謎
@@ -219,7 +220,7 @@ Serene, discovering 8-bit chiptune unfolds as explorers find secret waterfall be
 13. Ancient Ruins Mystery
 ```
 ```
-Ancient, mystical 8-bit chiptune unfolds as team discovers crumbling stone structures with strange symbols, enigmatic Game Boy triangle bass and square wave archaeological wonder. Mysterious arpeggio echoes and investigative patterns sweep in, capturing lost civilization and historical puzzle. Slow pacing drives a weathered stone ambiance, scholarly and time-touched.
+Ancient, mystical 16-bit chiptune unfolds with orchestral harp melody as team discovers crumbling stone structures with strange symbols, enigmatic Game Boy ceremonial brass and square wave archaeological wonder. Mysterious woodwind ensemble echoes and investigative patterns sweep in, capturing lost civilization and historical puzzle. Slow pacing drives a weathered stone ambiance, scholarly and time-touched.
 ```
 
 #### 14. Friendly Native Village - 友好的な原住民の村
@@ -227,7 +228,7 @@ Ancient, mystical 8-bit chiptune unfolds as team discovers crumbling stone struc
 14. Friendly Native Village
 ```
 ```
-Welcoming, cultural 8-bit chiptune unfolds as islanders greet visitors with traditional ceremony, harmonious Game Boy triangle bass and square wave cultural exchange. Festive arpeggio dances and celebratory noise channel fanfare sweep in, capturing friendship formation and cultural bridge-building. Medium pacing drives a village celebration ambiance, warm and community-spirited.
+Welcoming, cultural 16-bit chiptune unfolds with orchestral harp melody as islanders greet visitors with traditional ceremony, harmonious Game Boy ceremonial brass and square wave cultural exchange. Festive woodwind ensemble dances and celebratory cathedral organ fanfare sweep in, capturing friendship formation and cultural bridge-building. Medium pacing drives a village celebration ambiance, warm and community-spirited.
 ```
 
 ### ⚔️ CHAPTER 3: Dangers of the Deep（第3章 - 深海の危険）
@@ -237,7 +238,7 @@ Welcoming, cultural 8-bit chiptune unfolds as islanders greet visitors with trad
 15. Pirate Ship on the Horizon
 ```
 ```
-Ominous, threatening 8-bit chiptune unfolds as dark silhouette appears on distant horizon, menacing Game Boy triangle bass and square wave danger warning. Alert noise channel and tense arpeggio patterns sweep in, capturing approaching threat and crew preparation for conflict. Medium pacing drives a watchful deck ambiance, cautious and battle-ready.
+Ominous, threatening 16-bit chiptune unfolds with orchestral harp melody as dark silhouette appears on distant horizon, menacing Game Boy ceremonial brass and square wave danger warning. Alert cathedral organ and tense woodwind ensemble patterns sweep in, capturing approaching threat and crew preparation for conflict. Medium pacing drives a watchful deck ambiance, cautious and battle-ready.
 ```
 
 #### 16. Kraken Rising - クラーケンの襲来
@@ -245,7 +246,7 @@ Ominous, threatening 8-bit chiptune unfolds as dark silhouette appears on distan
 16. Kraken Rising
 ```
 ```
-Terrifying, monstrous 8-bit chiptune unfolds as massive tentacles emerge from ocean depths, crushing Game Boy triangle bass and square wave sea monster encounter. Chaotic noise channel and screaming arpeggio terror sweep in, capturing legendary beast attack and crew desperation. Fast pacing drives a turbulent sea ambiance, horrifying and survival-focused.
+Terrifying, monstrous 16-bit chiptune unfolds with orchestral harp melody as massive tentacles emerge from ocean depths, crushing Game Boy ceremonial brass and square wave sea monster encounter. Chaotic cathedral organ and screaming woodwind ensemble terror sweep in, capturing legendary beast attack and crew desperation. Fast pacing drives a turbulent sea ambiance, horrifying and survival-focused.
 ```
 
 #### 17. Whirlpool Escape - 大渦からの脱出
@@ -253,7 +254,7 @@ Terrifying, monstrous 8-bit chiptune unfolds as massive tentacles emerge from oc
 17. Whirlpool Escape
 ```
 ```
-Frantic, escaping 8-bit chiptune unfolds as ship caught in massive swirling waters, spiraling Game Boy triangle bass and square wave whirlpool vortex. Racing noise channel and panicked arpeggio patterns sweep in, capturing desperate navigation and crew teamwork against nature's trap. Fast pacing drives a spinning water ambiance, intense and escape-driven.
+Frantic, escaping 16-bit chiptune unfolds with orchestral harp melody as ship caught in massive swirling waters, spiraling Game Boy ceremonial brass and square wave whirlpool vortex. Racing cathedral organ and panicked woodwind ensemble patterns sweep in, capturing desperate navigation and crew teamwork against nature's trap. Fast pacing drives a spinning water ambiance, intense and escape-driven.
 ```
 
 #### 18. Sea Monster Battle - 海魔との戦い
@@ -261,7 +262,7 @@ Frantic, escaping 8-bit chiptune unfolds as ship caught in massive swirling wate
 18. Sea Monster Battle
 ```
 ```
-Epic, battling 8-bit chiptune unfolds as crew fights massive sea serpent with cannons and swords, heroic Game Boy square wave and triangle bass combat symphony. Explosive noise channel and battle-cry arpeggio melodies sweep in, capturing legendary monster fight and human courage versus mythical beast. Fast pacing drives a deck warfare ambiance, heroic and victory-seeking.
+Epic, battling 16-bit chiptune unfolds with orchestral harp melody as crew fights massive sea serpent with cannons and swords, heroic SNES concert strings and ceremonial brass combat symphony. Explosive cathedral organ and battle-cry woodwind ensemble melodies sweep in, capturing legendary monster fight and human courage versus mythical beast. Fast pacing drives a deck warfare ambiance, heroic and victory-seeking.
 ```
 
 #### 19. Shipwreck Graveyard - 難破船の墓場
@@ -269,7 +270,7 @@ Epic, battling 8-bit chiptune unfolds as crew fights massive sea serpent with ca
 19. Shipwreck Graveyard
 ```
 ```
-Haunting, eerie 8-bit chiptune unfolds as ship enters fog-shrouded area filled with ancient wrecks, ghostly Game Boy triangle bass and square wave spectral atmosphere. Creaking noise channel and mournful arpeggio echoes sweep in, capturing maritime cemetery and lost sailors' spirits. Slow pacing drives a misty graveyard ambiance, respectful and supernatural.
+Haunting, eerie 16-bit chiptune unfolds with orchestral harp melody as ship enters fog-shrouded area filled with ancient wrecks, ghostly Game Boy ceremonial brass and square wave spectral atmosphere. Creaking cathedral organ and mournful woodwind ensemble echoes sweep in, capturing maritime cemetery and lost sailors' spirits. Slow pacing drives a misty graveyard ambiance, respectful and supernatural.
 ```
 
 #### 20. Ghost Ship Encounter - 幽霊船との遭遇
@@ -277,7 +278,7 @@ Haunting, eerie 8-bit chiptune unfolds as ship enters fog-shrouded area filled w
 20. Ghost Ship Encounter
 ```
 ```
-Supernatural, ethereal 8-bit chiptune unfolds as phantom vessel materializes from fog with undead crew, otherworldly Game Boy square wave melody and triangle bass phantom melody. Spectral noise channel and haunting arpeggio voices sweep in, capturing ghostly encounter and boundary between life and death. Slow pacing drives a phantom deck ambiance, mystical and spine-chilling.
+Supernatural, ethereal 16-bit chiptune unfolds with orchestral harp melody as phantom vessel materializes from fog with undead crew, otherworldly SNES concert strings melody and ceremonial brass phantom melody. Spectral cathedral organ and haunting woodwind ensemble voices sweep in, capturing ghostly encounter and boundary between life and death. Slow pacing drives a phantom deck ambiance, mystical and spine-chilling.
 ```
 
 ### 💎 CHAPTER 4: Treasure Hunt（第4章 - 宝探し）
@@ -287,7 +288,7 @@ Supernatural, ethereal 8-bit chiptune unfolds as phantom vessel materializes fro
 21. Ancient Map Discovery
 ```
 ```
-Excited, revealing 8-bit chiptune unfolds as crew uncovers weathered treasure map in abandoned ship cabin, discovering Game Boy square wave melody and triangle bass archaeological treasure. Anticipatory arpeggio fanfare and investigative melodies sweep in, capturing map examination and treasure hunt beginning. Medium pacing drives a candlelit cabin ambiance, scholarly and treasure-bound.
+Excited, revealing 16-bit chiptune unfolds with orchestral harp melody as crew uncovers weathered treasure map in abandoned ship cabin, discovering SNES concert strings melody and ceremonial brass archaeological treasure. Anticipatory woodwind ensemble fanfare and investigative melodies sweep in, capturing map examination and treasure hunt beginning. Medium pacing drives a candlelit cabin ambiance, scholarly and treasure-bound.
 ```
 
 #### 22. X Marks the Spot - X印の場所
@@ -295,7 +296,7 @@ Excited, revealing 8-bit chiptune unfolds as crew uncovers weathered treasure ma
 22. X Marks the Spot
 ```
 ```
-Determined, navigating 8-bit chiptune unfolds as ship follows ancient map coordinates to mysterious marked location, purposeful Game Boy triangle bass and square wave navigation anthem. Compass noise channel and seeking arpeggio patterns sweep in, capturing precise sailing and treasure location approach. Medium pacing drives a focused deck ambiance, methodical and destination-focused.
+Determined, navigating 16-bit chiptune unfolds with orchestral harp melody as ship follows ancient map coordinates to mysterious marked location, purposeful Game Boy ceremonial brass and square wave navigation anthem. Compass cathedral organ and seeking woodwind ensemble patterns sweep in, capturing precise sailing and treasure location approach. Medium pacing drives a focused deck ambiance, methodical and destination-focused.
 ```
 
 #### 23. Treasure Island Landing - 宝島への上陸
@@ -303,7 +304,7 @@ Determined, navigating 8-bit chiptune unfolds as ship follows ancient map coordi
 23. Treasure Island Landing
 ```
 ```
-Adventurous, landing 8-bit chiptune unfolds as crew reaches legendary treasure island with golden beaches, triumphant Game Boy square wave and triangle bass arrival celebration. Splashing noise channel and exotic arpeggio island themes sweep in, capturing treasure island arrival and expedition preparation. Medium pacing drives a golden shore ambiance, victorious and quest-beginning.
+Adventurous, landing 16-bit chiptune unfolds with orchestral harp melody as crew reaches legendary treasure island with golden beaches, triumphant SNES concert strings and ceremonial brass arrival celebration. Splashing cathedral organ and exotic woodwind ensemble island themes sweep in, capturing treasure island arrival and expedition preparation. Medium pacing drives a golden shore ambiance, victorious and quest-beginning.
 ```
 
 #### 24. Cave of Golden Echoes - 黄金の洞窟
@@ -311,7 +312,7 @@ Adventurous, landing 8-bit chiptune unfolds as crew reaches legendary treasure i
 24. Cave of Golden Echoes
 ```
 ```
-Mystical, exploring 8-bit chiptune unfolds as team enters vast cave filled with glittering treasures, sparkling Game Boy arpeggio and triangle bass treasure chamber. Echoing noise channel and awestruck melodies sweep in, capturing golden treasure discovery and overwhelming wealth sight. Slow pacing drives a glittering cave ambiance, magnificent and treasure-filled.
+Mystical, exploring 16-bit chiptune unfolds with orchestral harp melody as team enters vast cave filled with glittering treasures, sparkling Game Boy woodwind ensemble and ceremonial brass treasure chamber. Echoing cathedral organ and awestruck melodies sweep in, capturing golden treasure discovery and overwhelming wealth sight. Slow pacing drives a glittering cave ambiance, magnificent and treasure-filled.
 ```
 
 #### 25. Guardian Spirit Challenge - 守護霊の試練
@@ -319,7 +320,7 @@ Mystical, exploring 8-bit chiptune unfolds as team enters vast cave filled with 
 25. Guardian Spirit Challenge
 ```
 ```
-Spiritual, testing 8-bit chiptune unfolds as ancient guardian spirit challenges treasure seekers' worthiness, ethereal Game Boy triangle bass and square wave supernatural trial. Mystical noise channel and otherworldly arpeggio voices sweep in, capturing spiritual test and moral character examination. Medium pacing drives a sacred chamber ambiance, respectful and trial-focused.
+Spiritual, testing 16-bit chiptune unfolds with orchestral harp melody as ancient guardian spirit challenges treasure seekers' worthiness, ethereal Game Boy ceremonial brass and square wave supernatural trial. Mystical cathedral organ and otherworldly woodwind ensemble voices sweep in, capturing spiritual test and moral character examination. Medium pacing drives a sacred chamber ambiance, respectful and trial-focused.
 ```
 
 #### 26. The Heart of the Ocean - 海の心臓（宝物発見）
@@ -327,7 +328,7 @@ Spiritual, testing 8-bit chiptune unfolds as ancient guardian spirit challenges 
 26. The Heart of the Ocean
 ```
 ```
-Triumphant, achieving 8-bit chiptune unfolds as crew discovers legendary blue gem that pulses like ocean's heartbeat, glorious Game Boy triangle bass and square wave victory symphony. Crystalline arpeggio and celebratory fanfare sweep in, capturing ultimate treasure discovery and quest completion. Medium pacing drives a crystal chamber ambiance, victorious and legendary.
+Triumphant, achieving 16-bit chiptune unfolds with orchestral harp melody as crew discovers legendary blue gem that pulses like ocean's heartbeat, glorious Game Boy ceremonial brass and square wave victory symphony. Crystalline woodwind ensemble and celebratory fanfare sweep in, capturing ultimate treasure discovery and quest completion. Medium pacing drives a crystal chamber ambiance, victorious and legendary.
 ```
 
 ### 🌅 CHAPTER 5: The Journey Home（第5章 - 帰路の旅）
@@ -337,7 +338,7 @@ Triumphant, achieving 8-bit chiptune unfolds as crew discovers legendary blue ge
 27. Farewell to Adventure
 ```
 ```
-Bittersweet, departing 8-bit chiptune unfolds as crew takes final look at treasure island before sailing home, nostalgic Game Boy square wave and triangle bass farewell melody. Melancholic arpeggio memories and gentle noise channel reflections sweep in, capturing adventure conclusion and grateful departure. Slow pacing drives a sunset departure ambiance, thankful and memory-filled.
+Bittersweet, departing 16-bit chiptune unfolds with orchestral harp melody as crew takes final look at treasure island before sailing home, nostalgic SNES concert strings and ceremonial brass farewell melody. Melancholic woodwind ensemble memories and gentle cathedral organ reflections sweep in, capturing adventure conclusion and grateful departure. Slow pacing drives a sunset departure ambiance, thankful and memory-filled.
 ```
 
 #### 28. Calm Seas Reflection - 穏やかな海での省察
@@ -345,7 +346,7 @@ Bittersweet, departing 8-bit chiptune unfolds as crew takes final look at treasu
 28. Calm Seas Reflection
 ```
 ```
-Peaceful, contemplating 8-bit chiptune unfolds as protagonist reflects on journey while watching calm ocean waves, meditative Game Boy square wave melody and triangle bass introspection. Gentle arpeggio thoughts and soft noise channel breathing sweep in, capturing personal growth realization and life lesson integration. Slow pacing drives a tranquil deck ambiance, wise and self-aware.
+Peaceful, contemplating 16-bit chiptune unfolds with orchestral harp melody as protagonist reflects on journey while watching calm ocean waves, meditative SNES concert strings melody and ceremonial brass introspection. Gentle woodwind ensemble thoughts and soft cathedral organ breathing sweep in, capturing personal growth realization and life lesson integration. Slow pacing drives a tranquil deck ambiance, wise and self-aware.
 ```
 
 #### 29. Lighthouse Welcome Home - 灯台の帰郷案内
@@ -353,7 +354,7 @@ Peaceful, contemplating 8-bit chiptune unfolds as protagonist reflects on journe
 29. Lighthouse Welcome Home
 ```
 ```
-Welcoming, returning 8-bit chiptune unfolds as familiar lighthouse beacon guides ship toward home harbor, guiding Game Boy square wave and triangle bass homecoming fanfare. Beacon noise channel and joyful arpeggio celebration sweep in, capturing home harbor approach and family reunion anticipation. Medium pacing drives a lighthouse beacon ambiance, warm and homecoming-focused.
+Welcoming, returning 16-bit chiptune unfolds with orchestral harp melody as familiar lighthouse beacon guides ship toward home harbor, guiding SNES concert strings and ceremonial brass homecoming fanfare. Beacon cathedral organ and joyful woodwind ensemble celebration sweep in, capturing home harbor approach and family reunion anticipation. Medium pacing drives a lighthouse beacon ambiance, warm and homecoming-focused.
 ```
 
 #### 30. Harbor Town Celebration - 港町の祝賀
@@ -361,7 +362,7 @@ Welcoming, returning 8-bit chiptune unfolds as familiar lighthouse beacon guides
 30. Harbor Town Celebration
 ```
 ```
-Festive, celebrating 8-bit chiptune unfolds as entire port town welcomes returning heroes with grand celebration, triumphant Game Boy square wave and triangle bass community festival. Cheering noise channel and party arpeggio melodies sweep in, capturing hero's welcome and treasure sharing with community. Fast pacing drives a town square ambiance, joyful and community-spirited.
+Festive, celebrating 16-bit chiptune unfolds with orchestral harp melody as entire port town welcomes returning heroes with grand celebration, triumphant SNES concert strings and ceremonial brass community festival. Cheering cathedral organ and party woodwind ensemble melodies sweep in, capturing hero's welcome and treasure sharing with community. Fast pacing drives a town square ambiance, joyful and community-spirited.
 ```
 
 #### 31. Seasoned Sailor's Tale - 熟練船乗りの物語
@@ -369,7 +370,7 @@ Festive, celebrating 8-bit chiptune unfolds as entire port town welcomes returni
 31. Seasoned Sailor's Tale
 ```
 ```
-Storytelling, sharing 8-bit chiptune unfolds as now-experienced sailor recounts adventure to eager tavern listeners, narrative Game Boy square wave melody and triangle bass tale-weaving. Dramatic arpeggio story-telling and rhythmic noise channel emphasis sweep in, capturing story sharing and wisdom passing to next generation. Medium pacing drives a warm tavern ambiance, educational and inspiring.
+Storytelling, sharing 16-bit chiptune unfolds with orchestral harp melody as now-experienced sailor recounts adventure to eager tavern listeners, narrative SNES concert strings melody and ceremonial brass tale-weaving. Dramatic woodwind ensemble story-telling and rhythmic cathedral organ emphasis sweep in, capturing story sharing and wisdom passing to next generation. Medium pacing drives a warm tavern ambiance, educational and inspiring.
 ```
 
 #### 32. Next Adventure Dreams - 次なる冒険への夢
@@ -377,7 +378,7 @@ Storytelling, sharing 8-bit chiptune unfolds as now-experienced sailor recounts 
 32. Next Adventure Dreams
 ```
 ```
-Hopeful, planning 8-bit chiptune unfolds as seasoned adventurer studies new maps and plans future expeditions, anticipatory Game Boy triangle bass and square wave future-bound melody. Dreaming arpeggio and ambitious themes sweep in, capturing endless adventure spirit and horizon-seeking heart. Medium pacing drives a planning room ambiance, forward-looking and adventure-hungry.
+Hopeful, planning 16-bit chiptune unfolds with orchestral harp melody as seasoned adventurer studies new maps and plans future expeditions, anticipatory Game Boy ceremonial brass and square wave future-bound melody. Dreaming woodwind ensemble and ambitious themes sweep in, capturing endless adventure spirit and horizon-seeking heart. Medium pacing drives a planning room ambiance, forward-looking and adventure-hungry.
 ```
 
 ### 🎭 EPILOGUE: Legend of the Sea（終章 - 海の伝説）
@@ -387,7 +388,7 @@ Hopeful, planning 8-bit chiptune unfolds as seasoned adventurer studies new maps
 33. Hero's Legacy
 ```
 ```
-Noble, enduring 8-bit chiptune unfolds as protagonist's adventure becomes legendary tale told for generations, immortal Game Boy triangle bass and square wave heroic anthem. Majestic arpeggio and inspiring legacy themes sweep in, capturing timeless heroism and story immortalization. Slow pacing drives a memorial monument ambiance, reverent and eternally inspiring.
+Noble, enduring 16-bit chiptune unfolds with orchestral harp melody as protagonist's adventure becomes legendary tale told for generations, immortal Game Boy ceremonial brass and square wave heroic anthem. Majestic woodwind ensemble and inspiring legacy themes sweep in, capturing timeless heroism and story immortalization. Slow pacing drives a memorial monument ambiance, reverent and eternally inspiring.
 ```
 
 #### 34. Ocean's Eternal Song - 海の永遠の歌
@@ -395,7 +396,7 @@ Noble, enduring 8-bit chiptune unfolds as protagonist's adventure becomes legend
 34. Ocean's Eternal Song
 ```
 ```
-Eternal, flowing 8-bit chiptune unfolds as ocean continues its endless dance with waves and tides, infinite Game Boy square wave melody and triangle bass oceanic symphony. Perpetual arpeggio currents and rhythmic noise channel tides sweep in, capturing sea's timeless nature and eternal beauty. Slow pacing drives an endless horizon ambiance, peaceful and forever-continuing.
+Eternal, flowing 16-bit chiptune unfolds with orchestral harp melody as ocean continues its endless dance with waves and tides, infinite SNES concert strings melody and ceremonial brass oceanic symphony. Perpetual woodwind ensemble currents and rhythmic cathedral organ tides sweep in, capturing sea's timeless nature and eternal beauty. Slow pacing drives an endless horizon ambiance, peaceful and forever-continuing.
 ```
 
 #### 35. New Generation Sets Sail - 新世代の船出
@@ -403,7 +404,7 @@ Eternal, flowing 8-bit chiptune unfolds as ocean continues its endless dance wit
 35. New Generation Sets Sail
 ```
 ```
-Hopeful, beginning 8-bit chiptune unfolds as young dreamers inspired by hero's tale prepare their own ocean adventure, renewal Game Boy triangle bass and square wave new journey fanfare. Eager arpeggio anticipation and adventurous noise channel preparation sweep in, capturing cycle continuation and endless human spirit for exploration. Medium pacing drives a harbor departure ambiance, cyclical and eternally hopeful.
+Hopeful, beginning 16-bit chiptune unfolds with orchestral harp melody as young dreamers inspired by hero's tale prepare their own ocean adventure, renewal Game Boy ceremonial brass and square wave new journey fanfare. Eager woodwind ensemble anticipation and adventurous cathedral organ preparation sweep in, capturing cycle continuation and endless human spirit for exploration. Medium pacing drives a harbor departure ambiance, cyclical and eternally hopeful.
 ```
 
 ## 🎉 Epic Ocean Adventure Saga - 完成！
@@ -429,16 +430,18 @@ Hopeful, beginning 8-bit chiptune unfolds as young dreamers inspired by hero's t
 
 ## 🏆 制作完了記念
 
-**8-Bit Epic Ocean Adventure Saga v6.0**  
-*創作日: 2025年9月11日（8-bit版）*  
+**16-Bit Epic Ocean Adventure Saga v7.0**  
+*創作日: 2025年9月10日（16-bit版・ライトモチーフ統一戦略適用）*  
 *総楽曲数: 35楽曲（従来制限撤廃）*  
-*音源: 8-bit Game Boy特化統一*  
-*革新要素: 完全物語体験 + 無制限楽曲数 + RPGゲーム構造 + nostalgic chiptune*
+*音源: 16-bit SNES sound chip統一*  
+*革新要素: ライトモチーフ統一戦略 + orchestral depth + 完全物語体験 + RPGゲーム構造*
 
 ### 🌊 実現した革新点
-1. **物語驅動型音楽制作**: 各楽曲が独立せずに一つの壮大な海洋冒険物語として機能
-2. **制限撤廃方針**: 24曲制限から35曲への拡張で完全なストーリー表現を実現
-3. **キャラクター成長アーク**: 若い船乗り → 熟練冒険者への音楽的変化を表現
-4. **RPGゲーム体験**: 聴く人が実際に海洋冒険を体験できる構成
+1. **ライトモチーフ統一戦略**: orchestral harp + concert strings + ceremonial brass でコレクション全体の一貫性確保
+2. **16-bit orchestral depth**: woodwind ensemble・cathedral organ による豊かな音色表現  
+3. **物語驅動型音楽制作**: 各楽曲が独立せずに一つの壮大な海洋冒険物語として機能
+4. **制限撤廃方針**: 24曲制限から35曲への拡張で完全なストーリー表現を実現
+5. **キャラクター成長アーク**: 若い船乗り → 熟練冒険者への音楽的変化を表現
+6. **RPGゲーム体験**: 聴く人が実際に海洋冒険を体験できる構成
 
-これで「ゲームの物語をそのまま曲で表現する」という要求を完璧に実現！🎉
+これでv7.0ライトモチーフ統一戦略を適用した16-bit Ocean Adventure Collection完成！🎉
