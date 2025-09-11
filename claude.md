@@ -475,6 +475,24 @@ chmod +x generate_videos.sh && ./generate_videos.sh
 
 # 複数ファイル一括時間確認
 for file in *.wav; do echo "=== $file ==="; afinfo "$file"; done
+
+# タイムスタンプ付き楽曲リスト生成（YouTube概要欄用）
+total=0 && ls *.wav | sort -V | while read file; do 
+    duration=$(afinfo "$file" | grep "estimated duration" | awk '{print $3}' | cut -d. -f1)
+    if [ -n "$duration" ]; then
+        minutes=$((total/60)); seconds=$((total%60))
+        clean_name=$(echo "$file" | sed 's/.wav$//' | sed 's/ (Remix)$//' | sed 's/^[0-9][0-9]-//')
+        printf "%02d:%02d %s\n" $minutes $seconds "$clean_name"
+        total=$((total + duration))
+    fi
+done
+
+# 総再生時間計算
+total=0 && for file in *.wav; do 
+    duration=$(afinfo "$file" | grep "estimated duration" | awk '{print $3}' | cut -d. -f1)
+    if [ -n "$duration" ]; then total=$((total + duration)); fi
+done && hours=$((total/3600)); minutes=$(((total%3600)/60)); seconds=$((total%60))
+echo "総時間: ${hours}:$(printf "%02d" $minutes):$(printf "%02d" $seconds)"
 ```
 
 ## 🎵 SunoAI プロンプト技法（v7.0統一版）
