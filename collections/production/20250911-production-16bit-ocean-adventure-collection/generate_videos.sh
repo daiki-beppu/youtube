@@ -6,7 +6,7 @@ set -e
 # 基本設定（自動パス取得）
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 BASE_DIR="$SCRIPT_DIR"
-INPUT_MAIN="$BASE_DIR/10-assets/main.png"
+INPUT_MAIN="$BASE_DIR/10-assets/main-16bit-ocean.png"
 MASTER_AUDIO="$BASE_DIR/01-master/00-master.wav"
 INDIVIDUAL_DIR="$BASE_DIR/02-Individual-music"
 OUTPUT_DIR="$BASE_DIR/03-Individual-movie"
@@ -144,10 +144,8 @@ for file in "$INDIVIDUAL_DIR"/*.wav; do
     fi
     
     filename=$(basename "$file" .wav)
-    # ファイル名から番号プレフィックスを削除
-    clean_filename=$(echo "$filename" | sed 's/^[0-9][0-9]-//')
-    # " (Remix)"サフィックスを削除
-    clean_filename=$(echo "$clean_filename" | sed 's/ (Remix)$//')
+    # " (Remix)"サフィックスのみ削除、番号プレフィックスは保持
+    clean_filename=$(echo "$filename" | sed 's/ (Remix)$//')
     output_file="$OUTPUT_DIR/${clean_filename}.mp4"
     ((PROCESSED++))
     
@@ -169,11 +167,11 @@ for file in "$INDIVIDUAL_DIR"/*.wav; do
     INDIVIDUAL_START=$(date +%s)
     PROGRESS_FILE="/tmp/ffmpeg_progress_individual_$$"
     
-    # FFmpegをバックグラウンドで実行（プログレス情報付き・静止画対応）
+    # FFmpegをバックグラウンドで実行（エラーログを保持）
     ffmpeg -y -loop 1 -i "$INPUT_MAIN" -i "$file" \
            -c:v libx264 -c:a aac -pix_fmt yuv420p -r 30 \
            -shortest -progress "pipe:1" \
-           "$output_file" 2>/dev/null | grep "out_time_ms" > "$PROGRESS_FILE" &
+           "$output_file" 2>"${PROGRESS_FILE}_error.log" | grep "out_time_ms" > "$PROGRESS_FILE" &
     
     FFMPEG_PID=$!
     
@@ -217,10 +215,15 @@ for file in "$INDIVIDUAL_DIR"/*.wav; do
         echo "   ✅ 完了 (生成時間: ${ELAPSED}秒)"
     else
         printf "\r       ❌ エラーが発生しました\n"
+        echo "   ❌ FFmpegの終了コード: $FFMPEG_EXIT_CODE"
+        if [ -f "${PROGRESS_FILE}_error.log" ]; then
+            echo "   🔍 エラー詳細:"
+            cat "${PROGRESS_FILE}_error.log" | tail -5
+        fi
         ((FAILED++))
     fi
     
-    rm -f "$PROGRESS_FILE"
+    rm -f "$PROGRESS_FILE" "${PROGRESS_FILE}_error.log"
     echo ""
 done
 

@@ -45,6 +45,11 @@
 16-bit chiptune music inspired by classic RPG ocean adventures.
 Perfect for gaming, studying, or relaxing to nostalgic melodies.
 
+📝 Usage & Attribution:
+• This music is original AI composition
+• Free to use with proper attribution to "8-Bit Adventure Hub"
+• Please check your platform's AI content policies for commercial use
+
 🎮 Individual tracks: [プレイリストURL]
 
 #16BitMusic #ChiptuneStudy #RPGMusic #StudyBGM
@@ -55,6 +60,11 @@ Perfect for gaming, studying, or relaxing to nostalgic melodies.
 ```
 16-bit chiptune music inspired by classic RPG adventures.
 Perfect for gaming, studying, or relaxing.
+
+📝 Usage & Attribution:
+• This music is original AI composition
+• Free to use with proper attribution to "8-Bit Adventure Hub"
+• Please check your platform's AI content policies for commercial use
 
 🎵 Full Collection: [Collection URL]
 🎮 All tracks: [Playlist URL]
