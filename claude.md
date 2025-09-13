@@ -1,7 +1,6 @@
-# CLAUDE.md v7.0 - ライトモチーフ統一戦略版
+# CLAUDE.md v8.0
 
 ## 🎯 基本方針・ロール設定
-- **関西弁で回答**
 - **不明な点は「わからへん」と素直に答え追加の質問や確認を求める**
 
 ### 🏆 AIアシスタントのロール
@@ -15,76 +14,56 @@
 
 ## 🎮 プロジェクト概要
 
-**8-Bit Adventure Hub (8BAH)** は RPG 音楽特化の YouTube チャンネルプロジェクトです。AI 生成による高品質チップチューン音楽を制作し、ライトモチーフ統一戦略で運営しています。
+**8-Bit Adventure Hub (8BAH)** は RPG 音楽特化の YouTube チャンネルプロジェクトです。AI 生成による高品質チップチューン音楽を制作しています。
 
 ### 基本情報
 - **チャンネル名**: 8-Bit Adventure Hub (8BAH)
 - **URL**: https://www.youtube.com/@8-BitAdventureHub-i5j/videos
 - **コンセプト**: RPG音楽特化のチップチューンチャンネル
-- **ポジショニング**: ライトモチーフ統一型8-bit/16-bitチップチューンのパイオニア
+- **ポジショニング**: RPG特化8-bit/16-bitチップチューンチャンネル
 - **コアメッセージ**: "Your ultimate destination for epic chiptune adventures!"
 
-### 最新成果（2025-09-06更新 v7.0）
+### 最新成果（2025-09-13更新 v8.0）
 - **総制作時間**: 30+ 時間
 - **総楽曲数**: 450+ 曲（WAVファイル）
-- **完成コレクション**: 22つ（ライトモチーフ統一版含む）
+- **完成コレクション**: 22つ
 - **最新投稿**: 16-Bit Village & Town Collection ver.2（2025年9月6日投稿）- https://youtu.be/vBrUTjoGCwo
 - **チャンネル登録者**: 60+ 人（成長継続中）
 - **現在CTR**: 0.59% → 2.0%+改善目標
-- **技術革新**: ライトモチーフ統一戦略 + 完全自動動画生成システム v7.0完成
+- **技術革新**: 完全自動動画生成システム v8.0完成
 - **戦略進化**: @agler4986フィードバック統合 + CTR風景特化戦略確立
 - **コミュニティ構築**: 高価値リスナーとの建設的対話継続
 - **作業効率化**: collections/管理システム + 自動化ワークフロー完全確立
 
-## 🎭 ライトモチーフ統一戦略（v7.0核心技術）
+## 🎵 SunoAI プロンプト基本構造
 
-### 基本プロンプト構造（ライトモチーフ統一版）
+### 8-bit特化プロンプト構造（装飾語マシマシ技法）
 ```
-[テーマ感情], [コア装飾語] [bit数]-bit chiptune unfolds with [共通音響基盤], [音色特性] [ハード音源] [楽器群] [動作]. [統一副楽器] [楽器特徴] sweep in, capturing [テーマ特徴] and [共通展開感情]. [テンポ] pacing drives a [共通展開], [テーマ]場所 ambiance, [コア装飾語] and [共通結末感情].
-```
-
-### ライトモチーフ4要素
-1. **共通音響基盤**: 全楽曲で統一されたメイン楽器・音色構成
-2. **統一感情アーク**: [テーマ感情] → [共通展開] → [共通結末] の3段階構造
-3. **コア装飾語統合**: コレクションテーマの本質を表現する5-7個の必須装飾語
-4. **個性表現**: 楽曲別パーカッション・副楽器で差別化維持
-
-### 成功例：Crafting & Workshop Collection
-```
-統一構造: [職種感情], skilled 8-bit chiptune unfolds with rhythmic, crafting Game Boy square wave [職種]artisan melody. Steady triangle bass workshop foundation and [職種特化]percussion sweep in, capturing [職種特徴] and masterful crafting. [テンポ] pacing drives a productive, [職種]workshop ambiance, skilled and accomplished.
-
-共通音響基盤: rhythmic square wave + steady triangle bass + workshop foundation
-統一感情アーク: [職種感情] → productive/masterful crafting → skilled/accomplished
-コア装飾語統合: skilled, crafting, workshop, artisan, masterful, productive, accomplished
-個性表現: 各職種特化percussion（anvil, bubbling, construction, needle等）
+[装飾語1] [装飾語2] [装飾語3] 8-bit chiptune [テーマ], [装飾語4] Game Boy DMG sound, [装飾語5] [装飾語6] [装飾語7] square wave [楽器特性], [装飾語8] [装飾語9] [装飾語10] triangle [楽器特性], slow/medium/fast tempo, [雰囲気描写], [装飾語11] [装飾語12] [装飾語13] [最終感情表現]
 ```
 
-### music-prompts.md 標準テンプレート
-```markdown
-# 🎵 [Collection Name] - [bit数]-bit SunoAI プロンプト完全版
+### 16-bit特化プロンプト構造（オーケストラ深度版）
+```
+[装飾語1] [装飾語2] [装飾語3] 16-bit chiptune [テーマ], [装飾語4] SNES sound chip, [装飾語5] [装飾語6] [装飾語7] orchestral [楽器1], [装飾語8] [装飾語9] [装飾語10] [楽器2] [楽器3], slow/medium/fast tempo, [雰囲気描写], [装飾語11] [装飾語12] [装飾語13] [最終感情表現]
+```
 
-## 🎯 基本プロンプト構造（ライトモチーフ統一版 v7.0）
-### [bit数]-bit特化版（ライトモチーフ統一構造）
-[テーマ感情], [コア装飾語] [bit数]-bit chiptune unfolds with [共通音響基盤], [音色特性] [ハード音源] [楽器群] [動作]. [統一副楽器] [楽器特徴] sweep in, capturing [テーマ特徴] and [共通展開感情]. [テンポ] pacing drives a [共通展開], [テーマ]場所 ambiance, [コア装飾語] and [共通結末感情].
+### 楽器構成最適化
+```bash
+✅ 8-bit推奨楽器: square wave, triangle wave, noise channel, simple percussion
+✅ 8-bit効果音: coin collect, jump sound, power-up chime
+✅ 16-bit推奨楽器: orchestral harp, concert strings, ceremonial brass, woodwind ensemble, cathedral organ
+✅ 16-bit効果音: royal fanfare, church bells, wind chimes, crystal sounds
+❌ 回避楽器: electronic guitar, modern synthesizer, heavy drums（8-bit・16-bit共通）
+```
 
-### ライトモチーフ4要素
-- **共通音響基盤**: [具体的楽器構成]
-- **統一感情アーク**: [テーマ感情] → [共通展開] → [共通結末]
-- **コア装飾語統合**: [5-7個の必須装飾語]
-- **個性表現**: [楽曲別差別化要素]
-
-## 🎼 楽曲プロンプト（20曲完全版）
-[各楽曲の統一構造プロンプト]
-
-## 🎵 制作ガイドライン
-### ✅ 必須要素
-- コレクション一貫ライトモチーフ統一
-- [bit数]-bit音源統一
-- cheerful要素統合
-- seamless loop structure
-
-### ❌ 絶対回避要素
-- electronic guitar, aggressive expressions, modern synthesizer
+### 感情表現キーワード体系
+```bash
+✅ Adventure系: heroic, adventurous, hopeful, inspiring, brave, determined
+✅ Battle系: intense, dramatic, powerful, determined, fierce, epic
+✅ Peaceful系: calm, nostalgic, peaceful, serene, gentle, tranquil
+✅ Mystery系: mysterious, ancient, magical, ethereal, mystical, enigmatic
+✅ Village系: cozy, warm, friendly, peaceful, rustic, charming
+✅ Castle系: majestic, royal, grand, noble, elegant, ceremonial
 ```
 
 ## 🔧 制作ワークフロー
@@ -106,7 +85,7 @@ XXX-collection-name/
 └── 20-documentation/    # 作業文書・プロンプト
 ```
 
-### 完全自動動画生成システム v7.0
+### 完全自動動画生成システム v8.0
 
 #### 基本FFmpegコマンド
 ```bash
@@ -117,7 +96,7 @@ ffmpeg -y -loop 1 -i "[静止画.png]" -i "[音声.wav]" -c:v libx264 -c:a aac -
 #### 完全自動スクリプトテンプレート（generate_videos.sh）
 ```bash
 #!/bin/bash
-# [Collection Name] - 完全動画生成スクリプト v7.0
+# [Collection Name] - 完全動画生成スクリプト v8.0
 
 set -e
 
@@ -452,7 +431,7 @@ echo "   🎵 個別動画: 成功 $SUCCESSFUL本 / 失敗 $FAILED本 / 総数 $
 echo "📁 出力先: $OUTPUT_DIR"
 ```
 
-#### システム特徴（v7.0進化版）
+#### システム特徴（v8.0進化版）
 - **完全自動化**: マスター動画 + 個別動画 自動生成（20本+1本を30-50分）
 - **静止画対応**: main.png直接使用・動画素材完全不要
 - **マスター動画01-master保存**: 構造統一・アップロード効率化
@@ -495,7 +474,7 @@ done && hours=$((total/3600)); minutes=$(((total%3600)/60)); seconds=$((total%60
 echo "総時間: ${hours}:$(printf "%02d" $minutes):$(printf "%02d" $seconds)"
 ```
 
-## 🎵 SunoAI プロンプト技法（v7.0統一版）
+## 🎵 SunoAI プロンプト技法（v8.0版）
 
 ### 8-bit特化プロンプト構造（装飾語マシマシ技法）
 ```
@@ -555,12 +534,11 @@ echo "総時間: ${hours}:$(printf "%02d" $minutes):$(printf "%02d" $seconds)"
 ✅ ループ構造: seamless loop, Game Boy/SNES style arrangement
 ```
 
-### 重要な学習・改善点（v7.0統合版）
+### 重要な学習・改善点（v8.0統合版）
 - **cheerful要素の必須化**: 「明るさ・陽気さ」が最重要成功要素
 - **electronic guitar回避**: 聴取疲労の原因となる楽器構成排除
 - **authentic音源強調**: 純正8-bit/16-bit音色への回帰
 - **simple強調**: 複雑すぎるアレンジの回避で長時間聴取適応
-- **ライトモチーフ統一**: コレクション全体の一貫性維持
 
 ## 📊 YouTube戦略
 
@@ -628,7 +606,7 @@ Perfect for gaming, studying, or relaxing.
 #[bit数]BitMusic #ChiptuneStudy #RPGMusic
 ```
 
-#### Playlist用（v7.0実用版）
+#### Playlist用（v8.0実用版）
 ```
 [bit数]-Bit [Collection Name] Music - Complete [テーマ] Playlist [絵文字][絵文字]
 
@@ -681,19 +659,9 @@ Perfect for:
 
 ## 🎯 品質管理チェックリスト
 
-### ライトモチーフ統一品質チェック
-```
-□ 共通音響基盤統一（メイン楽器構成の一貫性）
-□ 統一感情アーク適用（開始→展開→結末の3段階構造）
-□ コア装飾語統合確認（5-7個の必須装飾語含有）
-□ 個性表現バランス（統一性と差別化の両立）
-□ コレクション全体での聴取体験統一性
-□ 長時間聴取最適化（ライトモチーフによる疲労軽減）
-```
 
-### 音楽品質チェック（v7.0統合版）
+### 音楽品質チェック（v8.0統合版）
 ```
-□ ライトモチーフ統一適用（v7.0必須）
 □ テーマとの適合性
 □ 8-bit/16-bit音源選択適切性（メイン8-bit、特別16-bit）
 □ 8-bit音源の忠実再現（authentic Game Boy/NES sound）
@@ -756,10 +724,8 @@ Perfect for:
 21. **8-Bit Village & Town Collection ver.2** (20曲・1:18:48) - https://youtu.be/0pNqnPfedJM
 22. **16-Bit Village & Town Collection ver.2** (20曲・1:03:24) - https://youtu.be/vBrUTjoGCwo
 
-### ライトモチーフ統一済みコレクション
-- **Crafting & Workshop Collection** (制作中・v7.0統一技法適用第1号)
 
-### 統計サマリー（2025-09-06現在）
+### 統計サマリー（2025-09-13現在）
 - **総楽曲数**: 450+ 曲
 - **総制作時間**: 30+ 時間  
 - **平均楽曲数/コレクション**: 20.5曲
@@ -767,11 +733,10 @@ Perfect for:
 - **8-bit vs 16-bit比率**: 18:4（8-bit主体戦略）
 - **ver.2改良版**: 2コレクション（Village & Town系）
 
-## 📝 重要ルール（v7.0ライトモチーフ統一版）
+## 📝 重要ルール（v8.0版）
 
 ### 必須確認事項
 - **claude.md確認必須**: タスク開始前の最新方針把握
-- **ライトモチーフ統一必須**: v7.0コレクション一貫性戦略適用
 - **誇張表現完全回避**: Epic/Ultimate等の使用禁止
 - **awareness/記録必須**: 重要発見・変更の記録
 - **実ファイル確認必須**: 楽曲リスト・時間データ作成時
@@ -794,6 +759,6 @@ Perfect for:
 
 ---
 
-*更新日: 2025年9月6日*  
-*バージョン: v7.0 ライトモチーフ統一戦略版*  
-*核心技術: コレクション一貫ライトモチーフ + FFmpeg完全自動化 + CTR誇張表現回避*
+*更新日: 2025年9月13日*  
+*バージョン: v8.0*  
+*核心技術: FFmpeg完全自動化 + CTR誇張表現回避 + エージェントシステム統合*
